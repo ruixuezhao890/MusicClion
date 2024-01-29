@@ -1,0 +1,2018 @@
+Index: cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-9e147a5685a0c7b4ee74.json
+===================================================================
+diff --git a/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-9e147a5685a0c7b4ee74.json b/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-9e147a5685a0c7b4ee74.json
+deleted file mode 100644
+--- a/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-9e147a5685a0c7b4ee74.json	(revision 7ddb83a0e43efd066b57a113d0b6fcb819026f10)
++++ /dev/null	(revision 7ddb83a0e43efd066b57a113d0b6fcb819026f10)
+@@ -1,140 +0,0 @@
+-{
+-	"inputs" : 
+-	[
+-		{
+-			"path" : "CMakeLists.txt"
+-		},
+-		{
+-			"isGenerated" : true,
+-			"path" : "cmake-build-debug/CMakeFiles/3.26.4/CMakeSystem.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake"
+-		},
+-		{
+-			"isGenerated" : true,
+-			"path" : "cmake-build-debug/CMakeFiles/3.26.4/CMakeCCompiler.cmake"
+-		},
+-		{
+-			"isGenerated" : true,
+-			"path" : "cmake-build-debug/CMakeFiles/3.26.4/CMakeCXXCompiler.cmake"
+-		},
+-		{
+-			"isGenerated" : true,
+-			"path" : "cmake-build-debug/CMakeFiles/3.26.4/CMakeASMCompiler.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Generic.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Generic.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Generic.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeASMInformation.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-ASM.cmake"
+-		},
+-		{
+-			"isCMake" : true,
+-			"isExternal" : true,
+-			"path" : "D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake"
+-		}
+-	],
+-	"kind" : "cmakeFiles",
+-	"paths" : 
+-	{
+-		"build" : "D:/CODE/STM32/MusicClion/cmake-build-debug",
+-		"source" : "D:/CODE/STM32/MusicClion"
+-	},
+-	"version" : 
+-	{
+-		"major" : 1,
+-		"minor" : 0
+-	}
+-}
+Index: cmake-build-debug/.cmake/api/v1/reply/cache-v2-f2ff3dc9e1b2f17993e2.json
+===================================================================
+diff --git a/cmake-build-debug/.cmake/api/v1/reply/cache-v2-f2ff3dc9e1b2f17993e2.json b/cmake-build-debug/.cmake/api/v1/reply/cache-v2-f2ff3dc9e1b2f17993e2.json
+deleted file mode 100644
+--- a/cmake-build-debug/.cmake/api/v1/reply/cache-v2-f2ff3dc9e1b2f17993e2.json	(revision 7ddb83a0e43efd066b57a113d0b6fcb819026f10)
++++ /dev/null	(revision 7ddb83a0e43efd066b57a113d0b6fcb819026f10)
+@@ -1,1191 +0,0 @@
+-{
+-	"entries" : 
+-	[
+-		{
+-			"name" : "CMAKE_ADDR2LINE",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to a program."
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-addr2line.exe"
+-		},
+-		{
+-			"name" : "CMAKE_ASM_COMPILER_AR",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc-ar.exe"
+-		},
+-		{
+-			"name" : "CMAKE_ASM_COMPILER_RANLIB",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc-ranlib.exe"
+-		},
+-		{
+-			"name" : "CMAKE_ASM_COMPILER_WORKS",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : ""
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "1"
+-		},
+-		{
+-			"name" : "CMAKE_ASM_FLAGS",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the ASM compiler during all build types."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_ASM_FLAGS_DEBUG",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the ASM compiler during DEBUG builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : "-g"
+-		},
+-		{
+-			"name" : "CMAKE_ASM_FLAGS_MINSIZEREL",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the ASM compiler during MINSIZEREL builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : "-Os -DNDEBUG"
+-		},
+-		{
+-			"name" : "CMAKE_ASM_FLAGS_RELEASE",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the ASM compiler during RELEASE builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : "-O3 -DNDEBUG"
+-		},
+-		{
+-			"name" : "CMAKE_ASM_FLAGS_RELWITHDEBINFO",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the ASM compiler during RELWITHDEBINFO builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : "-O2 -g -DNDEBUG"
+-		},
+-		{
+-			"name" : "CMAKE_BUILD_TYPE",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Choose the type of build, options are: None Debug Release RelWithDebInfo MinSizeRel ..."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : "Debug"
+-		},
+-		{
+-			"name" : "CMAKE_CACHEFILE_DIR",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "This is the directory where this CMakeCache.txt was created"
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "d:/CODE/STM32/MusicClion/cmake-build-debug"
+-		},
+-		{
+-			"name" : "CMAKE_CACHE_MAJOR_VERSION",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Major version of cmake used to create the current loaded cache"
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "3"
+-		},
+-		{
+-			"name" : "CMAKE_CACHE_MINOR_VERSION",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Minor version of cmake used to create the current loaded cache"
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "26"
+-		},
+-		{
+-			"name" : "CMAKE_CACHE_PATCH_VERSION",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Patch version of cmake used to create the current loaded cache"
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "4"
+-		},
+-		{
+-			"name" : "CMAKE_COLOR_DIAGNOSTICS",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Enable colored diagnostics throughout."
+-				}
+-			],
+-			"type" : "BOOL",
+-			"value" : "ON"
+-		},
+-		{
+-			"name" : "CMAKE_COMMAND",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to CMake executable."
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/bin/cmake.exe"
+-		},
+-		{
+-			"name" : "CMAKE_CPACK_COMMAND",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to cpack program executable."
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/bin/cpack.exe"
+-		},
+-		{
+-			"name" : "CMAKE_CTEST_COMMAND",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to ctest program executable."
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/bin/ctest.exe"
+-		},
+-		{
+-			"name" : "CMAKE_CXX_COMPILER_AR",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc-ar.exe"
+-		},
+-		{
+-			"name" : "CMAKE_CXX_COMPILER_RANLIB",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc-ranlib.exe"
+-		},
+-		{
+-			"name" : "CMAKE_CXX_FLAGS",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the CXX compiler during all build types."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_CXX_FLAGS_DEBUG",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the CXX compiler during DEBUG builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : "-g"
+-		},
+-		{
+-			"name" : "CMAKE_CXX_FLAGS_MINSIZEREL",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the CXX compiler during MINSIZEREL builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : "-Os -DNDEBUG"
+-		},
+-		{
+-			"name" : "CMAKE_CXX_FLAGS_RELEASE",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the CXX compiler during RELEASE builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : "-O3 -DNDEBUG"
+-		},
+-		{
+-			"name" : "CMAKE_CXX_FLAGS_RELWITHDEBINFO",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the CXX compiler during RELWITHDEBINFO builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : "-O2 -g -DNDEBUG"
+-		},
+-		{
+-			"name" : "CMAKE_C_COMPILER_AR",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc-ar.exe"
+-		},
+-		{
+-			"name" : "CMAKE_C_COMPILER_RANLIB",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc-ranlib.exe"
+-		},
+-		{
+-			"name" : "CMAKE_C_FLAGS",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the C compiler during all build types."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_C_FLAGS_DEBUG",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the C compiler during DEBUG builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : "-g"
+-		},
+-		{
+-			"name" : "CMAKE_C_FLAGS_MINSIZEREL",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the C compiler during MINSIZEREL builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : "-Os -DNDEBUG"
+-		},
+-		{
+-			"name" : "CMAKE_C_FLAGS_RELEASE",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the C compiler during RELEASE builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : "-O3 -DNDEBUG"
+-		},
+-		{
+-			"name" : "CMAKE_C_FLAGS_RELWITHDEBINFO",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the C compiler during RELWITHDEBINFO builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : "-O2 -g -DNDEBUG"
+-		},
+-		{
+-			"name" : "CMAKE_DLLTOOL",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to a program."
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "E:/QT/Tools/mingw1120_64/bin/dlltool.exe"
+-		},
+-		{
+-			"name" : "CMAKE_EXECUTABLE_FORMAT",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Executable file format"
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "ELF"
+-		},
+-		{
+-			"name" : "CMAKE_EXE_LINKER_FLAGS",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during all build types."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_EXE_LINKER_FLAGS_DEBUG",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during DEBUG builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_EXE_LINKER_FLAGS_MINSIZEREL",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during MINSIZEREL builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_EXE_LINKER_FLAGS_RELEASE",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during RELEASE builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during RELWITHDEBINFO builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_EXPORT_COMPILE_COMMANDS",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Enable/Disable output of compile commands during generation."
+-				}
+-			],
+-			"type" : "BOOL",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_EXTRA_GENERATOR",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Name of external makefile project generator."
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_FIND_PACKAGE_REDIRECTS_DIR",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Value Computed by CMake."
+-				}
+-			],
+-			"type" : "STATIC",
+-			"value" : "D:/CODE/STM32/MusicClion/cmake-build-debug/CMakeFiles/pkgRedirects"
+-		},
+-		{
+-			"name" : "CMAKE_GENERATOR",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Name of generator."
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "Ninja"
+-		},
+-		{
+-			"name" : "CMAKE_GENERATOR_INSTANCE",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Generator instance identifier."
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_GENERATOR_PLATFORM",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Name of generator platform."
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_GENERATOR_TOOLSET",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Name of generator toolset."
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_HOME_DIRECTORY",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Source directory with the top level CMakeLists.txt file for this project"
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "D:/CODE/STM32/MusicClion"
+-		},
+-		{
+-			"name" : "CMAKE_INSTALL_PREFIX",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Install path prefix, prepended onto install directories."
+-				}
+-			],
+-			"type" : "PATH",
+-			"value" : "C:/Program Files (x86)/MusicClion"
+-		},
+-		{
+-			"name" : "CMAKE_LINKER",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to a program."
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-ld.exe"
+-		},
+-		{
+-			"name" : "CMAKE_MAKE_PROGRAM",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "make program"
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "D:/CLion/CLion 2022.2.3/bin/ninja/win/x64/ninja.exe"
+-		},
+-		{
+-			"name" : "CMAKE_MODULE_LINKER_FLAGS",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of modules during all build types."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_MODULE_LINKER_FLAGS_DEBUG",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of modules during DEBUG builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_MODULE_LINKER_FLAGS_MINSIZEREL",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of modules during MINSIZEREL builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_MODULE_LINKER_FLAGS_RELEASE",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of modules during RELEASE builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of modules during RELWITHDEBINFO builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_NM",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to a program."
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-nm.exe"
+-		},
+-		{
+-			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "number of local generators"
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "1"
+-		},
+-		{
+-			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Platform information initialized"
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "1"
+-		},
+-		{
+-			"name" : "CMAKE_PROJECT_DESCRIPTION",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Value Computed by CMake"
+-				}
+-			],
+-			"type" : "STATIC",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_PROJECT_HOMEPAGE_URL",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Value Computed by CMake"
+-				}
+-			],
+-			"type" : "STATIC",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_PROJECT_NAME",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Value Computed by CMake"
+-				}
+-			],
+-			"type" : "STATIC",
+-			"value" : "MusicClion"
+-		},
+-		{
+-			"name" : "CMAKE_RANLIB",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to a program."
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-ranlib.exe"
+-		},
+-		{
+-			"name" : "CMAKE_READELF",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to a program."
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-readelf.exe"
+-		},
+-		{
+-			"name" : "CMAKE_ROOT",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to CMake installation."
+-				}
+-			],
+-			"type" : "INTERNAL",
+-			"value" : "D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26"
+-		},
+-		{
+-			"name" : "CMAKE_SHARED_LINKER_FLAGS",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of shared libraries during all build types."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_SHARED_LINKER_FLAGS_DEBUG",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of shared libraries during DEBUG builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_SHARED_LINKER_FLAGS_MINSIZEREL",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of shared libraries during MINSIZEREL builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_SHARED_LINKER_FLAGS_RELEASE",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of shared libraries during RELEASE builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of shared libraries during RELWITHDEBINFO builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_SKIP_INSTALL_RPATH",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "If set, runtime paths are not added when installing shared libraries, but are added when building."
+-				}
+-			],
+-			"type" : "BOOL",
+-			"value" : "NO"
+-		},
+-		{
+-			"name" : "CMAKE_SKIP_RPATH",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "If set, runtime paths are not added when using shared libraries."
+-				}
+-			],
+-			"type" : "BOOL",
+-			"value" : "NO"
+-		},
+-		{
+-			"name" : "CMAKE_STATIC_LINKER_FLAGS",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of static libraries during all build types."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_STATIC_LINKER_FLAGS_DEBUG",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of static libraries during DEBUG builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_STATIC_LINKER_FLAGS_MINSIZEREL",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of static libraries during MINSIZEREL builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_STATIC_LINKER_FLAGS_RELEASE",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of static libraries during RELEASE builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Flags used by the linker during the creation of static libraries during RELWITHDEBINFO builds."
+-				}
+-			],
+-			"type" : "STRING",
+-			"value" : ""
+-		},
+-		{
+-			"name" : "CMAKE_STRIP",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Path to a program."
+-				}
+-			],
+-			"type" : "FILEPATH",
+-			"value" : "D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-strip.exe"
+-		},
+-		{
+-			"name" : "CMAKE_VERBOSE_MAKEFILE",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "ADVANCED",
+-					"value" : "1"
+-				},
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "If this value is on, makefiles will be generated without the .SILENT directive, and all commands will be echoed to the console during the make.  This is useful for debugging only. With Visual Studio IDE projects all commands are done without /nologo."
+-				}
+-			],
+-			"type" : "BOOL",
+-			"value" : "FALSE"
+-		},
+-		{
+-			"name" : "MusicClion_BINARY_DIR",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Value Computed by CMake"
+-				}
+-			],
+-			"type" : "STATIC",
+-			"value" : "D:/CODE/STM32/MusicClion/cmake-build-debug"
+-		},
+-		{
+-			"name" : "MusicClion_IS_TOP_LEVEL",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Value Computed by CMake"
+-				}
+-			],
+-			"type" : "STATIC",
+-			"value" : "ON"
+-		},
+-		{
+-			"name" : "MusicClion_SOURCE_DIR",
+-			"properties" : 
+-			[
+-				{
+-					"name" : "HELPSTRING",
+-					"value" : "Value Computed by CMake"
+-				}
+-			],
+-			"type" : "STATIC",
+-			"value" : "D:/CODE/STM32/MusicClion"
+-		}
+-	],
+-	"kind" : "cache",
+-	"version" : 
+-	{
+-		"major" : 2,
+-		"minor" : 0
+-	}
+-}
+Index: cmake-build-debug/.cmake/api/v1/reply/index-2024-01-26T13-50-54-0197.json
+===================================================================
+diff --git a/cmake-build-debug/.cmake/api/v1/reply/index-2024-01-26T13-50-54-0197.json b/cmake-build-debug/.cmake/api/v1/reply/index-2024-01-26T13-50-54-0197.json
+deleted file mode 100644
+--- a/cmake-build-debug/.cmake/api/v1/reply/index-2024-01-26T13-50-54-0197.json	(revision 7ddb83a0e43efd066b57a113d0b6fcb819026f10)
++++ /dev/null	(revision 7ddb83a0e43efd066b57a113d0b6fcb819026f10)
+@@ -1,108 +0,0 @@
+-{
+-	"cmake" : 
+-	{
+-		"generator" : 
+-		{
+-			"multiConfig" : false,
+-			"name" : "Ninja"
+-		},
+-		"paths" : 
+-		{
+-			"cmake" : "D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/bin/cmake.exe",
+-			"cpack" : "D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/bin/cpack.exe",
+-			"ctest" : "D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/bin/ctest.exe",
+-			"root" : "D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26"
+-		},
+-		"version" : 
+-		{
+-			"isDirty" : false,
+-			"major" : 3,
+-			"minor" : 26,
+-			"patch" : 4,
+-			"string" : "3.26.4",
+-			"suffix" : ""
+-		}
+-	},
+-	"objects" : 
+-	[
+-		{
+-			"jsonFile" : "codemodel-v2-d59888d4476a8ecd1967.json",
+-			"kind" : "codemodel",
+-			"version" : 
+-			{
+-				"major" : 2,
+-				"minor" : 5
+-			}
+-		},
+-		{
+-			"jsonFile" : "cache-v2-f2ff3dc9e1b2f17993e2.json",
+-			"kind" : "cache",
+-			"version" : 
+-			{
+-				"major" : 2,
+-				"minor" : 0
+-			}
+-		},
+-		{
+-			"jsonFile" : "cmakeFiles-v1-9e147a5685a0c7b4ee74.json",
+-			"kind" : "cmakeFiles",
+-			"version" : 
+-			{
+-				"major" : 1,
+-				"minor" : 0
+-			}
+-		},
+-		{
+-			"jsonFile" : "toolchains-v1-685355327c451f13f766.json",
+-			"kind" : "toolchains",
+-			"version" : 
+-			{
+-				"major" : 1,
+-				"minor" : 0
+-			}
+-		}
+-	],
+-	"reply" : 
+-	{
+-		"cache-v2" : 
+-		{
+-			"jsonFile" : "cache-v2-f2ff3dc9e1b2f17993e2.json",
+-			"kind" : "cache",
+-			"version" : 
+-			{
+-				"major" : 2,
+-				"minor" : 0
+-			}
+-		},
+-		"cmakeFiles-v1" : 
+-		{
+-			"jsonFile" : "cmakeFiles-v1-9e147a5685a0c7b4ee74.json",
+-			"kind" : "cmakeFiles",
+-			"version" : 
+-			{
+-				"major" : 1,
+-				"minor" : 0
+-			}
+-		},
+-		"codemodel-v2" : 
+-		{
+-			"jsonFile" : "codemodel-v2-d59888d4476a8ecd1967.json",
+-			"kind" : "codemodel",
+-			"version" : 
+-			{
+-				"major" : 2,
+-				"minor" : 5
+-			}
+-		},
+-		"toolchains-v1" : 
+-		{
+-			"jsonFile" : "toolchains-v1-685355327c451f13f766.json",
+-			"kind" : "toolchains",
+-			"version" : 
+-			{
+-				"major" : 1,
+-				"minor" : 0
+-			}
+-		}
+-	}
+-}
+Index: cmake-build-debug/CMakeFiles/clion-environment.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>ToolSet: w64 10.0 (local)@E:\\QT\\Tools\\mingw1120_64\r\nOptions: \r\n\r\nOptions:-DCMAKE_MAKE_PROGRAM=D:/CLion/CLion 2022.2.3/bin/ninja/win/x64/ninja.exe
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/cmake-build-debug/CMakeFiles/clion-environment.txt b/cmake-build-debug/CMakeFiles/clion-environment.txt
+--- a/cmake-build-debug/CMakeFiles/clion-environment.txt	(revision 7ddb83a0e43efd066b57a113d0b6fcb819026f10)
++++ b/cmake-build-debug/CMakeFiles/clion-environment.txt	(date 1706521659751)
+@@ -1,4 +1,4 @@
+-ToolSet: w64 10.0 (local)@E:\QT\Tools\mingw1120_64
++ToolSet: 5.0 (local)@D:\MinGW
+ Options: 
+ 
+-Options:-DCMAKE_MAKE_PROGRAM=D:/CLion/CLion 2022.2.3/bin/ninja/win/x64/ninja.exe
+\ No newline at end of file
++Options:-DCMAKE_MAKE_PROGRAM=D:/MinGW/bin/mingw32-make.exe -DCMAKE_C_COMPILER=D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe -DCMAKE_CXX_COMPILER=D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-g++.exe
+\ No newline at end of file
+Index: cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\r\n---\r\nevents:\r\n  -\r\n    kind: \"message-v1\"\r\n    backtrace:\r\n      - \"D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:199 (message)\"\r\n      - \"CMakeLists.txt:17 (project)\"\r\n    message: |\r\n      The target system is: Generic - 1 - \r\n      The host system is: Windows - 10.0.19045 - AMD64\r\n  -\r\n    kind: \"message-v1\"\r\n    backtrace:\r\n      - \"D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)\"\r\n      - \"D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)\"\r\n      - \"D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)\"\r\n      - \"CMakeLists.txt:17 (project)\"\r\n    message: |\r\n      Compiling the C compiler identification source file \"CMakeCCompilerId.c\" failed.\r\n      Compiler: D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe \r\n      Build flags: \r\n      Id flags:  \r\n      \r\n      The output was:\r\n      1\r\n      d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib\\\\libc.a(lib_a-exit.o): in function `exit':\r\n      exit.c:(.text.exit+0x2c): undefined reference to `_exit'\r\n      collect2.exe: error: ld returned 1 exit status\r\n      \r\n      \r\n  -\r\n    kind: \"message-v1\"\r\n    backtrace:\r\n      - \"D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)\"\r\n      - \"D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)\"\r\n      - \"D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)\"\r\n      - \"CMakeLists.txt:17 (project)\"\r\n    message: |\r\n      Compiling the C compiler identification source file \"CMakeCCompilerId.c\" succeeded.\r\n      Compiler: D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe \r\n      Build flags: \r\n      Id flags: -c \r\n      \r\n      The output was:\r\n      0\r\n      \r\n      \r\n      Compilation of the C compiler identification source \"CMakeCCompilerId.c\" produced \"CMakeCCompilerId.o\"\r\n      \r\n      The C compiler identification is GNU, found in:\r\n        D:/CODE/STM32/MusicClion/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdC/CMakeCCompilerId.o\r\n      \r\n  -\r\n    kind: \"message-v1\"\r\n    backtrace:\r\n      - \"D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)\"\r\n      - \"D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)\"\r\n      - \"D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)\"\r\n      - \"CMakeLists.txt:17 (project)\"\r\n    message: |\r\n      Compiling the CXX compiler identification source file \"CMakeCXXCompilerId.cpp\" failed.\r\n      Compiler: D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-g++.exe \r\n      Build flags: \r\n      Id flags:  \r\n      \r\n      The output was:\r\n      1\r\n      d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld.exe: d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib\\\\libc.a(lib_a-exit.o): in function `exit':\r\n      exit.c:(.text.exit+0x2c): undefined reference to `_exit'\r\n      collect2.exe: error: ld returned 1 exit status\r\n      \r\n      \r\n  -\r\n    kind: \"message-v1\"\r\n    backtrace:\r\n      - \"D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)\"\r\n      - \"D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)\"\r\n      - \"D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)\"\r\n      - \"CMakeLists.txt:17 (project)\"\r\n    message: |\r\n      Compiling the CXX compiler identification source file \"CMakeCXXCompilerId.cpp\" succeeded.\r\n      Compiler: D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-g++.exe \r\n      Build flags: \r\n      Id flags: -c \r\n      \r\n      The output was:\r\n      0\r\n      \r\n      \r\n      Compilation of the CXX compiler identification source \"CMakeCXXCompilerId.cpp\" produced \"CMakeCXXCompilerId.o\"\r\n      \r\n      The CXX compiler identification is GNU, found in:\r\n        D:/CODE/STM32/MusicClion/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.o\r\n      \r\n  -\r\n    kind: \"message-v1\"\r\n    backtrace:\r\n      - \"D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:1102 (message)\"\r\n      - \"D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineASMCompiler.cmake:127 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)\"\r\n      - \"CMakeLists.txt:17 (project)\"\r\n    message: |\r\n      Checking whether the ASM compiler is GNU using \"--version\" matched \"(GNU assembler)|(GCC)|(Free Software Foundation)\":\r\n      arm-none-eabi-gcc.exe (GNU Arm Embedded Toolchain 10.3-2021.10) 10.3.1 20210824 (release)\r\n      Copyright (C) 2020 Free Software Foundation, Inc.\r\n      This is free software; see the source for copying conditions.  There is NO\r\n      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\r\n      \r\n  -\r\n    kind: \"try_compile-v1\"\r\n    backtrace:\r\n      - \"D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)\"\r\n      - \"D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)\"\r\n      - \"CMakeLists.txt:17 (project)\"\r\n    checks:\r\n      - \"Detecting C compiler ABI info\"\r\n    directories:\r\n      source: \"D:/CODE/STM32/MusicClion/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-m85l4g\"\r\n      binary: \"D:/CODE/STM32/MusicClion/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-m85l4g\"\r\n    cmakeVariables:\r\n      CMAKE_C_FLAGS: \"\"\r\n      CMAKE_C_FLAGS_DEBUG: \"-g\"\r\n      CMAKE_EXE_LINKER_FLAGS: \"\"\r\n    buildResult:\r\n      variable: \"CMAKE_C_ABI_COMPILED\"\r\n      cached: true\r\n      stdout: |\r\n        Change Dir: D:/CODE/STM32/MusicClion/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-m85l4g\r\n        \r\n        Run Build Command(s):D:/CLion/CLion 2022.2.3/bin/ninja/win/x64/ninja.exe -v cmTC_739bf && [1/2] \"D:\\\\ProgramFiles\\\\GNU Arm Embedded Toolchain\\\\10 2021.10\\\\bin\\\\arm-none-eabi-gcc.exe\"   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_739bf.dir/CMakeCCompilerABI.c.obj -c \"D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c\"\r\n        Using built-in specs.\r\n        COLLECT_GCC=D:\\\\ProgramFiles\\\\GNU Arm Embedded Toolchain\\\\10 2021.10\\\\bin\\\\arm-none-eabi-gcc.exe\r\n        Target: arm-none-eabi\r\n        Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.10' --with-multilib-list=rmprofile,aprofile\r\n        Thread model: single\r\n        Supported LTO compression algorithms: zlib\r\n        gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) \r\n        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_739bf.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'\r\n         d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1.exe -quiet -v -iprefix d:\\\\programfiles\\\\gnu arm embedded toolchain\\\\10 2021.10\\\\bin\\\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot d:\\\\programfiles\\\\gnu arm embedded toolchain\\\\10 2021.10\\\\bin\\\\../arm-none-eabi -D__USES_INITFINI__ D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_739bf.dir/CMakeCCompilerABI.c.obj -version -fdiagnostics-color=always -o C:\\\\Users\\\\zen3\\\\AppData\\\\Local\\\\Temp\\\\cctWR4xM.s\r\n        GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)\r\n        \tcompiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP\r\n        \r\n        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072\r\n        ignoring duplicate directory \"d:/programfiles/gnu arm embedded toolchain/10 2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include\"\r\n        ignoring nonexistent directory \"d:\\\\programfiles\\\\gnu arm embedded toolchain\\\\10 2021.10\\\\bin\\\\../arm-none-eabi/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib/gcc/arm-none-eabi/10.3.1/../../../../include\"\r\n        ignoring duplicate directory \"d:/programfiles/gnu arm embedded toolchain/10 2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include-fixed\"\r\n        ignoring duplicate directory \"d:/programfiles/gnu arm embedded toolchain/10 2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include\"\r\n        ignoring nonexistent directory \"d:\\\\programfiles\\\\gnu arm embedded toolchain\\\\10 2021.10\\\\bin\\\\../arm-none-eabi/usr/include\"\r\n        #include \"...\" search starts here:\r\n        #include <...> search starts here:\r\n         d:\\\\programfiles\\\\gnu arm embedded toolchain\\\\10 2021.10\\\\bin\\\\../lib/gcc/arm-none-eabi/10.3.1/include\r\n         d:\\\\programfiles\\\\gnu arm embedded toolchain\\\\10 2021.10\\\\bin\\\\../lib/gcc/arm-none-eabi/10.3.1/include-fixed\r\n         d:\\\\programfiles\\\\gnu arm embedded toolchain\\\\10 2021.10\\\\bin\\\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include\r\n        End of search list.\r\n        GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)\r\n        \tcompiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP\r\n        \r\n        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072\r\n        Compiler executable checksum: f3937ce18b4177bfd408ca565336596a\r\n        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_739bf.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'\r\n         d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_739bf.dir/CMakeCCompilerABI.c.obj C:\\\\Users\\\\zen3\\\\AppData\\\\Local\\\\Temp\\\\cctWR4xM.s\r\n        GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621\r\n        COMPILER_PATH=d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/;d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/;d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/\r\n        LIBRARY_PATH=d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/;d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/;d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../arm-none-eabi/lib/\r\n        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_739bf.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'\r\n        [2/2] cmd.exe /C \"cd . && \"D:\\\\CLion\\\\CLion 2022.2.3\\\\bin\\\\cmake\\\\win\\\\x64\\\\bin\\\\cmake.exe\" -E rm -f libcmTC_739bf.a && arm-none-eabi-ar qc libcmTC_739bf.a  CMakeFiles/cmTC_739bf.dir/CMakeCCompilerABI.c.obj && \"D:\\\\ProgramFiles\\\\GNU Arm Embedded Toolchain\\\\10 2021.10\\\\bin\\\\arm-none-eabi-ranlib.exe\" libcmTC_739bf.a && cd .\"\r\n        \r\n      exitCode: 0\r\n  -\r\n    kind: \"message-v1\"\r\n    backtrace:\r\n      - \"D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)\"\r\n      - \"D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)\"\r\n      - \"CMakeLists.txt:17 (project)\"\r\n    message: |\r\n      Parsed C implicit include dir info: rv=done\r\n        found start of include info\r\n        found start of implicit include info\r\n          add: [d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/include]\r\n          add: [d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed]\r\n          add: [d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include]\r\n        end of search list found\r\n        collapse include dir [d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/include] ==> [D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include]\r\n        collapse include dir [d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed] ==> [D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed]\r\n        collapse include dir [d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include] ==> [D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include]\r\n        implicit include dirs: [D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include;D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed;D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include]\r\n      \r\n      \r\n  -\r\n    kind: \"message-v1\"\r\n    backtrace:\r\n      - \"D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)\"\r\n      - \"D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)\"\r\n      - \"CMakeLists.txt:17 (project)\"\r\n    message: |\r\n      Parsed C implicit link information:\r\n        link line regex: [^( *|.*[/\\\\])(arm-none-eabi-ld\\\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\\\]+-)?ld|collect2)[^/\\\\]*( |$)]\r\n        ignore line: [Change Dir: D:/CODE/STM32/MusicClion/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-m85l4g]\r\n        ignore line: []\r\n        ignore line: [Run Build Command(s):D:/CLion/CLion 2022.2.3/bin/ninja/win/x64/ninja.exe -v cmTC_739bf && [1/2] \"D:\\\\ProgramFiles\\\\GNU Arm Embedded Toolchain\\\\10 2021.10\\\\bin\\\\arm-none-eabi-gcc.exe\"   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_739bf.dir/CMakeCCompilerABI.c.obj -c \"D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c\"]\r\n        ignore line: [Using built-in specs.]\r\n        ignore line: [COLLECT_GCC=D:\\\\ProgramFiles\\\\GNU Arm Embedded Toolchain\\\\10 2021.10\\\\bin\\\\arm-none-eabi-gcc.exe]\r\n        ignore line: [Target: arm-none-eabi]\r\n        ignore line: [Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.10' --with-multilib-list=rmprofile,aprofile]\r\n        ignore line: [Thread model: single]\r\n        ignore line: [Supported LTO compression algorithms: zlib]\r\n        ignore line: [gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) ]\r\n        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_739bf.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']\r\n        ignore line: [ d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1.exe -quiet -v -iprefix d:\\\\programfiles\\\\gnu arm embedded toolchain\\\\10 2021.10\\\\bin\\\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot d:\\\\programfiles\\\\gnu arm embedded toolchain\\\\10 2021.10\\\\bin\\\\../arm-none-eabi -D__USES_INITFINI__ D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_739bf.dir/CMakeCCompilerABI.c.obj -version -fdiagnostics-color=always -o C:\\\\Users\\\\zen3\\\\AppData\\\\Local\\\\Temp\\\\cctWR4xM.s]\r\n        ignore line: [GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)]\r\n        ignore line: [\tcompiled by GNU C version 7.3-win32 20180312  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]\r\n        ignore line: []\r\n        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]\r\n        ignore line: [ignoring duplicate directory \"d:/programfiles/gnu arm embedded toolchain/10 2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include\"]\r\n        ignore line: [ignoring nonexistent directory \"d:\\\\programfiles\\\\gnu arm embedded toolchain\\\\10 2021.10\\\\bin\\\\../arm-none-eabi/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib/gcc/arm-none-eabi/10.3.1/../../../../include\"]\r\n        ignore line: [ignoring duplicate directory \"d:/programfiles/gnu arm embedded toolchain/10 2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include-fixed\"]\r\n        ignore line: [ignoring duplicate directory \"d:/programfiles/gnu arm embedded toolchain/10 2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include\"]\r\n        ignore line: [ignoring nonexistent directory \"d:\\\\programfiles\\\\gnu arm embedded toolchain\\\\10 2021.10\\\\bin\\\\../arm-none-eabi/usr/include\"]\r\n        ignore line: [#include \"...\" search starts here:]\r\n        ignore line: [#include <...> search starts here:]\r\n        ignore line: [ d:\\\\programfiles\\\\gnu arm embedded toolchain\\\\10 2021.10\\\\bin\\\\../lib/gcc/arm-none-eabi/10.3.1/include]\r\n        ignore line: [ d:\\\\programfiles\\\\gnu arm embedded toolchain\\\\10 2021.10\\\\bin\\\\../lib/gcc/arm-none-eabi/10.3.1/include-fixed]\r\n        ignore line: [ d:\\\\programfiles\\\\gnu arm embedded toolchain\\\\10 2021.10\\\\bin\\\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include]\r\n        ignore line: [End of search list.]\r\n        ignore line: [GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)]\r\n        ignore line: [\tcompiled by GNU C version 7.3-win32 20180312  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]\r\n        ignore line: []\r\n        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]\r\n        ignore line: [Compiler executable checksum: f3937ce18b4177bfd408ca565336596a]\r\n        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_739bf.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']\r\n        ignore line: [ d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_739bf.dir/CMakeCCompilerABI.c.obj C:\\\\Users\\\\zen3\\\\AppData\\\\Local\\\\Temp\\\\cctWR4xM.s]\r\n        ignore line: [GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621]\r\n        ignore line: [COMPILER_PATH=d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/]\r\n        ignore line: [d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/]\r\n        ignore line: [d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/]\r\n        ignore line: [LIBRARY_PATH=d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/]\r\n        ignore line: [d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/]\r\n        ignore line: [d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/]\r\n        ignore line: [d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../arm-none-eabi/lib/]\r\n        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_739bf.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']\r\n        ignore line: [[2/2] cmd.exe /C \"cd . && \"D:\\\\CLion\\\\CLion 2022.2.3\\\\bin\\\\cmake\\\\win\\\\x64\\\\bin\\\\cmake.exe\" -E rm -f libcmTC_739bf.a && arm-none-eabi-ar qc libcmTC_739bf.a  CMakeFiles/cmTC_739bf.dir/CMakeCCompilerABI.c.obj && \"D:\\\\ProgramFiles\\\\GNU Arm Embedded Toolchain\\\\10 2021.10\\\\bin\\\\arm-none-eabi-ranlib.exe\" libcmTC_739bf.a && cd .\"]\r\n        ignore line: []\r\n        ignore line: []\r\n        implicit libs: []\r\n        implicit objs: []\r\n        implicit dirs: []\r\n        implicit fwks: []\r\n      \r\n      \r\n  -\r\n    kind: \"try_compile-v1\"\r\n    backtrace:\r\n      - \"D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)\"\r\n      - \"D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)\"\r\n      - \"CMakeLists.txt:17 (project)\"\r\n    checks:\r\n      - \"Detecting CXX compiler ABI info\"\r\n    directories:\r\n      source: \"D:/CODE/STM32/MusicClion/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-njoo5b\"\r\n      binary: \"D:/CODE/STM32/MusicClion/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-njoo5b\"\r\n    cmakeVariables:\r\n      CMAKE_CXX_FLAGS: \"\"\r\n      CMAKE_CXX_FLAGS_DEBUG: \"-g\"\r\n      CMAKE_EXE_LINKER_FLAGS: \"\"\r\n    buildResult:\r\n      variable: \"CMAKE_CXX_ABI_COMPILED\"\r\n      cached: true\r\n      stdout: |\r\n        Change Dir: D:/CODE/STM32/MusicClion/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-njoo5b\r\n        \r\n        Run Build Command(s):D:/CLion/CLion 2022.2.3/bin/ninja/win/x64/ninja.exe -v cmTC_f6ed4 && [1/2] \"D:\\\\ProgramFiles\\\\GNU Arm Embedded Toolchain\\\\10 2021.10\\\\bin\\\\arm-none-eabi-g++.exe\"   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_f6ed4.dir/CMakeCXXCompilerABI.cpp.obj -c \"D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp\"\r\n        Using built-in specs.\r\n        COLLECT_GCC=D:\\\\ProgramFiles\\\\GNU Arm Embedded Toolchain\\\\10 2021.10\\\\bin\\\\arm-none-eabi-g++.exe\r\n        Target: arm-none-eabi\r\n        Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.10' --with-multilib-list=rmprofile,aprofile\r\n        Thread model: single\r\n        Supported LTO compression algorithms: zlib\r\n        gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) \r\n        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_f6ed4.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'\r\n         d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1plus.exe -quiet -v -iprefix d:\\\\programfiles\\\\gnu arm embedded toolchain\\\\10 2021.10\\\\bin\\\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot d:\\\\programfiles\\\\gnu arm embedded toolchain\\\\10 2021.10\\\\bin\\\\../arm-none-eabi -D__USES_INITFINI__ D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_f6ed4.dir/CMakeCXXCompilerABI.cpp.obj -version -fdiagnostics-color=always -o C:\\\\Users\\\\zen3\\\\AppData\\\\Local\\\\Temp\\\\ccPTanfd.s\r\n        GNU C++14 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)\r\n        \tcompiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP\r\n        \r\n        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072\r\n        ignoring duplicate directory \"d:/programfiles/gnu arm embedded toolchain/10 2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1\"\r\n        ignoring duplicate directory \"d:/programfiles/gnu arm embedded toolchain/10 2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi\"\r\n        ignoring duplicate directory \"d:/programfiles/gnu arm embedded toolchain/10 2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward\"\r\n        ignoring duplicate directory \"d:/programfiles/gnu arm embedded toolchain/10 2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include\"\r\n        ignoring nonexistent directory \"d:\\\\programfiles\\\\gnu arm embedded toolchain\\\\10 2021.10\\\\bin\\\\../arm-none-eabi/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib/gcc/arm-none-eabi/10.3.1/../../../../include\"\r\n        ignoring duplicate directory \"d:/programfiles/gnu arm embedded toolchain/10 2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include-fixed\"\r\n        ignoring duplicate directory \"d:/programfiles/gnu arm embedded toolchain/10 2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include\"\r\n        ignoring nonexistent directory \"d:\\\\programfiles\\\\gnu arm embedded toolchain\\\\10 2021.10\\\\bin\\\\../arm-none-eabi/usr/include\"\r\n        #include \"...\" search starts here:\r\n        #include <...> search starts here:\r\n         d:\\\\programfiles\\\\gnu arm embedded toolchain\\\\10 2021.10\\\\bin\\\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1\r\n         d:\\\\programfiles\\\\gnu arm embedded toolchain\\\\10 2021.10\\\\bin\\\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi\r\n         d:\\\\programfiles\\\\gnu arm embedded toolchain\\\\10 2021.10\\\\bin\\\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward\r\n         d:\\\\programfiles\\\\gnu arm embedded toolchain\\\\10 2021.10\\\\bin\\\\../lib/gcc/arm-none-eabi/10.3.1/include\r\n         d:\\\\programfiles\\\\gnu arm embedded toolchain\\\\10 2021.10\\\\bin\\\\../lib/gcc/arm-none-eabi/10.3.1/include-fixed\r\n         d:\\\\programfiles\\\\gnu arm embedded toolchain\\\\10 2021.10\\\\bin\\\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include\r\n        End of search list.\r\n        GNU C++14 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)\r\n        \tcompiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP\r\n        \r\n        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072\r\n        Compiler executable checksum: f8787892a7c5aa84cea58dce52be7118\r\n        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_f6ed4.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'\r\n         d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_f6ed4.dir/CMakeCXXCompilerABI.cpp.obj C:\\\\Users\\\\zen3\\\\AppData\\\\Local\\\\Temp\\\\ccPTanfd.s\r\n        GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621\r\n        COMPILER_PATH=d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/;d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/;d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/\r\n        LIBRARY_PATH=d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/;d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/;d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../arm-none-eabi/lib/\r\n        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_f6ed4.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'\r\n        [2/2] cmd.exe /C \"cd . && \"D:\\\\CLion\\\\CLion 2022.2.3\\\\bin\\\\cmake\\\\win\\\\x64\\\\bin\\\\cmake.exe\" -E rm -f libcmTC_f6ed4.a && arm-none-eabi-ar qc libcmTC_f6ed4.a  CMakeFiles/cmTC_f6ed4.dir/CMakeCXXCompilerABI.cpp.obj && \"D:\\\\ProgramFiles\\\\GNU Arm Embedded Toolchain\\\\10 2021.10\\\\bin\\\\arm-none-eabi-ranlib.exe\" libcmTC_f6ed4.a && cd .\"\r\n        \r\n      exitCode: 0\r\n  -\r\n    kind: \"message-v1\"\r\n    backtrace:\r\n      - \"D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)\"\r\n      - \"D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)\"\r\n      - \"CMakeLists.txt:17 (project)\"\r\n    message: |\r\n      Parsed CXX implicit include dir info: rv=done\r\n        found start of include info\r\n        found start of implicit include info\r\n          add: [d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1]\r\n          add: [d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi]\r\n          add: [d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward]\r\n          add: [d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/include]\r\n          add: [d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed]\r\n          add: [d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include]\r\n        end of search list found\r\n        collapse include dir [d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1] ==> [D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/c++/10.3.1]\r\n        collapse include dir [d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi] ==> [D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi]\r\n        collapse include dir [d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward] ==> [D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/c++/10.3.1/backward]\r\n        collapse include dir [d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/include] ==> [D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include]\r\n        collapse include dir [d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed] ==> [D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed]\r\n        collapse include dir [d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include] ==> [D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include]\r\n        implicit include dirs: [D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/c++/10.3.1;D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi;D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include/c++/10.3.1/backward;D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include;D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed;D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/arm-none-eabi/include]\r\n      \r\n      \r\n  -\r\n    kind: \"message-v1\"\r\n    backtrace:\r\n      - \"D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)\"\r\n      - \"D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)\"\r\n      - \"CMakeLists.txt:17 (project)\"\r\n    message: |\r\n      Parsed CXX implicit link information:\r\n        link line regex: [^( *|.*[/\\\\])(arm-none-eabi-ld\\\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\\\]+-)?ld|collect2)[^/\\\\]*( |$)]\r\n        ignore line: [Change Dir: D:/CODE/STM32/MusicClion/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-njoo5b]\r\n        ignore line: []\r\n        ignore line: [Run Build Command(s):D:/CLion/CLion 2022.2.3/bin/ninja/win/x64/ninja.exe -v cmTC_f6ed4 && [1/2] \"D:\\\\ProgramFiles\\\\GNU Arm Embedded Toolchain\\\\10 2021.10\\\\bin\\\\arm-none-eabi-g++.exe\"   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_f6ed4.dir/CMakeCXXCompilerABI.cpp.obj -c \"D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp\"]\r\n        ignore line: [Using built-in specs.]\r\n        ignore line: [COLLECT_GCC=D:\\\\ProgramFiles\\\\GNU Arm Embedded Toolchain\\\\10 2021.10\\\\bin\\\\arm-none-eabi-g++.exe]\r\n        ignore line: [Target: arm-none-eabi]\r\n        ignore line: [Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/src/gcc/configure --build=x86_64-linux-gnu --host=i686-w64-mingw32 --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-mingw-wildcard --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-headers=yes --with-newlib --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/arm-none-eabi --with-libiconv-prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-mingw/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.10' --with-multilib-list=rmprofile,aprofile]\r\n        ignore line: [Thread model: single]\r\n        ignore line: [Supported LTO compression algorithms: zlib]\r\n        ignore line: [gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) ]\r\n        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_f6ed4.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']\r\n        ignore line: [ d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1plus.exe -quiet -v -iprefix d:\\\\programfiles\\\\gnu arm embedded toolchain\\\\10 2021.10\\\\bin\\\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot d:\\\\programfiles\\\\gnu arm embedded toolchain\\\\10 2021.10\\\\bin\\\\../arm-none-eabi -D__USES_INITFINI__ D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_f6ed4.dir/CMakeCXXCompilerABI.cpp.obj -version -fdiagnostics-color=always -o C:\\\\Users\\\\zen3\\\\AppData\\\\Local\\\\Temp\\\\ccPTanfd.s]\r\n        ignore line: [GNU C++14 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)]\r\n        ignore line: [\tcompiled by GNU C version 7.3-win32 20180312  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]\r\n        ignore line: []\r\n        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]\r\n        ignore line: [ignoring duplicate directory \"d:/programfiles/gnu arm embedded toolchain/10 2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1\"]\r\n        ignore line: [ignoring duplicate directory \"d:/programfiles/gnu arm embedded toolchain/10 2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi\"]\r\n        ignore line: [ignoring duplicate directory \"d:/programfiles/gnu arm embedded toolchain/10 2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward\"]\r\n        ignore line: [ignoring duplicate directory \"d:/programfiles/gnu arm embedded toolchain/10 2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include\"]\r\n        ignore line: [ignoring nonexistent directory \"d:\\\\programfiles\\\\gnu arm embedded toolchain\\\\10 2021.10\\\\bin\\\\../arm-none-eabi/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-mingw/lib/gcc/arm-none-eabi/10.3.1/../../../../include\"]\r\n        ignore line: [ignoring duplicate directory \"d:/programfiles/gnu arm embedded toolchain/10 2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include-fixed\"]\r\n        ignore line: [ignoring duplicate directory \"d:/programfiles/gnu arm embedded toolchain/10 2021.10/lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include\"]\r\n        ignore line: [ignoring nonexistent directory \"d:\\\\programfiles\\\\gnu arm embedded toolchain\\\\10 2021.10\\\\bin\\\\../arm-none-eabi/usr/include\"]\r\n        ignore line: [#include \"...\" search starts here:]\r\n        ignore line: [#include <...> search starts here:]\r\n        ignore line: [ d:\\\\programfiles\\\\gnu arm embedded toolchain\\\\10 2021.10\\\\bin\\\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1]\r\n        ignore line: [ d:\\\\programfiles\\\\gnu arm embedded toolchain\\\\10 2021.10\\\\bin\\\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi]\r\n        ignore line: [ d:\\\\programfiles\\\\gnu arm embedded toolchain\\\\10 2021.10\\\\bin\\\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward]\r\n        ignore line: [ d:\\\\programfiles\\\\gnu arm embedded toolchain\\\\10 2021.10\\\\bin\\\\../lib/gcc/arm-none-eabi/10.3.1/include]\r\n        ignore line: [ d:\\\\programfiles\\\\gnu arm embedded toolchain\\\\10 2021.10\\\\bin\\\\../lib/gcc/arm-none-eabi/10.3.1/include-fixed]\r\n        ignore line: [ d:\\\\programfiles\\\\gnu arm embedded toolchain\\\\10 2021.10\\\\bin\\\\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include]\r\n        ignore line: [End of search list.]\r\n        ignore line: [GNU C++14 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)]\r\n        ignore line: [\tcompiled by GNU C version 7.3-win32 20180312  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]\r\n        ignore line: []\r\n        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]\r\n        ignore line: [Compiler executable checksum: f8787892a7c5aa84cea58dce52be7118]\r\n        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_f6ed4.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']\r\n        ignore line: [ d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_f6ed4.dir/CMakeCXXCompilerABI.cpp.obj C:\\\\Users\\\\zen3\\\\AppData\\\\Local\\\\Temp\\\\ccPTanfd.s]\r\n        ignore line: [GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621]\r\n        ignore line: [COMPILER_PATH=d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/]\r\n        ignore line: [d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/]\r\n        ignore line: [d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/]\r\n        ignore line: [LIBRARY_PATH=d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/]\r\n        ignore line: [d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/]\r\n        ignore line: [d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/]\r\n        ignore line: [d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../arm-none-eabi/lib/]\r\n        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_f6ed4.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']\r\n        ignore line: [[2/2] cmd.exe /C \"cd . && \"D:\\\\CLion\\\\CLion 2022.2.3\\\\bin\\\\cmake\\\\win\\\\x64\\\\bin\\\\cmake.exe\" -E rm -f libcmTC_f6ed4.a && arm-none-eabi-ar qc libcmTC_f6ed4.a  CMakeFiles/cmTC_f6ed4.dir/CMakeCXXCompilerABI.cpp.obj && \"D:\\\\ProgramFiles\\\\GNU Arm Embedded Toolchain\\\\10 2021.10\\\\bin\\\\arm-none-eabi-ranlib.exe\" libcmTC_f6ed4.a && cd .\"]\r\n        ignore line: []\r\n        ignore line: []\r\n        implicit libs: []\r\n        implicit objs: []\r\n        implicit dirs: []\r\n        implicit fwks: []\r\n      \r\n      \r\n...\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml b/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml
+--- a/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml	(revision 7ddb83a0e43efd066b57a113d0b6fcb819026f10)
++++ b/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml	(date 1706521661960)
+@@ -115,8 +115,8 @@
+     checks:
+       - "Detecting C compiler ABI info"
+     directories:
+-      source: "D:/CODE/STM32/MusicClion/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-m85l4g"
+-      binary: "D:/CODE/STM32/MusicClion/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-m85l4g"
++      source: "D:/CODE/STM32/MusicClion/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lnh5us"
++      binary: "D:/CODE/STM32/MusicClion/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lnh5us"
+     cmakeVariables:
+       CMAKE_C_FLAGS: ""
+       CMAKE_C_FLAGS_DEBUG: "-g"
+@@ -125,9 +125,12 @@
+       variable: "CMAKE_C_ABI_COMPILED"
+       cached: true
+       stdout: |
+-        Change Dir: D:/CODE/STM32/MusicClion/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-m85l4g
++        Change Dir: D:/CODE/STM32/MusicClion/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lnh5us
+         
+-        Run Build Command(s):D:/CLion/CLion 2022.2.3/bin/ninja/win/x64/ninja.exe -v cmTC_739bf && [1/2] "D:\\ProgramFiles\\GNU Arm Embedded Toolchain\\10 2021.10\\bin\\arm-none-eabi-gcc.exe"   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_739bf.dir/CMakeCCompilerABI.c.obj -c "D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c"
++        Run Build Command(s):D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 D:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_49820/fast && D:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_49820.dir\\build.make CMakeFiles/cmTC_49820.dir/build
++        mingw32-make.exe[1]: Entering directory 'D:/CODE/STM32/MusicClion/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lnh5us'
++        Building C object CMakeFiles/cmTC_49820.dir/CMakeCCompilerABI.c.obj
++        "D:\\ProgramFiles\\GNU Arm Embedded Toolchain\\10 2021.10\\bin\\arm-none-eabi-gcc.exe"   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_49820.dir\\CMakeCCompilerABI.c.obj -c "D:\\CLion\\CLion 2022.2.3\\bin\\cmake\\win\\x64\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+         Using built-in specs.
+         COLLECT_GCC=D:\\ProgramFiles\\GNU Arm Embedded Toolchain\\10 2021.10\\bin\\arm-none-eabi-gcc.exe
+         Target: arm-none-eabi
+@@ -135,8 +138,8 @@
+         Thread model: single
+         Supported LTO compression algorithms: zlib
+         gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) 
+-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_739bf.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+-         d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1.exe -quiet -v -iprefix d:\\programfiles\\gnu arm embedded toolchain\\10 2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot d:\\programfiles\\gnu arm embedded toolchain\\10 2021.10\\bin\\../arm-none-eabi -D__USES_INITFINI__ D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_739bf.dir/CMakeCCompilerABI.c.obj -version -fdiagnostics-color=always -o C:\\Users\\zen3\\AppData\\Local\\Temp\\cctWR4xM.s
++        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_49820.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
++         d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1.exe -quiet -v -iprefix d:\\programfiles\\gnu arm embedded toolchain\\10 2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot d:\\programfiles\\gnu arm embedded toolchain\\10 2021.10\\bin\\../arm-none-eabi -D__USES_INITFINI__ D:\\CLion\\CLion 2022.2.3\\bin\\cmake\\win\\x64\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles\\cmTC_49820.dir\\CMakeCCompilerABI.c.obj -version -fdiagnostics-color=always -o C:\\Users\\zen3\\AppData\\Local\\Temp\\cclpb5fg.s
+         GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)
+         	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+         
+@@ -157,13 +160,18 @@
+         
+         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+         Compiler executable checksum: f3937ce18b4177bfd408ca565336596a
+-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_739bf.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+-         d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_739bf.dir/CMakeCCompilerABI.c.obj C:\\Users\\zen3\\AppData\\Local\\Temp\\cctWR4xM.s
++        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_49820.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
++         d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_49820.dir\\CMakeCCompilerABI.c.obj C:\\Users\\zen3\\AppData\\Local\\Temp\\cclpb5fg.s
+         GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621
+         COMPILER_PATH=d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/;d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/;d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
+         LIBRARY_PATH=d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/;d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/;d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../arm-none-eabi/lib/
+-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_739bf.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+-        [2/2] cmd.exe /C "cd . && "D:\\CLion\\CLion 2022.2.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f libcmTC_739bf.a && arm-none-eabi-ar qc libcmTC_739bf.a  CMakeFiles/cmTC_739bf.dir/CMakeCCompilerABI.c.obj && "D:\\ProgramFiles\\GNU Arm Embedded Toolchain\\10 2021.10\\bin\\arm-none-eabi-ranlib.exe" libcmTC_739bf.a && cd ."
++        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_49820.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
++        Linking C static library libcmTC_49820.a
++        "D:\\CLion\\CLion 2022.2.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_49820.dir\\cmake_clean_target.cmake
++        "D:\\CLion\\CLion 2022.2.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_49820.dir\\link.txt --verbose=1
++        arm-none-eabi-ar qc libcmTC_49820.a CMakeFiles/cmTC_49820.dir/CMakeCCompilerABI.c.obj
++        "D:\\ProgramFiles\\GNU Arm Embedded Toolchain\\10 2021.10\\bin\\arm-none-eabi-ranlib.exe" libcmTC_49820.a
++        mingw32-make.exe[1]: Leaving directory 'D:/CODE/STM32/MusicClion/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lnh5us'
+         
+       exitCode: 0
+   -
+@@ -195,9 +203,12 @@
+     message: |
+       Parsed C implicit link information:
+         link line regex: [^( *|.*[/\\])(arm-none-eabi-ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+-        ignore line: [Change Dir: D:/CODE/STM32/MusicClion/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-m85l4g]
++        ignore line: [Change Dir: D:/CODE/STM32/MusicClion/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lnh5us]
+         ignore line: []
+-        ignore line: [Run Build Command(s):D:/CLion/CLion 2022.2.3/bin/ninja/win/x64/ninja.exe -v cmTC_739bf && [1/2] "D:\\ProgramFiles\\GNU Arm Embedded Toolchain\\10 2021.10\\bin\\arm-none-eabi-gcc.exe"   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_739bf.dir/CMakeCCompilerABI.c.obj -c "D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c"]
++        ignore line: [Run Build Command(s):D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 D:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_49820/fast && D:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_49820.dir\\build.make CMakeFiles/cmTC_49820.dir/build]
++        ignore line: [mingw32-make.exe[1]: Entering directory 'D:/CODE/STM32/MusicClion/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lnh5us']
++        ignore line: [Building C object CMakeFiles/cmTC_49820.dir/CMakeCCompilerABI.c.obj]
++        ignore line: ["D:\\ProgramFiles\\GNU Arm Embedded Toolchain\\10 2021.10\\bin\\arm-none-eabi-gcc.exe"   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_49820.dir\\CMakeCCompilerABI.c.obj -c "D:\\CLion\\CLion 2022.2.3\\bin\\cmake\\win\\x64\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"]
+         ignore line: [Using built-in specs.]
+         ignore line: [COLLECT_GCC=D:\\ProgramFiles\\GNU Arm Embedded Toolchain\\10 2021.10\\bin\\arm-none-eabi-gcc.exe]
+         ignore line: [Target: arm-none-eabi]
+@@ -205,8 +216,8 @@
+         ignore line: [Thread model: single]
+         ignore line: [Supported LTO compression algorithms: zlib]
+         ignore line: [gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) ]
+-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_739bf.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+-        ignore line: [ d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1.exe -quiet -v -iprefix d:\\programfiles\\gnu arm embedded toolchain\\10 2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot d:\\programfiles\\gnu arm embedded toolchain\\10 2021.10\\bin\\../arm-none-eabi -D__USES_INITFINI__ D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_739bf.dir/CMakeCCompilerABI.c.obj -version -fdiagnostics-color=always -o C:\\Users\\zen3\\AppData\\Local\\Temp\\cctWR4xM.s]
++        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_49820.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
++        ignore line: [ d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1.exe -quiet -v -iprefix d:\\programfiles\\gnu arm embedded toolchain\\10 2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot d:\\programfiles\\gnu arm embedded toolchain\\10 2021.10\\bin\\../arm-none-eabi -D__USES_INITFINI__ D:\\CLion\\CLion 2022.2.3\\bin\\cmake\\win\\x64\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles\\cmTC_49820.dir\\CMakeCCompilerABI.c.obj -version -fdiagnostics-color=always -o C:\\Users\\zen3\\AppData\\Local\\Temp\\cclpb5fg.s]
+         ignore line: [GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)]
+         ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+         ignore line: []
+@@ -227,8 +238,8 @@
+         ignore line: []
+         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+         ignore line: [Compiler executable checksum: f3937ce18b4177bfd408ca565336596a]
+-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_739bf.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+-        ignore line: [ d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_739bf.dir/CMakeCCompilerABI.c.obj C:\\Users\\zen3\\AppData\\Local\\Temp\\cctWR4xM.s]
++        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_49820.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
++        ignore line: [ d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_49820.dir\\CMakeCCompilerABI.c.obj C:\\Users\\zen3\\AppData\\Local\\Temp\\cclpb5fg.s]
+         ignore line: [GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621]
+         ignore line: [COMPILER_PATH=d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/]
+         ignore line: [d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/]
+@@ -237,8 +248,13 @@
+         ignore line: [d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/]
+         ignore line: [d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/]
+         ignore line: [d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../arm-none-eabi/lib/]
+-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_739bf.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+-        ignore line: [[2/2] cmd.exe /C "cd . && "D:\\CLion\\CLion 2022.2.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f libcmTC_739bf.a && arm-none-eabi-ar qc libcmTC_739bf.a  CMakeFiles/cmTC_739bf.dir/CMakeCCompilerABI.c.obj && "D:\\ProgramFiles\\GNU Arm Embedded Toolchain\\10 2021.10\\bin\\arm-none-eabi-ranlib.exe" libcmTC_739bf.a && cd ."]
++        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_49820.dir\\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
++        ignore line: [Linking C static library libcmTC_49820.a]
++        ignore line: ["D:\\CLion\\CLion 2022.2.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_49820.dir\\cmake_clean_target.cmake]
++        ignore line: ["D:\\CLion\\CLion 2022.2.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_49820.dir\\link.txt --verbose=1]
++        ignore line: [arm-none-eabi-ar qc libcmTC_49820.a CMakeFiles/cmTC_49820.dir/CMakeCCompilerABI.c.obj]
++        ignore line: ["D:\\ProgramFiles\\GNU Arm Embedded Toolchain\\10 2021.10\\bin\\arm-none-eabi-ranlib.exe" libcmTC_49820.a]
++        ignore line: [mingw32-make.exe[1]: Leaving directory 'D:/CODE/STM32/MusicClion/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lnh5us']
+         ignore line: []
+         ignore line: []
+         implicit libs: []
+@@ -256,8 +272,8 @@
+     checks:
+       - "Detecting CXX compiler ABI info"
+     directories:
+-      source: "D:/CODE/STM32/MusicClion/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-njoo5b"
+-      binary: "D:/CODE/STM32/MusicClion/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-njoo5b"
++      source: "D:/CODE/STM32/MusicClion/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zf6ung"
++      binary: "D:/CODE/STM32/MusicClion/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zf6ung"
+     cmakeVariables:
+       CMAKE_CXX_FLAGS: ""
+       CMAKE_CXX_FLAGS_DEBUG: "-g"
+@@ -266,9 +282,12 @@
+       variable: "CMAKE_CXX_ABI_COMPILED"
+       cached: true
+       stdout: |
+-        Change Dir: D:/CODE/STM32/MusicClion/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-njoo5b
++        Change Dir: D:/CODE/STM32/MusicClion/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zf6ung
+         
+-        Run Build Command(s):D:/CLion/CLion 2022.2.3/bin/ninja/win/x64/ninja.exe -v cmTC_f6ed4 && [1/2] "D:\\ProgramFiles\\GNU Arm Embedded Toolchain\\10 2021.10\\bin\\arm-none-eabi-g++.exe"   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_f6ed4.dir/CMakeCXXCompilerABI.cpp.obj -c "D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp"
++        Run Build Command(s):D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 D:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_7fb5f/fast && D:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_7fb5f.dir\\build.make CMakeFiles/cmTC_7fb5f.dir/build
++        mingw32-make.exe[1]: Entering directory 'D:/CODE/STM32/MusicClion/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zf6ung'
++        Building CXX object CMakeFiles/cmTC_7fb5f.dir/CMakeCXXCompilerABI.cpp.obj
++        "D:\\ProgramFiles\\GNU Arm Embedded Toolchain\\10 2021.10\\bin\\arm-none-eabi-g++.exe"   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_7fb5f.dir\\CMakeCXXCompilerABI.cpp.obj -c "D:\\CLion\\CLion 2022.2.3\\bin\\cmake\\win\\x64\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+         Using built-in specs.
+         COLLECT_GCC=D:\\ProgramFiles\\GNU Arm Embedded Toolchain\\10 2021.10\\bin\\arm-none-eabi-g++.exe
+         Target: arm-none-eabi
+@@ -276,8 +295,8 @@
+         Thread model: single
+         Supported LTO compression algorithms: zlib
+         gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) 
+-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_f6ed4.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+-         d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1plus.exe -quiet -v -iprefix d:\\programfiles\\gnu arm embedded toolchain\\10 2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot d:\\programfiles\\gnu arm embedded toolchain\\10 2021.10\\bin\\../arm-none-eabi -D__USES_INITFINI__ D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_f6ed4.dir/CMakeCXXCompilerABI.cpp.obj -version -fdiagnostics-color=always -o C:\\Users\\zen3\\AppData\\Local\\Temp\\ccPTanfd.s
++        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_7fb5f.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
++         d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1plus.exe -quiet -v -iprefix d:\\programfiles\\gnu arm embedded toolchain\\10 2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot d:\\programfiles\\gnu arm embedded toolchain\\10 2021.10\\bin\\../arm-none-eabi -D__USES_INITFINI__ D:\\CLion\\CLion 2022.2.3\\bin\\cmake\\win\\x64\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles\\cmTC_7fb5f.dir\\CMakeCXXCompilerABI.cpp.obj -version -fdiagnostics-color=always -o C:\\Users\\zen3\\AppData\\Local\\Temp\\ccF1jl8T.s
+         GNU C++14 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)
+         	compiled by GNU C version 7.3-win32 20180312, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+         
+@@ -304,13 +323,18 @@
+         
+         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+         Compiler executable checksum: f8787892a7c5aa84cea58dce52be7118
+-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_f6ed4.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+-         d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_f6ed4.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\zen3\\AppData\\Local\\Temp\\ccPTanfd.s
++        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_7fb5f.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
++         d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_7fb5f.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\zen3\\AppData\\Local\\Temp\\ccF1jl8T.s
+         GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621
+         COMPILER_PATH=d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/;d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/;d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
+         LIBRARY_PATH=d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/;d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/;d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/;d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../arm-none-eabi/lib/
+-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_f6ed4.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+-        [2/2] cmd.exe /C "cd . && "D:\\CLion\\CLion 2022.2.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f libcmTC_f6ed4.a && arm-none-eabi-ar qc libcmTC_f6ed4.a  CMakeFiles/cmTC_f6ed4.dir/CMakeCXXCompilerABI.cpp.obj && "D:\\ProgramFiles\\GNU Arm Embedded Toolchain\\10 2021.10\\bin\\arm-none-eabi-ranlib.exe" libcmTC_f6ed4.a && cd ."
++        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_7fb5f.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
++        Linking CXX static library libcmTC_7fb5f.a
++        "D:\\CLion\\CLion 2022.2.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_7fb5f.dir\\cmake_clean_target.cmake
++        "D:\\CLion\\CLion 2022.2.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_7fb5f.dir\\link.txt --verbose=1
++        arm-none-eabi-ar qc libcmTC_7fb5f.a CMakeFiles/cmTC_7fb5f.dir/CMakeCXXCompilerABI.cpp.obj
++        "D:\\ProgramFiles\\GNU Arm Embedded Toolchain\\10 2021.10\\bin\\arm-none-eabi-ranlib.exe" libcmTC_7fb5f.a
++        mingw32-make.exe[1]: Leaving directory 'D:/CODE/STM32/MusicClion/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zf6ung'
+         
+       exitCode: 0
+   -
+@@ -348,9 +372,12 @@
+     message: |
+       Parsed CXX implicit link information:
+         link line regex: [^( *|.*[/\\])(arm-none-eabi-ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+-        ignore line: [Change Dir: D:/CODE/STM32/MusicClion/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-njoo5b]
++        ignore line: [Change Dir: D:/CODE/STM32/MusicClion/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zf6ung]
+         ignore line: []
+-        ignore line: [Run Build Command(s):D:/CLion/CLion 2022.2.3/bin/ninja/win/x64/ninja.exe -v cmTC_f6ed4 && [1/2] "D:\\ProgramFiles\\GNU Arm Embedded Toolchain\\10 2021.10\\bin\\arm-none-eabi-g++.exe"   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_f6ed4.dir/CMakeCXXCompilerABI.cpp.obj -c "D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp"]
++        ignore line: [Run Build Command(s):D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/bin/cmake.exe -E env VERBOSE=1 D:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_7fb5f/fast && D:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_7fb5f.dir\\build.make CMakeFiles/cmTC_7fb5f.dir/build]
++        ignore line: [mingw32-make.exe[1]: Entering directory 'D:/CODE/STM32/MusicClion/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zf6ung']
++        ignore line: [Building CXX object CMakeFiles/cmTC_7fb5f.dir/CMakeCXXCompilerABI.cpp.obj]
++        ignore line: ["D:\\ProgramFiles\\GNU Arm Embedded Toolchain\\10 2021.10\\bin\\arm-none-eabi-g++.exe"   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_7fb5f.dir\\CMakeCXXCompilerABI.cpp.obj -c "D:\\CLion\\CLion 2022.2.3\\bin\\cmake\\win\\x64\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"]
+         ignore line: [Using built-in specs.]
+         ignore line: [COLLECT_GCC=D:\\ProgramFiles\\GNU Arm Embedded Toolchain\\10 2021.10\\bin\\arm-none-eabi-g++.exe]
+         ignore line: [Target: arm-none-eabi]
+@@ -358,8 +385,8 @@
+         ignore line: [Thread model: single]
+         ignore line: [Supported LTO compression algorithms: zlib]
+         ignore line: [gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) ]
+-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_f6ed4.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+-        ignore line: [ d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1plus.exe -quiet -v -iprefix d:\\programfiles\\gnu arm embedded toolchain\\10 2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot d:\\programfiles\\gnu arm embedded toolchain\\10 2021.10\\bin\\../arm-none-eabi -D__USES_INITFINI__ D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_f6ed4.dir/CMakeCXXCompilerABI.cpp.obj -version -fdiagnostics-color=always -o C:\\Users\\zen3\\AppData\\Local\\Temp\\ccPTanfd.s]
++        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_7fb5f.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
++        ignore line: [ d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1plus.exe -quiet -v -iprefix d:\\programfiles\\gnu arm embedded toolchain\\10 2021.10\\bin\\../lib/gcc/arm-none-eabi/10.3.1/ -isysroot d:\\programfiles\\gnu arm embedded toolchain\\10 2021.10\\bin\\../arm-none-eabi -D__USES_INITFINI__ D:\\CLion\\CLion 2022.2.3\\bin\\cmake\\win\\x64\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles\\cmTC_7fb5f.dir\\CMakeCXXCompilerABI.cpp.obj -version -fdiagnostics-color=always -o C:\\Users\\zen3\\AppData\\Local\\Temp\\ccF1jl8T.s]
+         ignore line: [GNU C++14 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)]
+         ignore line: [	compiled by GNU C version 7.3-win32 20180312  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+         ignore line: []
+@@ -386,8 +413,8 @@
+         ignore line: []
+         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+         ignore line: [Compiler executable checksum: f8787892a7c5aa84cea58dce52be7118]
+-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_f6ed4.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+-        ignore line: [ d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_f6ed4.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\zen3\\AppData\\Local\\Temp\\ccPTanfd.s]
++        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_7fb5f.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
++        ignore line: [ d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\\cmTC_7fb5f.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\zen3\\AppData\\Local\\Temp\\ccF1jl8T.s]
+         ignore line: [GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621]
+         ignore line: [COMPILER_PATH=d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/]
+         ignore line: [d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/]
+@@ -396,8 +423,13 @@
+         ignore line: [d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/]
+         ignore line: [d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/]
+         ignore line: [d:/programfiles/gnu arm embedded toolchain/10 2021.10/bin/../arm-none-eabi/lib/]
+-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_f6ed4.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+-        ignore line: [[2/2] cmd.exe /C "cd . && "D:\\CLion\\CLion 2022.2.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f libcmTC_f6ed4.a && arm-none-eabi-ar qc libcmTC_f6ed4.a  CMakeFiles/cmTC_f6ed4.dir/CMakeCXXCompilerABI.cpp.obj && "D:\\ProgramFiles\\GNU Arm Embedded Toolchain\\10 2021.10\\bin\\arm-none-eabi-ranlib.exe" libcmTC_f6ed4.a && cd ."]
++        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_7fb5f.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
++        ignore line: [Linking CXX static library libcmTC_7fb5f.a]
++        ignore line: ["D:\\CLion\\CLion 2022.2.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -P CMakeFiles\\cmTC_7fb5f.dir\\cmake_clean_target.cmake]
++        ignore line: ["D:\\CLion\\CLion 2022.2.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_7fb5f.dir\\link.txt --verbose=1]
++        ignore line: [arm-none-eabi-ar qc libcmTC_7fb5f.a CMakeFiles/cmTC_7fb5f.dir/CMakeCXXCompilerABI.cpp.obj]
++        ignore line: ["D:\\ProgramFiles\\GNU Arm Embedded Toolchain\\10 2021.10\\bin\\arm-none-eabi-ranlib.exe" libcmTC_7fb5f.a]
++        ignore line: [mingw32-make.exe[1]: Leaving directory 'D:/CODE/STM32/MusicClion/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zf6ung']
+         ignore line: []
+         ignore line: []
+         implicit libs: []
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"CMakePresetLoader\"><![CDATA[{\r\n  \"useNewFormat\": true\r\n}]]></component>\r\n  <component name=\"CMakeReloadState\">\r\n    <option name=\"reloaded\" value=\"true\" />\r\n  </component>\r\n  <component name=\"CMakeRunConfigurationManager\">\r\n    <generated>\r\n      <config projectName=\"MusicClion\" targetName=\"MusicClion.elf\" />\r\n    </generated>\r\n  </component>\r\n  <component name=\"CMakeSettings\">\r\n    <configurations>\r\n      <configuration PROFILE_NAME=\"Debug\" ENABLED=\"true\" CONFIG_NAME=\"Debug\" />\r\n    </configurations>\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"c38a5266-271f-4665-84e5-f77ac8504a67\" name=\"更改\" comment=\"创建项目\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ClangdSettings\">\r\n    <option name=\"formatViaClangd\" value=\"false\" />\r\n  </component>\r\n  <component name=\"ExecutionTargetManager\" SELECTED_TARGET=\"CMakeBuildProfile:Debug\" />\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"Develop\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectApplicationVersion\">\r\n    <option name=\"ide\" value=\"CLion\" />\r\n    <option name=\"majorVersion\" value=\"2023\" />\r\n    <option name=\"minorVersion\" value=\"2.1\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\"><![CDATA[{\r\n  \"associatedIndex\": 4\r\n}]]></component>\r\n  <component name=\"ProjectId\" id=\"2bUibJ1lbHZ43xOfwxoISMfMRIo\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"autoscrollToSource\" value=\"true\" />\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"RunOnceActivity.cidr.known.project.marker\": \"true\",\r\n    \"WebServerToolWindowFactoryState\": \"false\",\r\n    \"cf.first.check.clang-format\": \"false\",\r\n    \"cidr.known.project.marker\": \"true\",\r\n    \"git-widget-placeholder\": \"Features\",\r\n    \"last_opened_file_path\": \"D:/CODE/STM32/MusicClion\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RunManager\" selected=\"OpenOCD 下载并运行.OCD MusicClion\">\r\n    <configuration default=\"true\" type=\"CLionExternalRunConfiguration\" factoryName=\"Application\" REDIRECT_INPUT=\"false\" ELEVATE=\"false\" USE_EXTERNAL_CONSOLE=\"false\" EMULATE_TERMINAL=\"false\" PASS_PARENT_ENVS_2=\"true\">\r\n      <method v=\"2\">\r\n        <option name=\"CLION.EXTERNAL.BUILD\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"MusicClion.elf\" type=\"CMakeRunConfiguration\" factoryName=\"Application\" REDIRECT_INPUT=\"false\" ELEVATE=\"false\" USE_EXTERNAL_CONSOLE=\"false\" EMULATE_TERMINAL=\"false\" PASS_PARENT_ENVS_2=\"true\" PROJECT_NAME=\"MusicClion\" TARGET_NAME=\"MusicClion.elf\" CONFIG_NAME=\"Debug\" RUN_TARGET_PROJECT_NAME=\"MusicClion\" RUN_TARGET_NAME=\"MusicClion.elf\">\r\n      <method v=\"2\">\r\n        <option name=\"com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <list>\r\n      <item itemvalue=\"CMake 应用程序.MusicClion.elf\" />\r\n      <item itemvalue=\"OpenOCD 下载并运行.OCD MusicClion\" />\r\n    </list>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"应用程序级\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"默认任务\">\r\n      <changelist id=\"c38a5266-271f-4665-84e5-f77ac8504a67\" name=\"更改\" comment=\"\" />\r\n      <created>1706276127820</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1706276127820</updated>\r\n      <workItem from=\"1706276147160\" duration=\"1267000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"创建项目\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1706277233295</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1706277233295</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"VCPKGProject\">\r\n    <isAutomaticEditVcpkgJson value=\"false\" />\r\n    <isAutomaticCheckingOnLaunch value=\"false\" />\r\n    <isAutomaticFoundErrors value=\"true\" />\r\n    <isAutomaticFoundErrors value=\"true\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"master\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"创建项目\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"创建项目\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 7ddb83a0e43efd066b57a113d0b6fcb819026f10)
++++ b/.idea/workspace.xml	(date 1706521659703)
+@@ -3,16 +3,14 @@
+   <component name="AutoImportSettings">
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+-  <component name="CMakePresetLoader"><![CDATA[{
+-  "useNewFormat": true
+-}]]></component>
++  <component name="CMakePresetLoader">{
++  &quot;useNewFormat&quot;: true
++}</component>
+   <component name="CMakeReloadState">
+     <option name="reloaded" value="true" />
+   </component>
+   <component name="CMakeRunConfigurationManager">
+-    <generated>
+-      <config projectName="MusicClion" targetName="MusicClion.elf" />
+-    </generated>
++    <generated />
+   </component>
+   <component name="CMakeSettings">
+     <configurations>
+@@ -20,7 +18,9 @@
+     </configurations>
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="c38a5266-271f-4665-84e5-f77ac8504a67" name="更改" comment="创建项目" />
++    <list default="true" id="c38a5266-271f-4665-84e5-f77ac8504a67" name="更改" comment="创建项目">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -33,7 +33,7 @@
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="Develop" />
++        <entry key="$PROJECT_DIR$" value="Features" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+@@ -43,9 +43,9 @@
+     <option name="majorVersion" value="2023" />
+     <option name="minorVersion" value="2.1" />
+   </component>
+-  <component name="ProjectColorInfo"><![CDATA[{
+-  "associatedIndex": 4
+-}]]></component>
++  <component name="ProjectColorInfo">{
++  &quot;associatedIndex&quot;: 4
++}</component>
+   <component name="ProjectId" id="2bUibJ1lbHZ43xOfwxoISMfMRIo" />
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+   <component name="ProjectViewState">
+@@ -61,7 +61,7 @@
+     "WebServerToolWindowFactoryState": "false",
+     "cf.first.check.clang-format": "false",
+     "cidr.known.project.marker": "true",
+-    "git-widget-placeholder": "Features",
++    "git-widget-placeholder": "Develop",
+     "last_opened_file_path": "D:/CODE/STM32/MusicClion",
+     "node.js.detected.package.eslint": "true",
+     "node.js.detected.package.tslint": "true",
+@@ -70,21 +70,12 @@
+     "vue.rearranger.settings.migration": "true"
+   }
+ }]]></component>
+-  <component name="RunManager" selected="OpenOCD 下载并运行.OCD MusicClion">
++  <component name="RunManager">
+     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+       <method v="2">
+         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="MusicClion.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="MusicClion" TARGET_NAME="MusicClion.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="MusicClion" RUN_TARGET_NAME="MusicClion.elf">
+-      <method v="2">
+-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+-      </method>
+-    </configuration>
+-    <list>
+-      <item itemvalue="CMake 应用程序.MusicClion.elf" />
+-      <item itemvalue="OpenOCD 下载并运行.OCD MusicClion" />
+-    </list>
+   </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+Index: cmake-build-debug/CMakeFiles/clion-Debug-log.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\"D:\\CLion\\CLion 2022.2.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe\" -DCMAKE_BUILD_TYPE=Debug \"-DCMAKE_MAKE_PROGRAM=D:/CLion/CLion 2022.2.3/bin/ninja/win/x64/ninja.exe\" -G Ninja -S D:\\CODE\\STM32\\MusicClion -B D:\\CODE\\STM32\\MusicClion\\cmake-build-debug\r\n-- Minimal optimization, debug info included\r\n-- Configuring done (0.0s)\r\n-- Generating done (0.0s)\r\n-- Build files have been written to: D:/CODE/STM32/MusicClion/cmake-build-debug\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/cmake-build-debug/CMakeFiles/clion-Debug-log.txt b/cmake-build-debug/CMakeFiles/clion-Debug-log.txt
+--- a/cmake-build-debug/CMakeFiles/clion-Debug-log.txt	(revision 7ddb83a0e43efd066b57a113d0b6fcb819026f10)
++++ b/cmake-build-debug/CMakeFiles/clion-Debug-log.txt	(date 1706521662300)
+@@ -1,5 +1,19 @@
+-"D:\CLion\CLion 2022.2.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/CLion/CLion 2022.2.3/bin/ninja/win/x64/ninja.exe" -G Ninja -S D:\CODE\STM32\MusicClion -B D:\CODE\STM32\MusicClion\cmake-build-debug
++"D:\CLion\CLion 2022.2.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=D:/MinGW/bin/mingw32-make.exe "-DCMAKE_C_COMPILER=D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe" "-DCMAKE_CXX_COMPILER=D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-g++.exe" -G "CodeBlocks - MinGW Makefiles" -S D:\CODE\STM32\MusicClion -B D:\CODE\STM32\MusicClion\cmake-build-debug
++-- The C compiler identification is GNU 10.3.1
++-- The CXX compiler identification is GNU 10.3.1
++-- The ASM compiler identification is GNU
++-- Found assembler: D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe
++-- Detecting C compiler ABI info
++-- Detecting C compiler ABI info - done
++-- Check for working C compiler: D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe - skipped
++-- Detecting C compile features
++-- Detecting C compile features - done
++-- Detecting CXX compiler ABI info
++-- Detecting CXX compiler ABI info - done
++-- Check for working CXX compiler: D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-g++.exe - skipped
++-- Detecting CXX compile features
++-- Detecting CXX compile features - done
+ -- Minimal optimization, debug info included
+--- Configuring done (0.0s)
++-- Configuring done (2.1s)
+ -- Generating done (0.0s)
+ -- Build files have been written to: D:/CODE/STM32/MusicClion/cmake-build-debug
+Index: cmake-build-debug/CMakeCache.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># This is the CMakeCache file.\r\n# For build in directory: d:/CODE/STM32/MusicClion/cmake-build-debug\r\n# It was generated by CMake: D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/bin/cmake.exe\r\n# You can edit this file to change values found and used by cmake.\r\n# If you do not want to change any of the values, simply exit the editor.\r\n# If you do want to change a value, simply edit, save, and exit the editor.\r\n# The syntax for the file is as follows:\r\n# KEY:TYPE=VALUE\r\n# KEY is the name of a variable in the cache.\r\n# TYPE is a hint to GUIs for the type of VALUE, DO NOT EDIT TYPE!.\r\n# VALUE is the current value for the KEY.\r\n\r\n########################\r\n# EXTERNAL cache entries\r\n########################\r\n\r\n//Path to a program.\r\nCMAKE_ADDR2LINE:FILEPATH=D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-addr2line.exe\r\n\r\n//A wrapper around 'ar' adding the appropriate '--plugin' option\r\n// for the GCC compiler\r\nCMAKE_ASM_COMPILER_AR:FILEPATH=D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc-ar.exe\r\n\r\n//A wrapper around 'ranlib' adding the appropriate '--plugin' option\r\n// for the GCC compiler\r\nCMAKE_ASM_COMPILER_RANLIB:FILEPATH=D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc-ranlib.exe\r\n\r\n//Flags used by the ASM compiler during all build types.\r\nCMAKE_ASM_FLAGS:STRING=\r\n\r\n//Flags used by the ASM compiler during DEBUG builds.\r\nCMAKE_ASM_FLAGS_DEBUG:STRING=-g\r\n\r\n//Flags used by the ASM compiler during MINSIZEREL builds.\r\nCMAKE_ASM_FLAGS_MINSIZEREL:STRING=-Os -DNDEBUG\r\n\r\n//Flags used by the ASM compiler during RELEASE builds.\r\nCMAKE_ASM_FLAGS_RELEASE:STRING=-O3 -DNDEBUG\r\n\r\n//Flags used by the ASM compiler during RELWITHDEBINFO builds.\r\nCMAKE_ASM_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG\r\n\r\n//Choose the type of build, options are: None Debug Release RelWithDebInfo\r\n// MinSizeRel ...\r\nCMAKE_BUILD_TYPE:STRING=Debug\r\n\r\n//Enable colored diagnostics throughout.\r\nCMAKE_COLOR_DIAGNOSTICS:BOOL=ON\r\n\r\n//A wrapper around 'ar' adding the appropriate '--plugin' option\r\n// for the GCC compiler\r\nCMAKE_CXX_COMPILER_AR:FILEPATH=D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc-ar.exe\r\n\r\n//A wrapper around 'ranlib' adding the appropriate '--plugin' option\r\n// for the GCC compiler\r\nCMAKE_CXX_COMPILER_RANLIB:FILEPATH=D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc-ranlib.exe\r\n\r\n//Flags used by the CXX compiler during all build types.\r\nCMAKE_CXX_FLAGS:STRING=\r\n\r\n//Flags used by the CXX compiler during DEBUG builds.\r\nCMAKE_CXX_FLAGS_DEBUG:STRING=-g\r\n\r\n//Flags used by the CXX compiler during MINSIZEREL builds.\r\nCMAKE_CXX_FLAGS_MINSIZEREL:STRING=-Os -DNDEBUG\r\n\r\n//Flags used by the CXX compiler during RELEASE builds.\r\nCMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG\r\n\r\n//Flags used by the CXX compiler during RELWITHDEBINFO builds.\r\nCMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG\r\n\r\n//A wrapper around 'ar' adding the appropriate '--plugin' option\r\n// for the GCC compiler\r\nCMAKE_C_COMPILER_AR:FILEPATH=D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc-ar.exe\r\n\r\n//A wrapper around 'ranlib' adding the appropriate '--plugin' option\r\n// for the GCC compiler\r\nCMAKE_C_COMPILER_RANLIB:FILEPATH=D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc-ranlib.exe\r\n\r\n//Flags used by the C compiler during all build types.\r\nCMAKE_C_FLAGS:STRING=\r\n\r\n//Flags used by the C compiler during DEBUG builds.\r\nCMAKE_C_FLAGS_DEBUG:STRING=-g\r\n\r\n//Flags used by the C compiler during MINSIZEREL builds.\r\nCMAKE_C_FLAGS_MINSIZEREL:STRING=-Os -DNDEBUG\r\n\r\n//Flags used by the C compiler during RELEASE builds.\r\nCMAKE_C_FLAGS_RELEASE:STRING=-O3 -DNDEBUG\r\n\r\n//Flags used by the C compiler during RELWITHDEBINFO builds.\r\nCMAKE_C_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG\r\n\r\n//Path to a program.\r\nCMAKE_DLLTOOL:FILEPATH=E:/QT/Tools/mingw1120_64/bin/dlltool.exe\r\n\r\n//Flags used by the linker during all build types.\r\nCMAKE_EXE_LINKER_FLAGS:STRING=\r\n\r\n//Flags used by the linker during DEBUG builds.\r\nCMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=\r\n\r\n//Flags used by the linker during MINSIZEREL builds.\r\nCMAKE_EXE_LINKER_FLAGS_MINSIZEREL:STRING=\r\n\r\n//Flags used by the linker during RELEASE builds.\r\nCMAKE_EXE_LINKER_FLAGS_RELEASE:STRING=\r\n\r\n//Flags used by the linker during RELWITHDEBINFO builds.\r\nCMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=\r\n\r\n//Enable/Disable output of compile commands during generation.\r\nCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=\r\n\r\n//Value Computed by CMake.\r\nCMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=D:/CODE/STM32/MusicClion/cmake-build-debug/CMakeFiles/pkgRedirects\r\n\r\n//Install path prefix, prepended onto install directories.\r\nCMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/MusicClion\r\n\r\n//Path to a program.\r\nCMAKE_LINKER:FILEPATH=D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-ld.exe\r\n\r\n//make program\r\nCMAKE_MAKE_PROGRAM:FILEPATH=D:/CLion/CLion 2022.2.3/bin/ninja/win/x64/ninja.exe\r\n\r\n//Flags used by the linker during the creation of modules during\r\n// all build types.\r\nCMAKE_MODULE_LINKER_FLAGS:STRING=\r\n\r\n//Flags used by the linker during the creation of modules during\r\n// DEBUG builds.\r\nCMAKE_MODULE_LINKER_FLAGS_DEBUG:STRING=\r\n\r\n//Flags used by the linker during the creation of modules during\r\n// MINSIZEREL builds.\r\nCMAKE_MODULE_LINKER_FLAGS_MINSIZEREL:STRING=\r\n\r\n//Flags used by the linker during the creation of modules during\r\n// RELEASE builds.\r\nCMAKE_MODULE_LINKER_FLAGS_RELEASE:STRING=\r\n\r\n//Flags used by the linker during the creation of modules during\r\n// RELWITHDEBINFO builds.\r\nCMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO:STRING=\r\n\r\n//Path to a program.\r\nCMAKE_NM:FILEPATH=D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-nm.exe\r\n\r\n//Value Computed by CMake\r\nCMAKE_PROJECT_DESCRIPTION:STATIC=\r\n\r\n//Value Computed by CMake\r\nCMAKE_PROJECT_HOMEPAGE_URL:STATIC=\r\n\r\n//Value Computed by CMake\r\nCMAKE_PROJECT_NAME:STATIC=MusicClion\r\n\r\n//Path to a program.\r\nCMAKE_RANLIB:FILEPATH=D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-ranlib.exe\r\n\r\n//Path to a program.\r\nCMAKE_READELF:FILEPATH=D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-readelf.exe\r\n\r\n//Flags used by the linker during the creation of shared libraries\r\n// during all build types.\r\nCMAKE_SHARED_LINKER_FLAGS:STRING=\r\n\r\n//Flags used by the linker during the creation of shared libraries\r\n// during DEBUG builds.\r\nCMAKE_SHARED_LINKER_FLAGS_DEBUG:STRING=\r\n\r\n//Flags used by the linker during the creation of shared libraries\r\n// during MINSIZEREL builds.\r\nCMAKE_SHARED_LINKER_FLAGS_MINSIZEREL:STRING=\r\n\r\n//Flags used by the linker during the creation of shared libraries\r\n// during RELEASE builds.\r\nCMAKE_SHARED_LINKER_FLAGS_RELEASE:STRING=\r\n\r\n//Flags used by the linker during the creation of shared libraries\r\n// during RELWITHDEBINFO builds.\r\nCMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO:STRING=\r\n\r\n//If set, runtime paths are not added when installing shared libraries,\r\n// but are added when building.\r\nCMAKE_SKIP_INSTALL_RPATH:BOOL=NO\r\n\r\n//If set, runtime paths are not added when using shared libraries.\r\nCMAKE_SKIP_RPATH:BOOL=NO\r\n\r\n//Flags used by the linker during the creation of static libraries\r\n// during all build types.\r\nCMAKE_STATIC_LINKER_FLAGS:STRING=\r\n\r\n//Flags used by the linker during the creation of static libraries\r\n// during DEBUG builds.\r\nCMAKE_STATIC_LINKER_FLAGS_DEBUG:STRING=\r\n\r\n//Flags used by the linker during the creation of static libraries\r\n// during MINSIZEREL builds.\r\nCMAKE_STATIC_LINKER_FLAGS_MINSIZEREL:STRING=\r\n\r\n//Flags used by the linker during the creation of static libraries\r\n// during RELEASE builds.\r\nCMAKE_STATIC_LINKER_FLAGS_RELEASE:STRING=\r\n\r\n//Flags used by the linker during the creation of static libraries\r\n// during RELWITHDEBINFO builds.\r\nCMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=\r\n\r\n//Path to a program.\r\nCMAKE_STRIP:FILEPATH=D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-strip.exe\r\n\r\n//If this value is on, makefiles will be generated without the\r\n// .SILENT directive, and all commands will be echoed to the console\r\n// during the make.  This is useful for debugging only. With Visual\r\n// Studio IDE projects all commands are done without /nologo.\r\nCMAKE_VERBOSE_MAKEFILE:BOOL=FALSE\r\n\r\n//Value Computed by CMake\r\nMusicClion_BINARY_DIR:STATIC=D:/CODE/STM32/MusicClion/cmake-build-debug\r\n\r\n//Value Computed by CMake\r\nMusicClion_IS_TOP_LEVEL:STATIC=ON\r\n\r\n//Value Computed by CMake\r\nMusicClion_SOURCE_DIR:STATIC=D:/CODE/STM32/MusicClion\r\n\r\n\r\n########################\r\n# INTERNAL cache entries\r\n########################\r\n\r\n//ADVANCED property for variable: CMAKE_ADDR2LINE\r\nCMAKE_ADDR2LINE-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_ASM_COMPILER_AR\r\nCMAKE_ASM_COMPILER_AR-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_ASM_COMPILER_RANLIB\r\nCMAKE_ASM_COMPILER_RANLIB-ADVANCED:INTERNAL=1\r\nCMAKE_ASM_COMPILER_WORKS:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_ASM_FLAGS\r\nCMAKE_ASM_FLAGS-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_ASM_FLAGS_DEBUG\r\nCMAKE_ASM_FLAGS_DEBUG-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_ASM_FLAGS_MINSIZEREL\r\nCMAKE_ASM_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_ASM_FLAGS_RELEASE\r\nCMAKE_ASM_FLAGS_RELEASE-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_ASM_FLAGS_RELWITHDEBINFO\r\nCMAKE_ASM_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1\r\n//This is the directory where this CMakeCache.txt was created\r\nCMAKE_CACHEFILE_DIR:INTERNAL=d:/CODE/STM32/MusicClion/cmake-build-debug\r\n//Major version of cmake used to create the current loaded cache\r\nCMAKE_CACHE_MAJOR_VERSION:INTERNAL=3\r\n//Minor version of cmake used to create the current loaded cache\r\nCMAKE_CACHE_MINOR_VERSION:INTERNAL=26\r\n//Patch version of cmake used to create the current loaded cache\r\nCMAKE_CACHE_PATCH_VERSION:INTERNAL=4\r\n//Path to CMake executable.\r\nCMAKE_COMMAND:INTERNAL=D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/bin/cmake.exe\r\n//Path to cpack program executable.\r\nCMAKE_CPACK_COMMAND:INTERNAL=D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/bin/cpack.exe\r\n//Path to ctest program executable.\r\nCMAKE_CTEST_COMMAND:INTERNAL=D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/bin/ctest.exe\r\n//ADVANCED property for variable: CMAKE_CXX_COMPILER_AR\r\nCMAKE_CXX_COMPILER_AR-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_CXX_COMPILER_RANLIB\r\nCMAKE_CXX_COMPILER_RANLIB-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_CXX_FLAGS\r\nCMAKE_CXX_FLAGS-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_CXX_FLAGS_DEBUG\r\nCMAKE_CXX_FLAGS_DEBUG-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_CXX_FLAGS_MINSIZEREL\r\nCMAKE_CXX_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_CXX_FLAGS_RELEASE\r\nCMAKE_CXX_FLAGS_RELEASE-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_CXX_FLAGS_RELWITHDEBINFO\r\nCMAKE_CXX_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_C_COMPILER_AR\r\nCMAKE_C_COMPILER_AR-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_C_COMPILER_RANLIB\r\nCMAKE_C_COMPILER_RANLIB-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_C_FLAGS\r\nCMAKE_C_FLAGS-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_C_FLAGS_DEBUG\r\nCMAKE_C_FLAGS_DEBUG-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_C_FLAGS_MINSIZEREL\r\nCMAKE_C_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_C_FLAGS_RELEASE\r\nCMAKE_C_FLAGS_RELEASE-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_C_FLAGS_RELWITHDEBINFO\r\nCMAKE_C_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_DLLTOOL\r\nCMAKE_DLLTOOL-ADVANCED:INTERNAL=1\r\n//Executable file format\r\nCMAKE_EXECUTABLE_FORMAT:INTERNAL=ELF\r\n//ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS\r\nCMAKE_EXE_LINKER_FLAGS-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS_DEBUG\r\nCMAKE_EXE_LINKER_FLAGS_DEBUG-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS_MINSIZEREL\r\nCMAKE_EXE_LINKER_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS_RELEASE\r\nCMAKE_EXE_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO\r\nCMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_EXPORT_COMPILE_COMMANDS\r\nCMAKE_EXPORT_COMPILE_COMMANDS-ADVANCED:INTERNAL=1\r\n//Name of external makefile project generator.\r\nCMAKE_EXTRA_GENERATOR:INTERNAL=\r\n//Name of generator.\r\nCMAKE_GENERATOR:INTERNAL=Ninja\r\n//Generator instance identifier.\r\nCMAKE_GENERATOR_INSTANCE:INTERNAL=\r\n//Name of generator platform.\r\nCMAKE_GENERATOR_PLATFORM:INTERNAL=\r\n//Name of generator toolset.\r\nCMAKE_GENERATOR_TOOLSET:INTERNAL=\r\n//Source directory with the top level CMakeLists.txt file for this\r\n// project\r\nCMAKE_HOME_DIRECTORY:INTERNAL=D:/CODE/STM32/MusicClion\r\n//ADVANCED property for variable: CMAKE_LINKER\r\nCMAKE_LINKER-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS\r\nCMAKE_MODULE_LINKER_FLAGS-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS_DEBUG\r\nCMAKE_MODULE_LINKER_FLAGS_DEBUG-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS_MINSIZEREL\r\nCMAKE_MODULE_LINKER_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS_RELEASE\r\nCMAKE_MODULE_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO\r\nCMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_NM\r\nCMAKE_NM-ADVANCED:INTERNAL=1\r\n//number of local generators\r\nCMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1\r\n//Platform information initialized\r\nCMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_RANLIB\r\nCMAKE_RANLIB-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_READELF\r\nCMAKE_READELF-ADVANCED:INTERNAL=1\r\n//Path to CMake installation.\r\nCMAKE_ROOT:INTERNAL=D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/share/cmake-3.26\r\n//ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS\r\nCMAKE_SHARED_LINKER_FLAGS-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS_DEBUG\r\nCMAKE_SHARED_LINKER_FLAGS_DEBUG-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS_MINSIZEREL\r\nCMAKE_SHARED_LINKER_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS_RELEASE\r\nCMAKE_SHARED_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO\r\nCMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_SKIP_INSTALL_RPATH\r\nCMAKE_SKIP_INSTALL_RPATH-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_SKIP_RPATH\r\nCMAKE_SKIP_RPATH-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_STATIC_LINKER_FLAGS\r\nCMAKE_STATIC_LINKER_FLAGS-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_STATIC_LINKER_FLAGS_DEBUG\r\nCMAKE_STATIC_LINKER_FLAGS_DEBUG-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_STATIC_LINKER_FLAGS_MINSIZEREL\r\nCMAKE_STATIC_LINKER_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_STATIC_LINKER_FLAGS_RELEASE\r\nCMAKE_STATIC_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO\r\nCMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_STRIP\r\nCMAKE_STRIP-ADVANCED:INTERNAL=1\r\n//ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE\r\nCMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1\r\n\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/cmake-build-debug/CMakeCache.txt b/cmake-build-debug/CMakeCache.txt
+--- a/cmake-build-debug/CMakeCache.txt	(revision 7ddb83a0e43efd066b57a113d0b6fcb819026f10)
++++ b/cmake-build-debug/CMakeCache.txt	(date 1706521661961)
+@@ -44,9 +44,23 @@
+ // MinSizeRel ...
+ CMAKE_BUILD_TYPE:STRING=Debug
+ 
++//Id string of the compiler for the CodeBlocks IDE. Automatically
++// detected when left empty
++CMAKE_CODEBLOCKS_COMPILER_ID:STRING=
++
++//The CodeBlocks executable
++CMAKE_CODEBLOCKS_EXECUTABLE:FILEPATH=CMAKE_CODEBLOCKS_EXECUTABLE-NOTFOUND
++
++//Additional command line arguments when CodeBlocks invokes make.
++// Enter e.g. -j<some_number> to get parallel builds
++CMAKE_CODEBLOCKS_MAKE_ARGUMENTS:STRING=
++
+ //Enable colored diagnostics throughout.
+ CMAKE_COLOR_DIAGNOSTICS:BOOL=ON
+ 
++//CXX compiler
++CMAKE_CXX_COMPILER:STRING=D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-g++.exe
++
+ //A wrapper around 'ar' adding the appropriate '--plugin' option
+ // for the GCC compiler
+ CMAKE_CXX_COMPILER_AR:FILEPATH=D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc-ar.exe
+@@ -70,6 +84,9 @@
+ //Flags used by the CXX compiler during RELWITHDEBINFO builds.
+ CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
+ 
++//C compiler
++CMAKE_C_COMPILER:STRING=D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc.exe
++
+ //A wrapper around 'ar' adding the appropriate '--plugin' option
+ // for the GCC compiler
+ CMAKE_C_COMPILER_AR:FILEPATH=D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-gcc-ar.exe
+@@ -94,7 +111,7 @@
+ CMAKE_C_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
+ 
+ //Path to a program.
+-CMAKE_DLLTOOL:FILEPATH=E:/QT/Tools/mingw1120_64/bin/dlltool.exe
++CMAKE_DLLTOOL:FILEPATH=D:/MinGW/bin/dlltool.exe
+ 
+ //Flags used by the linker during all build types.
+ CMAKE_EXE_LINKER_FLAGS:STRING=
+@@ -111,9 +128,6 @@
+ //Flags used by the linker during RELWITHDEBINFO builds.
+ CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
+ 
+-//Enable/Disable output of compile commands during generation.
+-CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=
+-
+ //Value Computed by CMake.
+ CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=D:/CODE/STM32/MusicClion/cmake-build-debug/CMakeFiles/pkgRedirects
+ 
+@@ -123,8 +137,8 @@
+ //Path to a program.
+ CMAKE_LINKER:FILEPATH=D:/ProgramFiles/GNU Arm Embedded Toolchain/10 2021.10/bin/arm-none-eabi-ld.exe
+ 
+-//make program
+-CMAKE_MAKE_PROGRAM:FILEPATH=D:/CLion/CLion 2022.2.3/bin/ninja/win/x64/ninja.exe
++//No help, variable specified on the command line.
++CMAKE_MAKE_PROGRAM:UNINITIALIZED=D:/MinGW/bin/mingw32-make.exe
+ 
+ //Flags used by the linker during the creation of modules during
+ // all build types.
+@@ -229,6 +243,36 @@
+ //Value Computed by CMake
+ MusicClion_SOURCE_DIR:STATIC=D:/CODE/STM32/MusicClion
+ 
++//Path to a program.
++ProcessorCount_cmd_getconf:FILEPATH=ProcessorCount_cmd_getconf-NOTFOUND
++
++//Path to a program.
++ProcessorCount_cmd_lsconf:FILEPATH=ProcessorCount_cmd_lsconf-NOTFOUND
++
++//Path to a program.
++ProcessorCount_cmd_machinfo:FILEPATH=ProcessorCount_cmd_machinfo-NOTFOUND
++
++//Path to a program.
++ProcessorCount_cmd_mpsched:FILEPATH=ProcessorCount_cmd_mpsched-NOTFOUND
++
++//Path to a program.
++ProcessorCount_cmd_nproc:FILEPATH=ProcessorCount_cmd_nproc-NOTFOUND
++
++//Path to a program.
++ProcessorCount_cmd_pidin:FILEPATH=ProcessorCount_cmd_pidin-NOTFOUND
++
++//Path to a program.
++ProcessorCount_cmd_psrinfo:FILEPATH=ProcessorCount_cmd_psrinfo-NOTFOUND
++
++//Path to a program.
++ProcessorCount_cmd_sysctl:FILEPATH=ProcessorCount_cmd_sysctl-NOTFOUND
++
++//Path to a program.
++ProcessorCount_cmd_sysinfo:FILEPATH=ProcessorCount_cmd_sysinfo-NOTFOUND
++
++//Path to a program.
++ProcessorCount_cmd_uname:FILEPATH=ProcessorCount_cmd_uname-NOTFOUND
++
+ 
+ ########################
+ # INTERNAL cache entries
+@@ -265,6 +309,8 @@
+ CMAKE_CPACK_COMMAND:INTERNAL=D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/bin/cpack.exe
+ //Path to ctest program executable.
+ CMAKE_CTEST_COMMAND:INTERNAL=D:/CLion/CLion 2022.2.3/bin/cmake/win/x64/bin/ctest.exe
++//ADVANCED property for variable: CMAKE_CXX_COMPILER
++CMAKE_CXX_COMPILER-ADVANCED:INTERNAL=1
+ //ADVANCED property for variable: CMAKE_CXX_COMPILER_AR
+ CMAKE_CXX_COMPILER_AR-ADVANCED:INTERNAL=1
+ //ADVANCED property for variable: CMAKE_CXX_COMPILER_RANLIB
+@@ -279,6 +325,8 @@
+ CMAKE_CXX_FLAGS_RELEASE-ADVANCED:INTERNAL=1
+ //ADVANCED property for variable: CMAKE_CXX_FLAGS_RELWITHDEBINFO
+ CMAKE_CXX_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
++//ADVANCED property for variable: CMAKE_C_COMPILER
++CMAKE_C_COMPILER-ADVANCED:INTERNAL=1
+ //ADVANCED property for variable: CMAKE_C_COMPILER_AR
+ CMAKE_C_COMPILER_AR-ADVANCED:INTERNAL=1
+ //ADVANCED property for variable: CMAKE_C_COMPILER_RANLIB
+@@ -307,12 +355,18 @@
+ CMAKE_EXE_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
+ //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO
+ CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
+-//ADVANCED property for variable: CMAKE_EXPORT_COMPILE_COMMANDS
+-CMAKE_EXPORT_COMPILE_COMMANDS-ADVANCED:INTERNAL=1
+ //Name of external makefile project generator.
+-CMAKE_EXTRA_GENERATOR:INTERNAL=
++CMAKE_EXTRA_GENERATOR:INTERNAL=CodeBlocks
++//CXX compiler system defined macros
++CMAKE_EXTRA_GENERATOR_CXX_SYSTEM_DEFINED_MACROS:INTERNAL=__STDC__;1;__STDC_VERSION__;201710L;__STDC_UTF_16__;1;__STDC_UTF_32__;1;__STDC_HOSTED__;1;__GNUC__;10;__GNUC_MINOR__;3;__GNUC_PATCHLEVEL__;1;__VERSION__;"10.3.1 20210824 (release)";__ATOMIC_RELAXED;0;__ATOMIC_SEQ_CST;5;__ATOMIC_ACQUIRE;2;__ATOMIC_RELEASE;3;__ATOMIC_ACQ_REL;4;__ATOMIC_CONSUME;1;__FINITE_MATH_ONLY__;0;__SIZEOF_INT__;4;__SIZEOF_LONG__;4;__SIZEOF_LONG_LONG__;8;__SIZEOF_SHORT__;2;__SIZEOF_FLOAT__;4;__SIZEOF_DOUBLE__;8;__SIZEOF_LONG_DOUBLE__;8;__SIZEOF_SIZE_T__;4;__CHAR_BIT__;8;__BIGGEST_ALIGNMENT__;8;__ORDER_LITTLE_ENDIAN__;1234;__ORDER_BIG_ENDIAN__;4321;__ORDER_PDP_ENDIAN__;3412;__BYTE_ORDER__;__ORDER_LITTLE_ENDIAN__;__FLOAT_WORD_ORDER__;__ORDER_LITTLE_ENDIAN__;__SIZEOF_POINTER__;4;__SIZE_TYPE__;unsigned int;__PTRDIFF_TYPE__;int;__WCHAR_TYPE__;unsigned int;__WINT_TYPE__;unsigned int;__INTMAX_TYPE__;long long int;__UINTMAX_TYPE__;long long unsigned int;__CHAR16_TYPE__;short unsigned int;__CHAR32_TYPE__;long unsigned int;__SIG_ATOMIC_TYPE__;int;__INT8_TYPE__;signed char;__INT16_TYPE__;short int;__INT32_TYPE__;long int;__INT64_TYPE__;long long int;__UINT8_TYPE__;unsigned char;__UINT16_TYPE__;short unsigned int;__UINT32_TYPE__;long unsigned int;__UINT64_TYPE__;long long unsigned int;__INT_LEAST8_TYPE__;signed char;__INT_LEAST16_TYPE__;short int;__INT_LEAST32_TYPE__;long int;__INT_LEAST64_TYPE__;long long int;__UINT_LEAST8_TYPE__;unsigned char;__UINT_LEAST16_TYPE__;short unsigned int;__UINT_LEAST32_TYPE__;long unsigned int;__UINT_LEAST64_TYPE__;long long unsigned int;__INT_FAST8_TYPE__;int;__INT_FAST16_TYPE__;int;__INT_FAST32_TYPE__;int;__INT_FAST64_TYPE__;long long int;__UINT_FAST8_TYPE__;unsigned int;__UINT_FAST16_TYPE__;unsigned int;__UINT_FAST32_TYPE__;unsigned int;__UINT_FAST64_TYPE__;long long unsigned int;__INTPTR_TYPE__;int;__UINTPTR_TYPE__;unsigned int;__GXX_ABI_VERSION;1014;__SCHAR_MAX__;0x7f;__SHRT_MAX__;0x7fff;__INT_MAX__;0x7fffffff;__LONG_MAX__;0x7fffffffL;__LONG_LONG_MAX__;0x7fffffffffffffffLL;__WCHAR_MAX__;0xffffffffU;__WCHAR_MIN__;0U;__WINT_MAX__;0xffffffffU;__WINT_MIN__;0U;__PTRDIFF_MAX__;0x7fffffff;__SIZE_MAX__;0xffffffffU;__SCHAR_WIDTH__;8;__SHRT_WIDTH__;16;__INT_WIDTH__;32;__LONG_WIDTH__;32;__LONG_LONG_WIDTH__;64;__WCHAR_WIDTH__;32;__WINT_WIDTH__;32;__PTRDIFF_WIDTH__;32;__SIZE_WIDTH__;32;__INTMAX_MAX__;0x7fffffffffffffffLL;__INTMAX_C(c);c ## LL;__UINTMAX_MAX__;0xffffffffffffffffULL;__UINTMAX_C(c);c ## ULL;__INTMAX_WIDTH__;64;__SIG_ATOMIC_MAX__;0x7fffffff;__SIG_ATOMIC_MIN__;(-__SIG_ATOMIC_MAX__ - 1);__SIG_ATOMIC_WIDTH__;32;__INT8_MAX__;0x7f;__INT16_MAX__;0x7fff;__INT32_MAX__;0x7fffffffL;__INT64_MAX__;0x7fffffffffffffffLL;__UINT8_MAX__;0xff;__UINT16_MAX__;0xffff;__UINT32_MAX__;0xffffffffUL;__UINT64_MAX__;0xffffffffffffffffULL;__INT_LEAST8_MAX__;0x7f;__INT8_C(c);c;__INT_LEAST8_WIDTH__;8;__INT_LEAST16_MAX__;0x7fff;__INT16_C(c);c;__INT_LEAST16_WIDTH__;16;__INT_LEAST32_MAX__;0x7fffffffL;__INT32_C(c);c ## L;__INT_LEAST32_WIDTH__;32;__INT_LEAST64_MAX__;0x7fffffffffffffffLL;__INT64_C(c);c ## LL;__INT_LEAST64_WIDTH__;64;__UINT_LEAST8_MAX__;0xff;__UINT8_C(c);c;__UINT_LEAST16_MAX__;0xffff;__UINT16_C(c);c;__UINT_LEAST32_MAX__;0xffffffffUL;__UINT32_C(c);c ## UL;__UINT_LEAST64_MAX__;0xffffffffffffffffULL;__UINT64_C(c);c ## ULL;__INT_FAST8_MAX__;0x7fffffff;__INT_FAST8_WIDTH__;32;__INT_FAST16_MAX__;0x7fffffff;__INT_FAST16_WIDTH__;32;__INT_FAST32_MAX__;0x7fffffff;__INT_FAST32_WIDTH__;32;__INT_FAST64_MAX__;0x7fffffffffffffffLL;__INT_FAST64_WIDTH__;64;__UINT_FAST8_MAX__;0xffffffffU;__UINT_FAST16_MAX__;0xffffffffU;__UINT_FAST32_MAX__;0xffffffffU;__UINT_FAST64_MAX__;0xffffffffffffffffULL;__INTPTR_MAX__;0x7fffffff;__INTPTR_WIDTH__;32;__UINTPTR_MAX__;0xffffffffU;__GCC_IEC_559;0;__GCC_IEC_559_COMPLEX;0;__FLT_EVAL_METHOD__;0;__FLT_EVAL_METHOD_TS_18661_3__;0;__DEC_EVAL_METHOD__;2;__FLT_RADIX__;2;__FLT_MANT_DIG__;24;__FLT_DIG__;6;__FLT_MIN_EXP__;(-125);__FLT_MIN_10_EXP__;(-37);__FLT_MAX_EXP__;128;__FLT_MAX_10_EXP__;38;__FLT_DECIMAL_DIG__;9;__FLT_MAX__;3.4028234663852886e+38F;__FLT_NORM_MAX__;3.4028234663852886e+38F;__FLT_MIN__;1.1754943508222875e-38F;__FLT_EPSILON__;1.1920928955078125e-7F;__FLT_DENORM_MIN__;1.4012984643248171e-45F;__FLT_HAS_DENORM__;1;__FLT_HAS_INFINITY__;1;__FLT_HAS_QUIET_NAN__;1;__DBL_MANT_DIG__;53;__DBL_DIG__;15;__DBL_MIN_EXP__;(-1021);__DBL_MIN_10_EXP__;(-307);__DBL_MAX_EXP__;1024;__DBL_MAX_10_EXP__;308;__DBL_DECIMAL_DIG__;17;__DBL_MAX__;((double)1.7976931348623157e+308L);__DBL_NORM_MAX__;((double)1.7976931348623157e+308L);__DBL_MIN__;((double)2.2250738585072014e-308L);__DBL_EPSILON__;((double)2.2204460492503131e-16L);__DBL_DENORM_MIN__;((double)4.9406564584124654e-324L);__DBL_HAS_DENORM__;1;__DBL_HAS_INFINITY__;1;__DBL_HAS_QUIET_NAN__;1;__LDBL_MANT_DIG__;53;__LDBL_DIG__;15;__LDBL_MIN_EXP__;(-1021);__LDBL_MIN_10_EXP__;(-307);__LDBL_MAX_EXP__;1024;__LDBL_MAX_10_EXP__;308;__DECIMAL_DIG__;17;__LDBL_DECIMAL_DIG__;17;__LDBL_MAX__;1.7976931348623157e+308L;__LDBL_NORM_MAX__;1.7976931348623157e+308L;__LDBL_MIN__;2.2250738585072014e-308L;__LDBL_EPSILON__;2.2204460492503131e-16L;__LDBL_DENORM_MIN__;4.9406564584124654e-324L;__LDBL_HAS_DENORM__;1;__LDBL_HAS_INFINITY__;1;__LDBL_HAS_QUIET_NAN__;1;__FLT32_MANT_DIG__;24;__FLT32_DIG__;6;__FLT32_MIN_EXP__;(-125);__FLT32_MIN_10_EXP__;(-37);__FLT32_MAX_EXP__;128;__FLT32_MAX_10_EXP__;38;__FLT32_DECIMAL_DIG__;9;__FLT32_MAX__;3.4028234663852886e+38F32;__FLT32_NORM_MAX__;3.4028234663852886e+38F32;__FLT32_MIN__;1.1754943508222875e-38F32;__FLT32_EPSILON__;1.1920928955078125e-7F32;__FLT32_DENORM_MIN__;1.4012984643248171e-45F32;__FLT32_HAS_DENORM__;1;__FLT32_HAS_INFINITY__;1;__FLT32_HAS_QUIET_NAN__;1;__FLT64_MANT_DIG__;53;__FLT64_DIG__;15;__FLT64_MIN_EXP__;(-1021);__FLT64_MIN_10_EXP__;(-307);__FLT64_MAX_EXP__;1024;__FLT64_MAX_10_EXP__;308;__FLT64_DECIMAL_DIG__;17;__FLT64_MAX__;1.7976931348623157e+308F64;__FLT64_NORM_MAX__;1.7976931348623157e+308F64;__FLT64_MIN__;2.2250738585072014e-308F64;__FLT64_EPSILON__;2.2204460492503131e-16F64;__FLT64_DENORM_MIN__;4.9406564584124654e-324F64;__FLT64_HAS_DENORM__;1;__FLT64_HAS_INFINITY__;1;__FLT64_HAS_QUIET_NAN__;1;__FLT32X_MANT_DIG__;53;__FLT32X_DIG__;15;__FLT32X_MIN_EXP__;(-1021);__FLT32X_MIN_10_EXP__;(-307);__FLT32X_MAX_EXP__;1024;__FLT32X_MAX_10_EXP__;308;__FLT32X_DECIMAL_DIG__;17;__FLT32X_MAX__;1.7976931348623157e+308F32x;__FLT32X_NORM_MAX__;1.7976931348623157e+308F32x;__FLT32X_MIN__;2.2250738585072014e-308F32x;__FLT32X_EPSILON__;2.2204460492503131e-16F32x;__FLT32X_DENORM_MIN__;4.9406564584124654e-324F32x;__FLT32X_HAS_DENORM__;1;__FLT32X_HAS_INFINITY__;1;__FLT32X_HAS_QUIET_NAN__;1;__SFRACT_FBIT__;7;__SFRACT_IBIT__;0;__SFRACT_MIN__;(-0.5HR-0.5HR);__SFRACT_MAX__;0X7FP-7HR;__SFRACT_EPSILON__;0x1P-7HR;__USFRACT_FBIT__;8;__USFRACT_IBIT__;0;__USFRACT_MIN__;0.0UHR;__USFRACT_MAX__;0XFFP-8UHR;__USFRACT_EPSILON__;0x1P-8UHR;__FRACT_FBIT__;15;__FRACT_IBIT__;0;__FRACT_MIN__;(-0.5R-0.5R);__FRACT_MAX__;0X7FFFP-15R;__FRACT_EPSILON__;0x1P-15R;__UFRACT_FBIT__;16;__UFRACT_IBIT__;0;__UFRACT_MIN__;0.0UR;__UFRACT_MAX__;0XFFFFP-16UR;__UFRACT_EPSILON__;0x1P-16UR;__LFRACT_FBIT__;31;__LFRACT_IBIT__;0;__LFRACT_MIN__;(-0.5LR-0.5LR);__LFRACT_MAX__;0X7FFFFFFFP-31LR;__LFRACT_EPSILON__;0x1P-31LR;__ULFRACT_FBIT__;32;__ULFRACT_IBIT__;0;__ULFRACT_MIN__;0.0ULR;__ULFRACT_MAX__;0XFFFFFFFFP-32ULR;__ULFRACT_EPSILON__;0x1P-32ULR;__LLFRACT_FBIT__;63;__LLFRACT_IBIT__;0;__LLFRACT_MIN__;(-0.5LLR-0.5LLR);__LLFRACT_MAX__;0X7FFFFFFFFFFFFFFFP-63LLR;__LLFRACT_EPSILON__;0x1P-63LLR;__ULLFRACT_FBIT__;64;__ULLFRACT_IBIT__;0;__ULLFRACT_MIN__;0.0ULLR;__ULLFRACT_MAX__;0XFFFFFFFFFFFFFFFFP-64ULLR;__ULLFRACT_EPSILON__;0x1P-64ULLR;__SACCUM_FBIT__;7;__SACCUM_IBIT__;8;__SACCUM_MIN__;(-0X1P7HK-0X1P7HK);__SACCUM_MAX__;0X7FFFP-7HK;__SACCUM_EPSILON__;0x1P-7HK;__USACCUM_FBIT__;8;__USACCUM_IBIT__;8;__USACCUM_MIN__;0.0UHK;__USACCUM_MAX__;0XFFFFP-8UHK;__USACCUM_EPSILON__;0x1P-8UHK;__ACCUM_FBIT__;15;__ACCUM_IBIT__;16;__ACCUM_MIN__;(-0X1P15K-0X1P15K);__ACCUM_MAX__;0X7FFFFFFFP-15K;__ACCUM_EPSILON__;0x1P-15K;__UACCUM_FBIT__;16;__UACCUM_IBIT__;16;__UACCUM_MIN__;0.0UK;__UACCUM_MAX__;0XFFFFFFFFP-16UK;__UACCUM_EPSILON__;0x1P-16UK;__LACCUM_FBIT__;31;__LACCUM_IBIT__;32;__LACCUM_MIN__;(-0X1P31LK-0X1P31LK);__LACCUM_MAX__;0X7FFFFFFFFFFFFFFFP-31LK;__LACCUM_EPSILON__;0x1P-31LK;__ULACCUM_FBIT__;32;__ULACCUM_IBIT__;32;__ULACCUM_MIN__;0.0ULK;__ULACCUM_MAX__;0XFFFFFFFFFFFFFFFFP-32ULK;__ULACCUM_EPSILON__;0x1P-32ULK;__LLACCUM_FBIT__;31;__LLACCUM_IBIT__;32;__LLACCUM_MIN__;(-0X1P31LLK-0X1P31LLK);__LLACCUM_MAX__;0X7FFFFFFFFFFFFFFFP-31LLK;__LLACCUM_EPSILON__;0x1P-31LLK;__ULLACCUM_FBIT__;32;__ULLACCUM_IBIT__;32;__ULLACCUM_MIN__;0.0ULLK;__ULLACCUM_MAX__;0XFFFFFFFFFFFFFFFFP-32ULLK;__ULLACCUM_EPSILON__;0x1P-32ULLK;__QQ_FBIT__;7;__QQ_IBIT__;0;__HQ_FBIT__;15;__HQ_IBIT__;0;__SQ_FBIT__;31;__SQ_IBIT__;0;__DQ_FBIT__;63;__DQ_IBIT__;0;__TQ_FBIT__;127;__TQ_IBIT__;0;__UQQ_FBIT__;8;__UQQ_IBIT__;0;__UHQ_FBIT__;16;__UHQ_IBIT__;0;__USQ_FBIT__;32;__USQ_IBIT__;0;__UDQ_FBIT__;64;__UDQ_IBIT__;0;__UTQ_FBIT__;128;__UTQ_IBIT__;0;__HA_FBIT__;7;__HA_IBIT__;8;__SA_FBIT__;15;__SA_IBIT__;16;__DA_FBIT__;31;__DA_IBIT__;32;__TA_FBIT__;63;__TA_IBIT__;64;__UHA_FBIT__;8;__UHA_IBIT__;8;__USA_FBIT__;16;__USA_IBIT__;16;__UDA_FBIT__;32;__UDA_IBIT__;32;__UTA_FBIT__;64;__UTA_IBIT__;64;__REGISTER_PREFIX__; ;__USER_LABEL_PREFIX__; ;__GNUC_STDC_INLINE__;1;__NO_INLINE__;1;__CHAR_UNSIGNED__;1;__GCC_ATOMIC_BOOL_LOCK_FREE;1;__GCC_ATOMIC_CHAR_LOCK_FREE;1;__GCC_ATOMIC_CHAR16_T_LOCK_FREE;1;__GCC_ATOMIC_CHAR32_T_LOCK_FREE;1;__GCC_ATOMIC_WCHAR_T_LOCK_FREE;1;__GCC_ATOMIC_SHORT_LOCK_FREE;1;__GCC_ATOMIC_INT_LOCK_FREE;1;__GCC_ATOMIC_LONG_LOCK_FREE;1;__GCC_ATOMIC_LLONG_LOCK_FREE;1;__GCC_ATOMIC_TEST_AND_SET_TRUEVAL;1;__GCC_ATOMIC_POINTER_LOCK_FREE;1;__HAVE_SPECULATION_SAFE_VALUE;1;__PRAGMA_REDEFINE_EXTNAME;1;__SIZEOF_WCHAR_T__;4;__SIZEOF_WINT_T__;4;__SIZEOF_PTRDIFF_T__;4;__ARM_32BIT_STATE;1;__ARM_SIZEOF_MINIMAL_ENUM;1;__ARM_SIZEOF_WCHAR_T;4;__arm__;1;__ARM_ARCH;4;__ARM_ARCH_ISA_ARM;1;__APCS_32__;1;__GCC_ASM_FLAG_OUTPUTS__;1;__ARM_ARCH_ISA_THUMB;1;__ARMEL__;1;__SOFTFP__;1;__VFP_FP__;1;__THUMB_INTERWORK__;1;__ARM_ARCH_4T__;1;__ARM_PCS;1;__ARM_EABI__;1;__ARM_FEATURE_COPROC;1;__GXX_TYPEINFO_EQUALITY_INLINE;0;__ELF__;1;__USES_INITFINI__;1;__STDC__;1;__cplusplus;201402L;__STDC_UTF_16__;1;__STDC_UTF_32__;1;__STDC_HOSTED__;1;__GNUC__;10;__GNUC_MINOR__;3;__GNUC_PATCHLEVEL__;1;__VERSION__;"10.3.1 20210824 (release)";__ATOMIC_RELAXED;0;__ATOMIC_SEQ_CST;5;__ATOMIC_ACQUIRE;2;__ATOMIC_RELEASE;3;__ATOMIC_ACQ_REL;4;__ATOMIC_CONSUME;1;__FINITE_MATH_ONLY__;0;__SIZEOF_INT__;4;__SIZEOF_LONG__;4;__SIZEOF_LONG_LONG__;8;__SIZEOF_SHORT__;2;__SIZEOF_FLOAT__;4;__SIZEOF_DOUBLE__;8;__SIZEOF_LONG_DOUBLE__;8;__SIZEOF_SIZE_T__;4;__CHAR_BIT__;8;__BIGGEST_ALIGNMENT__;8;__ORDER_LITTLE_ENDIAN__;1234;__ORDER_BIG_ENDIAN__;4321;__ORDER_PDP_ENDIAN__;3412;__BYTE_ORDER__;__ORDER_LITTLE_ENDIAN__;__FLOAT_WORD_ORDER__;__ORDER_LITTLE_ENDIAN__;__SIZEOF_POINTER__;4;__GNUG__;10;__SIZE_TYPE__;unsigned int;__PTRDIFF_TYPE__;int;__WCHAR_TYPE__;unsigned int;__WINT_TYPE__;unsigned int;__INTMAX_TYPE__;long long int;__UINTMAX_TYPE__;long long unsigned int;__CHAR16_TYPE__;short unsigned int;__CHAR32_TYPE__;long unsigned int;__SIG_ATOMIC_TYPE__;int;__INT8_TYPE__;signed char;__INT16_TYPE__;short int;__INT32_TYPE__;long int;__INT64_TYPE__;long long int;__UINT8_TYPE__;unsigned char;__UINT16_TYPE__;short unsigned int;__UINT32_TYPE__;long unsigned int;__UINT64_TYPE__;long long unsigned int;__INT_LEAST8_TYPE__;signed char;__INT_LEAST16_TYPE__;short int;__INT_LEAST32_TYPE__;long int;__INT_LEAST64_TYPE__;long long int;__UINT_LEAST8_TYPE__;unsigned char;__UINT_LEAST16_TYPE__;short unsigned int;__UINT_LEAST32_TYPE__;long unsigned int;__UINT_LEAST64_TYPE__;long long unsigned int;__INT_FAST8_TYPE__;int;__INT_FAST16_TYPE__;int;__INT_FAST32_TYPE__;int;__INT_FAST64_TYPE__;long long int;__UINT_FAST8_TYPE__;unsigned int;__UINT_FAST16_TYPE__;unsigned int;__UINT_FAST32_TYPE__;unsigned int;__UINT_FAST64_TYPE__;long long unsigned int;__INTPTR_TYPE__;int;__UINTPTR_TYPE__;unsigned int;__GXX_WEAK__;1;__DEPRECATED;1;__GXX_RTTI;1;__cpp_rtti;199711L;__GXX_EXPERIMENTAL_CXX0X__;1;__cpp_binary_literals;201304L;__cpp_hex_float;201603L;__cpp_runtime_arrays;198712L;__cpp_unicode_characters;200704L;__cpp_raw_strings;200710L;__cpp_unicode_literals;200710L;__cpp_user_defined_literals;200809L;__cpp_lambdas;200907L;__cpp_range_based_for;200907L;__cpp_static_assert;200410L;__cpp_decltype;200707L;__cpp_attributes;200809L;__cpp_rvalue_reference;200610L;__cpp_rvalue_references;200610L;__cpp_variadic_templates;200704L;__cpp_initializer_lists;200806L;__cpp_delegating_constructors;200604L;__cpp_nsdmi;200809L;__cpp_inheriting_constructors;201511L;__cpp_ref_qualifiers;200710L;__cpp_alias_templates;200704L;__cpp_return_type_deduction;201304L;__cpp_init_captures;201304L;__cpp_generic_lambdas;201304L;__cpp_constexpr;201304L;__cpp_decltype_auto;201304L;__cpp_aggregate_nsdmi;201304L;__cpp_variable_templates;201304L;__cpp_digit_separators;201309L;__cpp_sized_deallocation;201309L;__cpp_threadsafe_static_init;200806L;__EXCEPTIONS;1;__cpp_exceptions;199711L;__GXX_ABI_VERSION;1014;__SCHAR_MAX__;0x7f;__SHRT_MAX__;0x7fff;__INT_MAX__;0x7fffffff;__LONG_MAX__;0x7fffffffL;__LONG_LONG_MAX__;0x7fffffffffffffffLL;__WCHAR_MAX__;0xffffffffU;__WCHAR_MIN__;0U;__WINT_MAX__;0xffffffffU;__WINT_MIN__;0U;__PTRDIFF_MAX__;0x7fffffff;__SIZE_MAX__;0xffffffffU;__SCHAR_WIDTH__;8;__SHRT_WIDTH__;16;__INT_WIDTH__;32;__LONG_WIDTH__;32;__LONG_LONG_WIDTH__;64;__WCHAR_WIDTH__;32;__WINT_WIDTH__;32;__PTRDIFF_WIDTH__;32;__SIZE_WIDTH__;32;__INTMAX_MAX__;0x7fffffffffffffffLL;__INTMAX_C(c);c ## LL;__UINTMAX_MAX__;0xffffffffffffffffULL;__UINTMAX_C(c);c ## ULL;__INTMAX_WIDTH__;64;__SIG_ATOMIC_MAX__;0x7fffffff;__SIG_ATOMIC_MIN__;(-__SIG_ATOMIC_MAX__ - 1);__SIG_ATOMIC_WIDTH__;32;__INT8_MAX__;0x7f;__INT16_MAX__;0x7fff;__INT32_MAX__;0x7fffffffL;__INT64_MAX__;0x7fffffffffffffffLL;__UINT8_MAX__;0xff;__UINT16_MAX__;0xffff;__UINT32_MAX__;0xffffffffUL;__UINT64_MAX__;0xffffffffffffffffULL;__INT_LEAST8_MAX__;0x7f;__INT8_C(c);c;__INT_LEAST8_WIDTH__;8;__INT_LEAST16_MAX__;0x7fff;__INT16_C(c);c;__INT_LEAST16_WIDTH__;16;__INT_LEAST32_MAX__;0x7fffffffL;__INT32_C(c);c ## L;__INT_LEAST32_WIDTH__;32;__INT_LEAST64_MAX__;0x7fffffffffffffffLL;__INT64_C(c);c ## LL;__INT_LEAST64_WIDTH__;64;__UINT_LEAST8_MAX__;0xff;__UINT8_C(c);c;__UINT_LEAST16_MAX__;0xffff;__UINT16_C(c);c;__UINT_LEAST32_MAX__;0xffffffffUL;__UINT32_C(c);c ## UL;__UINT_LEAST64_MAX__;0xffffffffffffffffULL;__UINT64_C(c);c ## ULL;__INT_FAST8_MAX__;0x7fffffff;__INT_FAST8_WIDTH__;32;__INT_FAST16_MAX__;0x7fffffff;__INT_FAST16_WIDTH__;32;__INT_FAST32_MAX__;0x7fffffff;__INT_FAST32_WIDTH__;32;__INT_FAST64_MAX__;0x7fffffffffffffffLL;__INT_FAST64_WIDTH__;64;__UINT_FAST8_MAX__;0xffffffffU;__UINT_FAST16_MAX__;0xffffffffU;__UINT_FAST32_MAX__;0xffffffffU;__UINT_FAST64_MAX__;0xffffffffffffffffULL;__INTPTR_MAX__;0x7fffffff;__INTPTR_WIDTH__;32;__UINTPTR_MAX__;0xffffffffU;__GCC_IEC_559;0;__GCC_IEC_559_COMPLEX;0;__FLT_EVAL_METHOD__;0;__FLT_EVAL_METHOD_TS_18661_3__;0;__DEC_EVAL_METHOD__;2;__FLT_RADIX__;2;__FLT_MANT_DIG__;24;__FLT_DIG__;6;__FLT_MIN_EXP__;(-125);__FLT_MIN_10_EXP__;(-37);__FLT_MAX_EXP__;128;__FLT_MAX_10_EXP__;38;__FLT_DECIMAL_DIG__;9;__FLT_MAX__;3.4028234663852886e+38F;__FLT_NORM_MAX__;3.4028234663852886e+38F;__FLT_MIN__;1.1754943508222875e-38F;__FLT_EPSILON__;1.1920928955078125e-7F;__FLT_DENORM_MIN__;1.4012984643248171e-45F;__FLT_HAS_DENORM__;1;__FLT_HAS_INFINITY__;1;__FLT_HAS_QUIET_NAN__;1;__DBL_MANT_DIG__;53;__DBL_DIG__;15;__DBL_MIN_EXP__;(-1021);__DBL_MIN_10_EXP__;(-307);__DBL_MAX_EXP__;1024;__DBL_MAX_10_EXP__;308;__DBL_DECIMAL_DIG__;17;__DBL_MAX__;double(1.7976931348623157e+308L);__DBL_NORM_MAX__;double(1.7976931348623157e+308L);__DBL_MIN__;double(2.2250738585072014e-308L);__DBL_EPSILON__;double(2.2204460492503131e-16L);__DBL_DENORM_MIN__;double(4.9406564584124654e-324L);__DBL_HAS_DENORM__;1;__DBL_HAS_INFINITY__;1;__DBL_HAS_QUIET_NAN__;1;__LDBL_MANT_DIG__;53;__LDBL_DIG__;15;__LDBL_MIN_EXP__;(-1021);__LDBL_MIN_10_EXP__;(-307);__LDBL_MAX_EXP__;1024;__LDBL_MAX_10_EXP__;308;__DECIMAL_DIG__;17;__LDBL_DECIMAL_DIG__;17;__LDBL_MAX__;1.7976931348623157e+308L;__LDBL_NORM_MAX__;1.7976931348623157e+308L;__LDBL_MIN__;2.2250738585072014e-308L;__LDBL_EPSILON__;2.2204460492503131e-16L;__LDBL_DENORM_MIN__;4.9406564584124654e-324L;__LDBL_HAS_DENORM__;1;__LDBL_HAS_INFINITY__;1;__LDBL_HAS_QUIET_NAN__;1;__FLT32_MANT_DIG__;24;__FLT32_DIG__;6;__FLT32_MIN_EXP__;(-125);__FLT32_MIN_10_EXP__;(-37);__FLT32_MAX_EXP__;128;__FLT32_MAX_10_EXP__;38;__FLT32_DECIMAL_DIG__;9;__FLT32_MAX__;3.4028234663852886e+38F32;__FLT32_NORM_MAX__;3.4028234663852886e+38F32;__FLT32_MIN__;1.1754943508222875e-38F32;__FLT32_EPSILON__;1.1920928955078125e-7F32;__FLT32_DENORM_MIN__;1.4012984643248171e-45F32;__FLT32_HAS_DENORM__;1;__FLT32_HAS_INFINITY__;1;__FLT32_HAS_QUIET_NAN__;1;__FLT64_MANT_DIG__;53;__FLT64_DIG__;15;__FLT64_MIN_EXP__;(-1021);__FLT64_MIN_10_EXP__;(-307);__FLT64_MAX_EXP__;1024;__FLT64_MAX_10_EXP__;308;__FLT64_DECIMAL_DIG__;17;__FLT64_MAX__;1.7976931348623157e+308F64;__FLT64_NORM_MAX__;1.7976931348623157e+308F64;__FLT64_MIN__;2.2250738585072014e-308F64;__FLT64_EPSILON__;2.2204460492503131e-16F64;__FLT64_DENORM_MIN__;4.9406564584124654e-324F64;__FLT64_HAS_DENORM__;1;__FLT64_HAS_INFINITY__;1;__FLT64_HAS_QUIET_NAN__;1;__FLT32X_MANT_DIG__;53;__FLT32X_DIG__;15;__FLT32X_MIN_EXP__;(-1021);__FLT32X_MIN_10_EXP__;(-307);__FLT32X_MAX_EXP__;1024;__FLT32X_MAX_10_EXP__;308;__FLT32X_DECIMAL_DIG__;17;__FLT32X_MAX__;1.7976931348623157e+308F32x;__FLT32X_NORM_MAX__;1.7976931348623157e+308F32x;__FLT32X_MIN__;2.2250738585072014e-308F32x;__FLT32X_EPSILON__;2.2204460492503131e-16F32x;__FLT32X_DENORM_MIN__;4.9406564584124654e-324F32x;__FLT32X_HAS_DENORM__;1;__FLT32X_HAS_INFINITY__;1;__FLT32X_HAS_QUIET_NAN__;1;__SFRACT_FBIT__;7;__SFRACT_IBIT__;0;__SFRACT_MIN__;(-0.5HR-0.5HR);__SFRACT_MAX__;0X7FP-7HR;__SFRACT_EPSILON__;0x1P-7HR;__USFRACT_FBIT__;8;__USFRACT_IBIT__;0;__USFRACT_MIN__;0.0UHR;__USFRACT_MAX__;0XFFP-8UHR;__USFRACT_EPSILON__;0x1P-8UHR;__FRACT_FBIT__;15;__FRACT_IBIT__;0;__FRACT_MIN__;(-0.5R-0.5R);__FRACT_MAX__;0X7FFFP-15R;__FRACT_EPSILON__;0x1P-15R;__UFRACT_FBIT__;16;__UFRACT_IBIT__;0;__UFRACT_MIN__;0.0UR;__UFRACT_MAX__;0XFFFFP-16UR;__UFRACT_EPSILON__;0x1P-16UR;__LFRACT_FBIT__;31;__LFRACT_IBIT__;0;__LFRACT_MIN__;(-0.5LR-0.5LR);__LFRACT_MAX__;0X7FFFFFFFP-31LR;__LFRACT_EPSILON__;0x1P-31LR;__ULFRACT_FBIT__;32;__ULFRACT_IBIT__;0;__ULFRACT_MIN__;0.0ULR;__ULFRACT_MAX__;0XFFFFFFFFP-32ULR;__ULFRACT_EPSILON__;0x1P-32ULR;__LLFRACT_FBIT__;63;__LLFRACT_IBIT__;0;__LLFRACT_MIN__;(-0.5LLR-0.5LLR);__LLFRACT_MAX__;0X7FFFFFFFFFFFFFFFP-63LLR;__LLFRACT_EPSILON__;0x1P-63LLR;__ULLFRACT_FBIT__;64;__ULLFRACT_IBIT__;0;__ULLFRACT_MIN__;0.0ULLR;__ULLFRACT_MAX__;0XFFFFFFFFFFFFFFFFP-64ULLR;__ULLFRACT_EPSILON__;0x1P-64ULLR;__SACCUM_FBIT__;7;__SACCUM_IBIT__;8;__SACCUM_MIN__;(-0X1P7HK-0X1P7HK);__SACCUM_MAX__;0X7FFFP-7HK;__SACCUM_EPSILON__;0x1P-7HK;__USACCUM_FBIT__;8;__USACCUM_IBIT__;8;__USACCUM_MIN__;0.0UHK;__USACCUM_MAX__;0XFFFFP-8UHK;__USACCUM_EPSILON__;0x1P-8UHK;__ACCUM_FBIT__;15;__ACCUM_IBIT__;16;__ACCUM_MIN__;(-0X1P15K-0X1P15K);__ACCUM_MAX__;0X7FFFFFFFP-15K;__ACCUM_EPSILON__;0x1P-15K;__UACCUM_FBIT__;16;__UACCUM_IBIT__;16;__UACCUM_MIN__;0.0UK;__UACCUM_MAX__;0XFFFFFFFFP-16UK;__UACCUM_EPSILON__;0x1P-16UK;__LACCUM_FBIT__;31;__LACCUM_IBIT__;32;__LACCUM_MIN__;(-0X1P31LK-0X1P31LK);__LACCUM_MAX__;0X7FFFFFFFFFFFFFFFP-31LK;__LACCUM_EPSILON__;0x1P-31LK;__ULACCUM_FBIT__;32;__ULACCUM_IBIT__;32;__ULACCUM_MIN__;0.0ULK;__ULACCUM_MAX__;0XFFFFFFFFFFFFFFFFP-32ULK;__ULACCUM_EPSILON__;0x1P-32ULK;__LLACCUM_FBIT__;31;__LLACCUM_IBIT__;32;__LLACCUM_MIN__;(-0X1P31LLK-0X1P31LLK);__LLACCUM_MAX__;0X7FFFFFFFFFFFFFFFP-31LLK;__LLACCUM_EPSILON__;0x1P-31LLK;__ULLACCUM_FBIT__;32;__ULLACCUM_IBIT__;32;__ULLACCUM_MIN__;0.0ULLK;__ULLACCUM_MAX__;0XFFFFFFFFFFFFFFFFP-32ULLK;__ULLACCUM_EPSILON__;0x1P-32ULLK;__QQ_FBIT__;7;__QQ_IBIT__;0;__HQ_FBIT__;15;__HQ_IBIT__;0;__SQ_FBIT__;31;__SQ_IBIT__;0;__DQ_FBIT__;63;__DQ_IBIT__;0;__TQ_FBIT__;127;__TQ_IBIT__;0;__UQQ_FBIT__;8;__UQQ_IBIT__;0;__UHQ_FBIT__;16;__UHQ_IBIT__;0;__USQ_FBIT__;32;__USQ_IBIT__;0;__UDQ_FBIT__;64;__UDQ_IBIT__;0;__UTQ_FBIT__;128;__UTQ_IBIT__;0;__HA_FBIT__;7;__HA_IBIT__;8;__SA_FBIT__;15;__SA_IBIT__;16;__DA_FBIT__;31;__DA_IBIT__;32;__TA_FBIT__;63;__TA_IBIT__;64;__UHA_FBIT__;8;__UHA_IBIT__;8;__USA_FBIT__;16;__USA_IBIT__;16;__UDA_FBIT__;32;__UDA_IBIT__;32;__UTA_FBIT__;64;__UTA_IBIT__;64;__REGISTER_PREFIX__; ;__USER_LABEL_PREFIX__; ;__GNUC_STDC_INLINE__;1;__NO_INLINE__;1;__CHAR_UNSIGNED__;1;__WCHAR_UNSIGNED__;1;__GCC_ATOMIC_BOOL_LOCK_FREE;1;__GCC_ATOMIC_CHAR_LOCK_FREE;1;__GCC_ATOMIC_CHAR16_T_LOCK_FREE;1;__GCC_ATOMIC_CHAR32_T_LOCK_FREE;1;__GCC_ATOMIC_WCHAR_T_LOCK_FREE;1;__GCC_ATOMIC_SHORT_LOCK_FREE;1;__GCC_ATOMIC_INT_LOCK_FREE;1;__GCC_ATOMIC_LONG_LOCK_FREE;1;__GCC_ATOMIC_LLONG_LOCK_FREE;1;__GCC_ATOMIC_TEST_AND_SET_TRUEVAL;1;__GCC_ATOMIC_POINTER_LOCK_FREE;1;__HAVE_SPECULATION_SAFE_VALUE;1;__PRAGMA_REDEFINE_EXTNAME;1;__SIZEOF_WCHAR_T__;4;__SIZEOF_WINT_T__;4;__SIZEOF_PTRDIFF_T__;4;__ARM_32BIT_STATE;1;__ARM_SIZEOF_MINIMAL_ENUM;1;__ARM_SIZEOF_WCHAR_T;4;__arm__;1;__ARM_ARCH;4;__ARM_ARCH_ISA_ARM;1;__APCS_32__;1;__GCC_ASM_FLAG_OUTPUTS__;1;__ARM_ARCH_ISA_THUMB;1;__ARMEL__;1;__SOFTFP__;1;__VFP_FP__;1;__THUMB_INTERWORK__;1;__ARM_ARCH_4T__;1;__ARM_PCS;1;__ARM_EABI__;1;__ARM_FEATURE_COPROC;1;__GXX_TYPEINFO_EQUALITY_INLINE;0;__ELF__;1;__USES_INITFINI__;1
++//CXX compiler system include directories
++CMAKE_EXTRA_GENERATOR_CXX_SYSTEM_INCLUDE_DIRS:INTERNAL=d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1;d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi;d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward;d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include;d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed;d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include
++//C compiler system defined macros
++CMAKE_EXTRA_GENERATOR_C_SYSTEM_DEFINED_MACROS:INTERNAL=__STDC__;1;__STDC_VERSION__;201710L;__STDC_UTF_16__;1;__STDC_UTF_32__;1;__STDC_HOSTED__;1;__GNUC__;10;__GNUC_MINOR__;3;__GNUC_PATCHLEVEL__;1;__VERSION__;"10.3.1 20210824 (release)";__ATOMIC_RELAXED;0;__ATOMIC_SEQ_CST;5;__ATOMIC_ACQUIRE;2;__ATOMIC_RELEASE;3;__ATOMIC_ACQ_REL;4;__ATOMIC_CONSUME;1;__FINITE_MATH_ONLY__;0;__SIZEOF_INT__;4;__SIZEOF_LONG__;4;__SIZEOF_LONG_LONG__;8;__SIZEOF_SHORT__;2;__SIZEOF_FLOAT__;4;__SIZEOF_DOUBLE__;8;__SIZEOF_LONG_DOUBLE__;8;__SIZEOF_SIZE_T__;4;__CHAR_BIT__;8;__BIGGEST_ALIGNMENT__;8;__ORDER_LITTLE_ENDIAN__;1234;__ORDER_BIG_ENDIAN__;4321;__ORDER_PDP_ENDIAN__;3412;__BYTE_ORDER__;__ORDER_LITTLE_ENDIAN__;__FLOAT_WORD_ORDER__;__ORDER_LITTLE_ENDIAN__;__SIZEOF_POINTER__;4;__SIZE_TYPE__;unsigned int;__PTRDIFF_TYPE__;int;__WCHAR_TYPE__;unsigned int;__WINT_TYPE__;unsigned int;__INTMAX_TYPE__;long long int;__UINTMAX_TYPE__;long long unsigned int;__CHAR16_TYPE__;short unsigned int;__CHAR32_TYPE__;long unsigned int;__SIG_ATOMIC_TYPE__;int;__INT8_TYPE__;signed char;__INT16_TYPE__;short int;__INT32_TYPE__;long int;__INT64_TYPE__;long long int;__UINT8_TYPE__;unsigned char;__UINT16_TYPE__;short unsigned int;__UINT32_TYPE__;long unsigned int;__UINT64_TYPE__;long long unsigned int;__INT_LEAST8_TYPE__;signed char;__INT_LEAST16_TYPE__;short int;__INT_LEAST32_TYPE__;long int;__INT_LEAST64_TYPE__;long long int;__UINT_LEAST8_TYPE__;unsigned char;__UINT_LEAST16_TYPE__;short unsigned int;__UINT_LEAST32_TYPE__;long unsigned int;__UINT_LEAST64_TYPE__;long long unsigned int;__INT_FAST8_TYPE__;int;__INT_FAST16_TYPE__;int;__INT_FAST32_TYPE__;int;__INT_FAST64_TYPE__;long long int;__UINT_FAST8_TYPE__;unsigned int;__UINT_FAST16_TYPE__;unsigned int;__UINT_FAST32_TYPE__;unsigned int;__UINT_FAST64_TYPE__;long long unsigned int;__INTPTR_TYPE__;int;__UINTPTR_TYPE__;unsigned int;__GXX_ABI_VERSION;1014;__SCHAR_MAX__;0x7f;__SHRT_MAX__;0x7fff;__INT_MAX__;0x7fffffff;__LONG_MAX__;0x7fffffffL;__LONG_LONG_MAX__;0x7fffffffffffffffLL;__WCHAR_MAX__;0xffffffffU;__WCHAR_MIN__;0U;__WINT_MAX__;0xffffffffU;__WINT_MIN__;0U;__PTRDIFF_MAX__;0x7fffffff;__SIZE_MAX__;0xffffffffU;__SCHAR_WIDTH__;8;__SHRT_WIDTH__;16;__INT_WIDTH__;32;__LONG_WIDTH__;32;__LONG_LONG_WIDTH__;64;__WCHAR_WIDTH__;32;__WINT_WIDTH__;32;__PTRDIFF_WIDTH__;32;__SIZE_WIDTH__;32;__INTMAX_MAX__;0x7fffffffffffffffLL;__INTMAX_C(c);c ## LL;__UINTMAX_MAX__;0xffffffffffffffffULL;__UINTMAX_C(c);c ## ULL;__INTMAX_WIDTH__;64;__SIG_ATOMIC_MAX__;0x7fffffff;__SIG_ATOMIC_MIN__;(-__SIG_ATOMIC_MAX__ - 1);__SIG_ATOMIC_WIDTH__;32;__INT8_MAX__;0x7f;__INT16_MAX__;0x7fff;__INT32_MAX__;0x7fffffffL;__INT64_MAX__;0x7fffffffffffffffLL;__UINT8_MAX__;0xff;__UINT16_MAX__;0xffff;__UINT32_MAX__;0xffffffffUL;__UINT64_MAX__;0xffffffffffffffffULL;__INT_LEAST8_MAX__;0x7f;__INT8_C(c);c;__INT_LEAST8_WIDTH__;8;__INT_LEAST16_MAX__;0x7fff;__INT16_C(c);c;__INT_LEAST16_WIDTH__;16;__INT_LEAST32_MAX__;0x7fffffffL;__INT32_C(c);c ## L;__INT_LEAST32_WIDTH__;32;__INT_LEAST64_MAX__;0x7fffffffffffffffLL;__INT64_C(c);c ## LL;__INT_LEAST64_WIDTH__;64;__UINT_LEAST8_MAX__;0xff;__UINT8_C(c);c;__UINT_LEAST16_MAX__;0xffff;__UINT16_C(c);c;__UINT_LEAST32_MAX__;0xffffffffUL;__UINT32_C(c);c ## UL;__UINT_LEAST64_MAX__;0xffffffffffffffffULL;__UINT64_C(c);c ## ULL;__INT_FAST8_MAX__;0x7fffffff;__INT_FAST8_WIDTH__;32;__INT_FAST16_MAX__;0x7fffffff;__INT_FAST16_WIDTH__;32;__INT_FAST32_MAX__;0x7fffffff;__INT_FAST32_WIDTH__;32;__INT_FAST64_MAX__;0x7fffffffffffffffLL;__INT_FAST64_WIDTH__;64;__UINT_FAST8_MAX__;0xffffffffU;__UINT_FAST16_MAX__;0xffffffffU;__UINT_FAST32_MAX__;0xffffffffU;__UINT_FAST64_MAX__;0xffffffffffffffffULL;__INTPTR_MAX__;0x7fffffff;__INTPTR_WIDTH__;32;__UINTPTR_MAX__;0xffffffffU;__GCC_IEC_559;0;__GCC_IEC_559_COMPLEX;0;__FLT_EVAL_METHOD__;0;__FLT_EVAL_METHOD_TS_18661_3__;0;__DEC_EVAL_METHOD__;2;__FLT_RADIX__;2;__FLT_MANT_DIG__;24;__FLT_DIG__;6;__FLT_MIN_EXP__;(-125);__FLT_MIN_10_EXP__;(-37);__FLT_MAX_EXP__;128;__FLT_MAX_10_EXP__;38;__FLT_DECIMAL_DIG__;9;__FLT_MAX__;3.4028234663852886e+38F;__FLT_NORM_MAX__;3.4028234663852886e+38F;__FLT_MIN__;1.1754943508222875e-38F;__FLT_EPSILON__;1.1920928955078125e-7F;__FLT_DENORM_MIN__;1.4012984643248171e-45F;__FLT_HAS_DENORM__;1;__FLT_HAS_INFINITY__;1;__FLT_HAS_QUIET_NAN__;1;__DBL_MANT_DIG__;53;__DBL_DIG__;15;__DBL_MIN_EXP__;(-1021);__DBL_MIN_10_EXP__;(-307);__DBL_MAX_EXP__;1024;__DBL_MAX_10_EXP__;308;__DBL_DECIMAL_DIG__;17;__DBL_MAX__;((double)1.7976931348623157e+308L);__DBL_NORM_MAX__;((double)1.7976931348623157e+308L);__DBL_MIN__;((double)2.2250738585072014e-308L);__DBL_EPSILON__;((double)2.2204460492503131e-16L);__DBL_DENORM_MIN__;((double)4.9406564584124654e-324L);__DBL_HAS_DENORM__;1;__DBL_HAS_INFINITY__;1;__DBL_HAS_QUIET_NAN__;1;__LDBL_MANT_DIG__;53;__LDBL_DIG__;15;__LDBL_MIN_EXP__;(-1021);__LDBL_MIN_10_EXP__;(-307);__LDBL_MAX_EXP__;1024;__LDBL_MAX_10_EXP__;308;__DECIMAL_DIG__;17;__LDBL_DECIMAL_DIG__;17;__LDBL_MAX__;1.7976931348623157e+308L;__LDBL_NORM_MAX__;1.7976931348623157e+308L;__LDBL_MIN__;2.2250738585072014e-308L;__LDBL_EPSILON__;2.2204460492503131e-16L;__LDBL_DENORM_MIN__;4.9406564584124654e-324L;__LDBL_HAS_DENORM__;1;__LDBL_HAS_INFINITY__;1;__LDBL_HAS_QUIET_NAN__;1;__FLT32_MANT_DIG__;24;__FLT32_DIG__;6;__FLT32_MIN_EXP__;(-125);__FLT32_MIN_10_EXP__;(-37);__FLT32_MAX_EXP__;128;__FLT32_MAX_10_EXP__;38;__FLT32_DECIMAL_DIG__;9;__FLT32_MAX__;3.4028234663852886e+38F32;__FLT32_NORM_MAX__;3.4028234663852886e+38F32;__FLT32_MIN__;1.1754943508222875e-38F32;__FLT32_EPSILON__;1.1920928955078125e-7F32;__FLT32_DENORM_MIN__;1.4012984643248171e-45F32;__FLT32_HAS_DENORM__;1;__FLT32_HAS_INFINITY__;1;__FLT32_HAS_QUIET_NAN__;1;__FLT64_MANT_DIG__;53;__FLT64_DIG__;15;__FLT64_MIN_EXP__;(-1021);__FLT64_MIN_10_EXP__;(-307);__FLT64_MAX_EXP__;1024;__FLT64_MAX_10_EXP__;308;__FLT64_DECIMAL_DIG__;17;__FLT64_MAX__;1.7976931348623157e+308F64;__FLT64_NORM_MAX__;1.7976931348623157e+308F64;__FLT64_MIN__;2.2250738585072014e-308F64;__FLT64_EPSILON__;2.2204460492503131e-16F64;__FLT64_DENORM_MIN__;4.9406564584124654e-324F64;__FLT64_HAS_DENORM__;1;__FLT64_HAS_INFINITY__;1;__FLT64_HAS_QUIET_NAN__;1;__FLT32X_MANT_DIG__;53;__FLT32X_DIG__;15;__FLT32X_MIN_EXP__;(-1021);__FLT32X_MIN_10_EXP__;(-307);__FLT32X_MAX_EXP__;1024;__FLT32X_MAX_10_EXP__;308;__FLT32X_DECIMAL_DIG__;17;__FLT32X_MAX__;1.7976931348623157e+308F32x;__FLT32X_NORM_MAX__;1.7976931348623157e+308F32x;__FLT32X_MIN__;2.2250738585072014e-308F32x;__FLT32X_EPSILON__;2.2204460492503131e-16F32x;__FLT32X_DENORM_MIN__;4.9406564584124654e-324F32x;__FLT32X_HAS_DENORM__;1;__FLT32X_HAS_INFINITY__;1;__FLT32X_HAS_QUIET_NAN__;1;__SFRACT_FBIT__;7;__SFRACT_IBIT__;0;__SFRACT_MIN__;(-0.5HR-0.5HR);__SFRACT_MAX__;0X7FP-7HR;__SFRACT_EPSILON__;0x1P-7HR;__USFRACT_FBIT__;8;__USFRACT_IBIT__;0;__USFRACT_MIN__;0.0UHR;__USFRACT_MAX__;0XFFP-8UHR;__USFRACT_EPSILON__;0x1P-8UHR;__FRACT_FBIT__;15;__FRACT_IBIT__;0;__FRACT_MIN__;(-0.5R-0.5R);__FRACT_MAX__;0X7FFFP-15R;__FRACT_EPSILON__;0x1P-15R;__UFRACT_FBIT__;16;__UFRACT_IBIT__;0;__UFRACT_MIN__;0.0UR;__UFRACT_MAX__;0XFFFFP-16UR;__UFRACT_EPSILON__;0x1P-16UR;__LFRACT_FBIT__;31;__LFRACT_IBIT__;0;__LFRACT_MIN__;(-0.5LR-0.5LR);__LFRACT_MAX__;0X7FFFFFFFP-31LR;__LFRACT_EPSILON__;0x1P-31LR;__ULFRACT_FBIT__;32;__ULFRACT_IBIT__;0;__ULFRACT_MIN__;0.0ULR;__ULFRACT_MAX__;0XFFFFFFFFP-32ULR;__ULFRACT_EPSILON__;0x1P-32ULR;__LLFRACT_FBIT__;63;__LLFRACT_IBIT__;0;__LLFRACT_MIN__;(-0.5LLR-0.5LLR);__LLFRACT_MAX__;0X7FFFFFFFFFFFFFFFP-63LLR;__LLFRACT_EPSILON__;0x1P-63LLR;__ULLFRACT_FBIT__;64;__ULLFRACT_IBIT__;0;__ULLFRACT_MIN__;0.0ULLR;__ULLFRACT_MAX__;0XFFFFFFFFFFFFFFFFP-64ULLR;__ULLFRACT_EPSILON__;0x1P-64ULLR;__SACCUM_FBIT__;7;__SACCUM_IBIT__;8;__SACCUM_MIN__;(-0X1P7HK-0X1P7HK);__SACCUM_MAX__;0X7FFFP-7HK;__SACCUM_EPSILON__;0x1P-7HK;__USACCUM_FBIT__;8;__USACCUM_IBIT__;8;__USACCUM_MIN__;0.0UHK;__USACCUM_MAX__;0XFFFFP-8UHK;__USACCUM_EPSILON__;0x1P-8UHK;__ACCUM_FBIT__;15;__ACCUM_IBIT__;16;__ACCUM_MIN__;(-0X1P15K-0X1P15K);__ACCUM_MAX__;0X7FFFFFFFP-15K;__ACCUM_EPSILON__;0x1P-15K;__UACCUM_FBIT__;16;__UACCUM_IBIT__;16;__UACCUM_MIN__;0.0UK;__UACCUM_MAX__;0XFFFFFFFFP-16UK;__UACCUM_EPSILON__;0x1P-16UK;__LACCUM_FBIT__;31;__LACCUM_IBIT__;32;__LACCUM_MIN__;(-0X1P31LK-0X1P31LK);__LACCUM_MAX__;0X7FFFFFFFFFFFFFFFP-31LK;__LACCUM_EPSILON__;0x1P-31LK;__ULACCUM_FBIT__;32;__ULACCUM_IBIT__;32;__ULACCUM_MIN__;0.0ULK;__ULACCUM_MAX__;0XFFFFFFFFFFFFFFFFP-32ULK;__ULACCUM_EPSILON__;0x1P-32ULK;__LLACCUM_FBIT__;31;__LLACCUM_IBIT__;32;__LLACCUM_MIN__;(-0X1P31LLK-0X1P31LLK);__LLACCUM_MAX__;0X7FFFFFFFFFFFFFFFP-31LLK;__LLACCUM_EPSILON__;0x1P-31LLK;__ULLACCUM_FBIT__;32;__ULLACCUM_IBIT__;32;__ULLACCUM_MIN__;0.0ULLK;__ULLACCUM_MAX__;0XFFFFFFFFFFFFFFFFP-32ULLK;__ULLACCUM_EPSILON__;0x1P-32ULLK;__QQ_FBIT__;7;__QQ_IBIT__;0;__HQ_FBIT__;15;__HQ_IBIT__;0;__SQ_FBIT__;31;__SQ_IBIT__;0;__DQ_FBIT__;63;__DQ_IBIT__;0;__TQ_FBIT__;127;__TQ_IBIT__;0;__UQQ_FBIT__;8;__UQQ_IBIT__;0;__UHQ_FBIT__;16;__UHQ_IBIT__;0;__USQ_FBIT__;32;__USQ_IBIT__;0;__UDQ_FBIT__;64;__UDQ_IBIT__;0;__UTQ_FBIT__;128;__UTQ_IBIT__;0;__HA_FBIT__;7;__HA_IBIT__;8;__SA_FBIT__;15;__SA_IBIT__;16;__DA_FBIT__;31;__DA_IBIT__;32;__TA_FBIT__;63;__TA_IBIT__;64;__UHA_FBIT__;8;__UHA_IBIT__;8;__USA_FBIT__;16;__USA_IBIT__;16;__UDA_FBIT__;32;__UDA_IBIT__;32;__UTA_FBIT__;64;__UTA_IBIT__;64;__REGISTER_PREFIX__; ;__USER_LABEL_PREFIX__; ;__GNUC_STDC_INLINE__;1;__NO_INLINE__;1;__CHAR_UNSIGNED__;1;__GCC_ATOMIC_BOOL_LOCK_FREE;1;__GCC_ATOMIC_CHAR_LOCK_FREE;1;__GCC_ATOMIC_CHAR16_T_LOCK_FREE;1;__GCC_ATOMIC_CHAR32_T_LOCK_FREE;1;__GCC_ATOMIC_WCHAR_T_LOCK_FREE;1;__GCC_ATOMIC_SHORT_LOCK_FREE;1;__GCC_ATOMIC_INT_LOCK_FREE;1;__GCC_ATOMIC_LONG_LOCK_FREE;1;__GCC_ATOMIC_LLONG_LOCK_FREE;1;__GCC_ATOMIC_TEST_AND_SET_TRUEVAL;1;__GCC_ATOMIC_POINTER_LOCK_FREE;1;__HAVE_SPECULATION_SAFE_VALUE;1;__PRAGMA_REDEFINE_EXTNAME;1;__SIZEOF_WCHAR_T__;4;__SIZEOF_WINT_T__;4;__SIZEOF_PTRDIFF_T__;4;__ARM_32BIT_STATE;1;__ARM_SIZEOF_MINIMAL_ENUM;1;__ARM_SIZEOF_WCHAR_T;4;__arm__;1;__ARM_ARCH;4;__ARM_ARCH_ISA_ARM;1;__APCS_32__;1;__GCC_ASM_FLAG_OUTPUTS__;1;__ARM_ARCH_ISA_THUMB;1;__ARMEL__;1;__SOFTFP__;1;__VFP_FP__;1;__THUMB_INTERWORK__;1;__ARM_ARCH_4T__;1;__ARM_PCS;1;__ARM_EABI__;1;__ARM_FEATURE_COPROC;1;__GXX_TYPEINFO_EQUALITY_INLINE;0;__ELF__;1;__USES_INITFINI__;1
++//C compiler system include directories
++CMAKE_EXTRA_GENERATOR_C_SYSTEM_INCLUDE_DIRS:INTERNAL=d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include;d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed;d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include
+ //Name of generator.
+-CMAKE_GENERATOR:INTERNAL=Ninja
++CMAKE_GENERATOR:INTERNAL=MinGW Makefiles
+ //Generator instance identifier.
+ CMAKE_GENERATOR_INSTANCE:INTERNAL=
+ //Name of generator platform.
+@@ -374,4 +428,22 @@
+ CMAKE_STRIP-ADVANCED:INTERNAL=1
+ //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
+ CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
++//ADVANCED property for variable: ProcessorCount_cmd_getconf
++ProcessorCount_cmd_getconf-ADVANCED:INTERNAL=1
++//ADVANCED property for variable: ProcessorCount_cmd_lsconf
++ProcessorCount_cmd_lsconf-ADVANCED:INTERNAL=1
++//ADVANCED property for variable: ProcessorCount_cmd_machinfo
++ProcessorCount_cmd_machinfo-ADVANCED:INTERNAL=1
++//ADVANCED property for variable: ProcessorCount_cmd_mpsched
++ProcessorCount_cmd_mpsched-ADVANCED:INTERNAL=1
++//ADVANCED property for variable: ProcessorCount_cmd_nproc
++ProcessorCount_cmd_nproc-ADVANCED:INTERNAL=1
++//ADVANCED property for variable: ProcessorCount_cmd_pidin
++ProcessorCount_cmd_pidin-ADVANCED:INTERNAL=1
++//ADVANCED property for variable: ProcessorCount_cmd_psrinfo
++ProcessorCount_cmd_psrinfo-ADVANCED:INTERNAL=1
++//ADVANCED property for variable: ProcessorCount_cmd_sysctl
++ProcessorCount_cmd_sysctl-ADVANCED:INTERNAL=1
++//ADVANCED property for variable: ProcessorCount_cmd_uname
++ProcessorCount_cmd_uname-ADVANCED:INTERNAL=1
+ 

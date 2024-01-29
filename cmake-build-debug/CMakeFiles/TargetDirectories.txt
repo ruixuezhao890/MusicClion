@@ -1,0 +1,3 @@
+D:/CODE/STM32/MusicClion/cmake-build-debug/CMakeFiles/MusicClion.elf.dir
+D:/CODE/STM32/MusicClion/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/CODE/STM32/MusicClion/cmake-build-debug/CMakeFiles/rebuild_cache.dir

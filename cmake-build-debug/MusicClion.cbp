@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MusicClion"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/CODE/STM32/MusicClion/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/MusicClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/MusicClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/MusicClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/MusicClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MusicClion.elf">
+				<Option output="D:/CODE/STM32/MusicClion/cmake-build-debug/MusicClion.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CODE/STM32/MusicClion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F407xx"/>
+					<Add directory="D:/CODE/STM32/MusicClion/Core/Inc"/>
+					<Add directory="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/CODE/STM32/MusicClion/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="D:/CODE/STM32/MusicClion/Drivers/CMSIS/Include"/>
+					<Add directory="D:/CODE/STM32/MusicClion/User/Application/Music"/>
+					<Add directory="D:/CODE/STM32/MusicClion/User/Application"/>
+					<Add directory="D:/CODE/STM32/MusicClion/FATFS/App"/>
+					<Add directory="D:/CODE/STM32/MusicClion/FATFS/Target"/>
+					<Add directory="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FatFs"/>
+					<Add directory="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FatFs/src"/>
+					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/wav"/>
+					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/WM8978"/>
+					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/LCD"/>
+					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/SYSTEM"/>
+					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/Touch"/>
+					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/Bridge"/>
+					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/Serial"/>
+					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/Serial/DataStream"/>
+					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/Serial/BaseLib"/>
+					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/Serial/OtherLib"/>
+					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/Protocol/IIC"/>
+					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/Protocol/IIS"/>
+					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/hal"/>
+					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/hal/button"/>
+					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/hal/buzzer"/>
+					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/hal/FileOperation"/>
+					<Add directory="d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/MusicClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 MusicClion.elf"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/MusicClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/MusicClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/MusicClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MusicClion.elf/fast">
+				<Option output="D:/CODE/STM32/MusicClion/cmake-build-debug/MusicClion.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/CODE/STM32/MusicClion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARM_MATH_CM4"/>
+					<Add option="-DARM_MATH_MATRIX_CHECK"/>
+					<Add option="-DARM_MATH_ROUNDING"/>
+					<Add option="-DDEBUG"/>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F407xx"/>
+					<Add directory="D:/CODE/STM32/MusicClion/Core/Inc"/>
+					<Add directory="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/CODE/STM32/MusicClion/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="D:/CODE/STM32/MusicClion/Drivers/CMSIS/Include"/>
+					<Add directory="D:/CODE/STM32/MusicClion/User/Application/Music"/>
+					<Add directory="D:/CODE/STM32/MusicClion/User/Application"/>
+					<Add directory="D:/CODE/STM32/MusicClion/FATFS/App"/>
+					<Add directory="D:/CODE/STM32/MusicClion/FATFS/Target"/>
+					<Add directory="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FatFs"/>
+					<Add directory="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FatFs/src"/>
+					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/wav"/>
+					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/WM8978"/>
+					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/LCD"/>
+					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/SYSTEM"/>
+					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/Touch"/>
+					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/Bridge"/>
+					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/Serial"/>
+					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/Serial/DataStream"/>
+					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/Serial/BaseLib"/>
+					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/Serial/OtherLib"/>
+					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/Protocol/IIC"/>
+					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/Protocol/IIS"/>
+					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/hal"/>
+					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/hal/button"/>
+					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/hal/buzzer"/>
+					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/hal/FileOperation"/>
+					<Add directory="d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\programfiles\gnu arm embedded toolchain\10 2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/MusicClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 MusicClion.elf/fast"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/MusicClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/MusicClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/MusicClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/CODE/STM32/MusicClion/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/MusicClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/MusicClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/MusicClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/MusicClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/CODE/STM32/MusicClion/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/MusicClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/MusicClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/MusicClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/MinGW/bin/mingw32-make.exe -f &quot;D:/CODE/STM32/MusicClion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/CODE/STM32/MusicClion/Core/Inc/FreeRTOSConfig.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Core/Inc/dma.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Core/Inc/fsmc.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Core/Inc/gpio.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Core/Inc/i2s.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Core/Inc/main.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Core/Inc/sdio.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Core/Inc/stm32f4xx_hal_conf.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Core/Inc/stm32f4xx_it.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Core/Inc/tim.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Core/Inc/usart.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Core/Src/dma.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Core/Src/fsmc.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Core/Src/gpio.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Core/Src/i2s.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Core/Src/main.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Core/Src/sdio.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Core/Src/stm32f4xx_hal_msp.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Core/Src/stm32f4xx_it.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Core/Src/syscalls.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Core/Src/sysmem.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Core/Src/system_stm32f4xx.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Core/Src/usart.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Core/Startup/startup_stm32f407zgtx.s">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/CMSIS/Device/ST/STM32F4xx/LICENSE.txt">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/CMSIS/LICENSE.txt">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2s.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2s_ex.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sd.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_cortex.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_pwr.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_sdmmc.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_utils.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/LICENSE.txt">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/FATFS/App/fatfs.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/FATFS/App/fatfs.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/FATFS/Target/bsp_driver_sd.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/FATFS/Target/bsp_driver_sd.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/FATFS/Target/ffconf.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/FATFS/Target/sd_diskio.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/FATFS/Target/sd_diskio.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FatFs/src/diskio.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FatFs/src/diskio.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FatFs/src/ff.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FatFs/src/ff.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FatFs/src/ff_gen_drv.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FatFs/src/integer.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FatFs/src/option/cc936.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FatFs/src/option/syscall.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/wav/wavplay.cpp">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/wav/wavplay.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/LCD/lcd.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/LCD/lcd.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/LCD/lcd_ex.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/LCD/lcd_ex.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/LCD/lcdfont.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/SYSTEM/delay.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/SYSTEM/delay.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/SYSTEM/sys.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/SYSTEM/sys.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/Touch/24cxx.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/Touch/24cxx.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/Touch/ctiic.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/Touch/ctiic.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/Touch/ft5206.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/Touch/ft5206.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/Touch/gt9xxx.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/Touch/gt9xxx.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/Touch/myiic.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/Touch/myiic.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/Touch/touch.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/Touch/touch.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/WM8978/wm8978.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/WM8978/wm8978.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/Bridge/Bradge.cpp">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/Bridge/Bradge.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/Protocol/IIC/myIIC99.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/Protocol/IIC/myIIC99.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/Protocol/IIS/i2S2.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/Protocol/IIS/i2S2.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/Serial/BaseLib/MyUsart.cpp">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/Serial/BaseLib/MyUsart.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/Serial/BaseLib/UsartResources.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/Serial/DataStream/inputStream.cpp">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/Serial/DataStream/inputStream.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/Serial/DataStream/outputStream.cpp">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/Serial/DataStream/outputStream.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/Serial/OtherLib/WString.cpp">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/Serial/OtherLib/WString.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/Serial/OtherLib/bswap.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/Serial/OtherLib/bswap.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/Serial/OtherLib/stdlib_noniso.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/Serial/OtherLib/stdlib_noniso.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/hal/FileOperation/exfuns.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/hal/FileOperation/exfuns.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/hal/FileOperation/fattester.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/hal/FileOperation/fattester.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/hal/button/key.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/hal/button/key.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/hal/buzzer/beep.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/hal/buzzer/beep.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/hal/hal.cpp">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/hal/hal.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/STM32F407ZGTx_FLASH.ld">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/User/Application/Music.cpp">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/User/Application/Music.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/User/Application/Music/MusicAPP.cpp">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/User/Application/Music/MusicAPP.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/User/Application/Music/MusicPaker.cpp">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/User/Application/Music/MusicPaker.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

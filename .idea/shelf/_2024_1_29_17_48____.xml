@@ -1,0 +1,279 @@
+<changelist name="在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]" date="1706521697686" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/shelved.patch" />
+  <option name="DESCRIPTION" value="在进行合并之前于 2024/1/29 17:48 取消提交了更改 [更改]" />
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Core/Src/main.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Core/Src/main.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/main.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/stm32f4xx_hal_flash_ex.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/stm32f4xx_hal_sd.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/stm32f4xx_hal_pwr_ex.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Core/Src/system_stm32f4xx.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Core/Src/system_stm32f4xx.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/system_stm32f4xx.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/WM8978/wm8978.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/WM8978/wm8978.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/wm8978.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/startup_stm32f407zgtx.s.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Core/Src/gpio.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Core/Src/gpio.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/gpio.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/OtherLib/WString.cpp.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/OtherLib/WString.cpp.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/WString.cpp.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/stm32f4xx_hal_flash.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/OtherLib/stdlib_noniso.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/OtherLib/stdlib_noniso.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/stdlib_noniso.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/stm32f4xx_hal_gpio.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/stm32f4xx_hal_rcc_ex.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/stm32f4xx_ll_sdmmc.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Core/Src/sysmem.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Core/Src/sysmem.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/sysmem.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/LCD/lcd_ex.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/LCD/lcd_ex.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/lcd_ex.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/stm32f4xx_hal_exti.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/24cxx.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/24cxx.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/24cxx.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/OtherLib/bswap.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/OtherLib/bswap.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/bswap.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/stm32f4xx_hal_pwr.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/stm32f4xx_hal_dma_ex.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Core/Src/usart.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Core/Src/usart.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/usart.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/DataStream/inputStream.cpp.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/DataStream/inputStream.cpp.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/inputStream.cpp.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/SYSTEM/sys.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/SYSTEM/sys.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/sys.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/ft5206.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/ft5206.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/ft5206.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Core/Src/dma.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Core/Src/dma.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/dma.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/rules.ninja" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/stm32f4xx_hal_sram.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/stm32f4xx_hal_tim.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/MusicClion.elf" />
+    <option name="AFTER_PATH" value="cmake-build-debug/MusicClion.elf" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/MusicClion.elf" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/stm32f4xx_hal_flash_ramfunc.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/SYSTEM/delay.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/SYSTEM/delay.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/delay.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/LCD/lcd.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/LCD/lcd.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/lcd.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/stm32f4xx_hal_uart.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Bridge/Bradge.cpp.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Bridge/Bradge.cpp.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/Bradge.cpp.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/DataStream/outputStream.cpp.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/DataStream/outputStream.cpp.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/outputStream.cpp.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/BaseLib/MyUsart.cpp.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/BaseLib/MyUsart.cpp.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/MyUsart.cpp.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/gt9xxx.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/gt9xxx.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/gt9xxx.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/myiic.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/myiic.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/myiic.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_C.bin" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_C.bin" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/CMakeDetermineCompilerABI_C.bin" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Core/Src/syscalls.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Core/Src/syscalls.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/syscalls.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/stm32f4xx_hal_cortex.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_CXX.bin" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_CXX.bin" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/CMakeDetermineCompilerABI_CXX.bin" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/stm32f4xx_hal.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/stm32f4xx_hal_dma.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/stm32f4xx_hal_msp.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Core/Src/fsmc.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Core/Src/fsmc.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/fsmc.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/stm32f4xx_hal_tim_ex.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/ctiic.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/ctiic.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/ctiic.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Protocol/IIC/myIIC99.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Protocol/IIC/myIIC99.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/myIIC99.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Core/Src/stm32f4xx_it.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Core/Src/stm32f4xx_it.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/stm32f4xx_it.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/stm32f4xx_hal_rcc.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/stm32f4xx_ll_fsmc.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/touch.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/touch.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/touch.c.obj" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Core/Src/sdio.c.obj" />
+    <option name="AFTER_PATH" value="cmake-build-debug/CMakeFiles/MusicClion.elf.dir/Core/Src/sdio.c.obj" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行合并之前于_2024_1_29_17_48_取消提交了更改_[更改]/sdio.c.obj" />
+  </binary>
+</changelist>

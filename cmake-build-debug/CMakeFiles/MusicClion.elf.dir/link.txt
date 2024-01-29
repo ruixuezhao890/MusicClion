@@ -1,0 +1,1 @@
+"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" -g -mfloat-abi=hard -mfpu=fpv4-sp-d16 -Wl,-gc-sections,--print-memory-usage,-Map=D:/CODE/STM32/MusicClion/cmake-build-debug/MusicClion.map -mcpu=cortex-m4 -mthumb -mthumb-interwork -T D:/CODE/STM32/MusicClion/STM32F407ZGTX_FLASH.ld @CMakeFiles\MusicClion.elf.dir\objects1.rsp -o MusicClion.elf 
