@@ -55,6 +55,7 @@ void Music::begin() {
         return;
     }
     totwavnum= getAllMusciNum(_path); //得到总有效文件数
+    Serial0<<"allNUm:"<<totwavnum<<endl;
     if(totwavnum== 0)//音乐文件总数为0
     {
         PromptMessage="No music files/Num==0";
@@ -160,7 +161,7 @@ void Music::gainsPname() {
     }
 }
 
-uint8_t Music::ArduioPlaySong() {
+uint8_t Music::ArduioPlaySong(uint8_t* pname) {
 //    uint8_t res= f_opendir(&wavdir,_path.c_str());
 //    if (res!=FR_OK){
 //        Serial<<"error"<<endl;
@@ -175,10 +176,11 @@ uint8_t Music::ArduioPlaySong() {
                     PromptMessage = "can't play:";
                     PromptMessage += (*pname);
                     res = KEY0_PRES;
-                }
-            printf("can't play:%s\r\n",pname);
-            res=KEY0_PRES;
                     break;
+                }
+//            printf("can't play:%s\r\n",pname);
+//            res=KEY0_PRES;
+
             }
             ret = res;
             return res;
@@ -265,7 +267,7 @@ void Music::audioPlay() {
             res=f_typetell((u8*)wavfileinfo->fname);
             if((res&0XF0)==0X40)//取高四位,看看是不是音乐文件
             {
-                printf("temp:%d\n",temp);
+//                printf("temp:%d\n",temp);
                 wavoffsettbl[curindex]=temp;//记录索引
                 curindex++;
             }
@@ -280,10 +282,10 @@ void Music::audioPlay() {
         if(res!=FR_OK||wavfileinfo->fname[0]==0)break;			//错误了/到末尾了,退出
         strcpy((char*)pname,"0:/MUSIC/");						//复制路径(目录)
         strcat((char*)pname,(const char*)wavfileinfo->fname);	//将文件名接在后面
-        printf("pname:%s\n",pname);
+        printf("strcat:pname:%s\n",pname);
 
-        this->pname=pname;
-        key=ArduioPlaySong(); 			 		//播放这个音频文件
+//        this->pname=pname;
+        key= ArduioPlaySong(pname); 			 		//播放这个音频文件
         if(key==KEY2_PRES)		//上一曲
         {
             if(curindex)curindex--;

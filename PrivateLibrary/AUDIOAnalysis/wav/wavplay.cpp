@@ -212,15 +212,24 @@ void wav_get_curtime(FIL*fx,__wavctrl *wavx)
 //其他:错误
 u8 wav_play_song(u8* fname)
 {
-    Serial0.println("fname:%s",fname);
+    Serial0.println("wav_play_song:fname:%s",fname);
+    FIL  tempFil;
 	u8 key;
 	u8 t=0;
 	u8 res;
 	u32 fillnum;
-	audiodev.file=(FIL*)malloc(sizeof(FIL));
-	audiodev.i2sbuf1=(uint8_t *)malloc(WAV_I2S_TX_DMA_BUFSIZE);
-	audiodev.i2sbuf2=(uint8_t *)malloc(WAV_I2S_TX_DMA_BUFSIZE);
-	audiodev.tbuf=(uint8_t *)malloc(WAV_I2S_TX_DMA_BUFSIZE);
+    uint8_t i2s1[WAV_I2S_TX_DMA_BUFSIZE]={0};
+    uint8_t i2s2[WAV_I2S_TX_DMA_BUFSIZE]={0};
+    uint8_t tbuf[WAV_I2S_TX_DMA_BUFSIZE]={0};
+    audiodev.file=&tempFil;
+    audiodev.i2sbuf1=i2s1;
+    audiodev.i2sbuf2=i2s2;
+    audiodev.tbuf=tbuf;
+//    audiodev.tbuf=(uint8_t *)malloc(WAV_I2S_TX_DMA_BUFSIZE);
+//	audiodev.file=(FIL*)malloc(sizeof(FIL));
+//	audiodev.i2sbuf1=(uint8_t *)malloc(WAV_I2S_TX_DMA_BUFSIZE);
+//	audiodev.i2sbuf2=(uint8_t *)malloc(WAV_I2S_TX_DMA_BUFSIZE);
+//	audiodev.tbuf=(uint8_t *)malloc(WAV_I2S_TX_DMA_BUFSIZE);
 	if(audiodev.file&&audiodev.i2sbuf1&&audiodev.i2sbuf2&&audiodev.tbuf)
 	{
 		res=wav_decode_init(fname,&wavctrl);//得到文件的信息
@@ -282,15 +291,20 @@ u8 wav_play_song(u8* fname)
                         else break;
                     }
                 }
+                f_close(audiodev.file);
                 Music::audio_stop();
 			}else res=0XFF;
 		}else res=0XFF;
 	}else res=0XFF;
-        free(audiodev.tbuf);	//释放内存
-        free(audiodev.i2sbuf1);//释放内存
-        free(audiodev.i2sbuf2);//释放内存
-        free(audiodev.file);	//释放内存
-	return res;
+//        free(audiodev.tbuf);	//释放内存
+//        free(audiodev.i2sbuf1);//释放内存
+//        free(audiodev.i2sbuf2);//释放内存
+//        free(audiodev.file);	//释放内存
+    audiodev.tbuf=nullptr;
+    audiodev.i2sbuf1=nullptr;
+    audiodev.i2sbuf2=nullptr;
+    audiodev.file=nullptr;
+    return res;
 }
 void wav_free(){
     free(audiodev.tbuf);	//释放内存

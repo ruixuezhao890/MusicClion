@@ -48,7 +48,7 @@ public:
     void begin();
     void arduioPlay();
     u16 getTotwavnum() const;
-    uint8_t ArduioPlaySong();
+    uint8_t ArduioPlaySong(uint8_t*pname);
     void ArduioControl();
    static void audio_start(void);
    static void audio_stop(void);
