@@ -98,4 +98,7 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/hal/hal.cpp.obj: \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\stdio.h \
  D:\CODE\STM32\MusicClion\PrivateLibrary\BSP\WM8978/wm8978.h \
  D:\CODE\STM32\MusicClion\User\Application/Music.h \
- D:\CODE\STM32\MusicClion\PrivateLibrary\AUDIOAnalysis\wav/wavplay.h
+ D:\CODE\STM32\MusicClion\PrivateLibrary\AUDIOAnalysis\wav/wavplay.h \
+ D:\CODE\STM32\MusicClion\PrivateLibrary\AUDIOAnalysis\AudioFileParser/AudioFileParser.h \
+ D:\CODE\STM32\MusicClion\PrivateLibrary\AUDIOAnalysis\mp3/mp3play.h \
+ D:\CODE\STM32\MusicClion\PrivateLibrary\AUDIOAnalysis\mp3\helix\pub/mp3dec.h

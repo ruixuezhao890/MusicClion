@@ -19,9 +19,7 @@
 void  loop(){
 
     g_MusicPlayer.audioPlay();
-//    g_MusicPlayer.gainsPname();
-//    g_MusicPlayer.ArduioPlaySong();
-//    g_MusicPlayer.ArduioControl();
+
 
 
 }

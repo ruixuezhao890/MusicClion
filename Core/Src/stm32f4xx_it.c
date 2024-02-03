@@ -52,7 +52,7 @@
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-
+//void (*i2s_tx_callback)(void);
 /* USER CODE END 0 */
 
 /* External variables --------------------------------------------------------*/
@@ -212,9 +212,9 @@ void SysTick_Handler(void)
 //void DMA1_Stream4_IRQHandler(void)
 //{
   /* USER CODE BEGIN DMA1_Stream4_IRQn 0 */
-////    if (i2s_tx_callback){
-////        i2s_tx_callback();
-////    };
+//    if (i2s_tx_callback){
+//        i2s_tx_callback();
+//    };
   /* USER CODE END DMA1_Stream4_IRQn 0 */
 //  HAL_DMA_IRQHandler(&hdma_spi2_tx);
   /* USER CODE BEGIN DMA1_Stream4_IRQn 1 */

@@ -18,6 +18,7 @@
 #include "i2S2.h"
 #include "key.h"
 #include "hal.h"
+#include "AudioFileParser.h"
 //#include "StatusList.h"
 #include "MyUsart.h"
 __audiodev audiodev;
@@ -30,7 +31,6 @@ Music::Music() {
 }
 
 Music::Music(String path) {
-
     _path=path;
     totwavnum=0;
 }
@@ -80,7 +80,7 @@ void Music::begin() {
             res=f_readdir(&wavdir,wavfileinfo);       		//读取目录下的一个文件
             if(res!=FR_OK||wavfileinfo->fname[0]==0)break;	//错误了/到末尾了,退出
             res=f_typetell((uint8_t *)wavfileinfo->fname);
-            if((res&0XF0)==0X40)//取高四位,看看是不是音乐文件
+            if((res&0XF0)==0X40||(res&0XF0)==0X41)//取高四位,看看是不是音乐文件
             {
                 wavoffsettbl[curindex]=temp;//记录索引
                 curindex++;
@@ -142,8 +142,10 @@ Music::~Music() {
     wavoffsettbl= nullptr;
 }
 
-void Music::arduioPlay() {
-
+void Music::audioPlay() {
+    g_MusicPlayer.gainsPname();
+    g_MusicPlayer.audioPlaySong();
+    g_MusicPlayer.audioControl();
 }
 
 void Music::gainsPname() {
@@ -161,33 +163,40 @@ void Music::gainsPname() {
     }
 }
 
-uint8_t Music::ArduioPlaySong(uint8_t* pname) {
-//    uint8_t res= f_opendir(&wavdir,_path.c_str());
-//    if (res!=FR_OK){
-//        Serial<<"error"<<endl;
-//    }
+uint8_t Music::audioPlaySong() {
+            AudioFileParser *manage;
             auto res = f_typetell(pname);
             switch (res) {
-                case T_WAV:
-                    res = wav_play_song(pname);
+                case T_WAV:{
+                    manage=new wavPlay;
                     break;
+                }
+                case T_MP3:{
+                    manage=new mp3Play;
+                    break;
+                }
+//                    res = wav_play_song(pname);
+
                 default://其他文件,自动跳转到下一曲
                 {
                     PromptMessage = "can't play:";
                     PromptMessage += (*pname);
-                    res = KEY0_PRES;
-                    break;
+                    ret=res = KEY0_PRES;
+                    return res;
                 }
-//            printf("can't play:%s\r\n",pname);
-//            res=KEY0_PRES;
-
             }
+            Serial<<"pname:";Serial.println("%s",pname);
+            manage->audioPlaySongInit(pname);
+
+            res=manage->audioPlaySong(pname);
+            manage->audioVarRelease();
             ret = res;
+            delete manage;
             return res;
 
 }
 
-void Music::ArduioControl() {
+void Music::audioControl() {
 
     if(ret==KEY2_PRES)		//上一曲
     {
@@ -216,88 +225,88 @@ void Music::audio_stop(void) {
     I2S_Play_Stop();
 }
 
-void Music::audioPlay() {
-    u8 res;
-    DIR wavdir;	 			//目录
-    FILINFO *wavfileinfo;	//文件信息
-    u8 *pname;				//带路径的文件名
-    u16 totwavnum; 			//音乐文件总数
-    u16 curindex;			//当前索引
-    u8 key;					//键值
-    u32 temp;
-    u32 *wavoffsettbl;		//音乐offset索引表
-    f_mount(fs[0], "0:", 1);
-    WM8978_ADDA_Cfg(1,0);	//开启DAC
-    WM8978_Input_Cfg(0,0,0);//关闭输入通道
-    WM8978_Output_Cfg(1,0);	//开启DAC输出
-
-    while(f_opendir(&wavdir,"0:/MUSIC"))//打开音乐文件夹
-    {
-        Serial0<<"open fail"<<endl;
-        HAL_GPIO_TogglePin(GPIOF,GPIO_PIN_9);
-        HAL_Delay(500);
-    }
-    totwavnum=getAllMusciNum("0:/MUSIC"); //得到总有效文件数
-    while(totwavnum==NULL)//音乐文件总数为0
-    {
-        Serial0<<"num==0"<<endl;
-        HAL_GPIO_TogglePin(GPIOF,GPIO_PIN_9);
-        HAL_Delay(800);
-    }
-    wavfileinfo=(FILINFO*)malloc(sizeof(FILINFO));	//申请内存
-    pname=(u8 *)malloc(_MAX_LFN*2+1);					//为带路径的文件名分配内存
-    this->pname=(u8 *)malloc(_MAX_LFN*2+1);					//为带路径的文件名分配内存
-    wavoffsettbl=(u32 *)malloc(4*totwavnum);				//申请4*totwavnum个字节的内存,用于存放音乐文件off block索引
-    while(!wavfileinfo||!pname||!wavoffsettbl)//内存分配出错
-    {
-        Serial0<<"malloc fail"<<endl;
-        HAL_GPIO_TogglePin(GPIOF,GPIO_PIN_9);
-        HAL_Delay(1000);
-    }
-    //记录索引
-    res=f_opendir(&wavdir,"0:/MUSIC"); //打开目录
-    if(res==FR_OK)
-    {
-        curindex=0;//当前索引为0
-        while(1)//全部查询一遍
-        {
-            temp=wavdir.dptr;								//记录当前index
-            res=f_readdir(&wavdir,wavfileinfo);       		//读取目录下的一个文件
-            if(res!=FR_OK||wavfileinfo->fname[0]==0)break;	//错误了/到末尾了,退出
-            res=f_typetell((u8*)wavfileinfo->fname);
-            if((res&0XF0)==0X40)//取高四位,看看是不是音乐文件
-            {
-//                printf("temp:%d\n",temp);
-                wavoffsettbl[curindex]=temp;//记录索引
-                curindex++;
-            }
-        }
-    }
-    curindex=0;											//从0开始显示
-    res=f_opendir(&wavdir,(const TCHAR*)"0:/MUSIC"); 	//打开目录
-    while(res==FR_OK)//打开成功
-    {
-        dir_sdi(&wavdir,wavoffsettbl[curindex]);				//改变当前目录索引
-        res=f_readdir(&wavdir,wavfileinfo);       				//读取目录下的一个文件
-        if(res!=FR_OK||wavfileinfo->fname[0]==0)break;			//错误了/到末尾了,退出
-        strcpy((char*)pname,"0:/MUSIC/");						//复制路径(目录)
-        strcat((char*)pname,(const char*)wavfileinfo->fname);	//将文件名接在后面
-        printf("strcat:pname:%s\n",pname);
-
+//void Music::audioPlay() {
+//    u8 res;
+//    DIR wavdir;	 			//目录
+//    FILINFO *wavfileinfo;	//文件信息
+//    u8 *pname;				//带路径的文件名
+//    u16 totwavnum; 			//音乐文件总数
+//    u16 curindex;			//当前索引
+//    u8 key;					//键值
+//    u32 temp;
+//    u32 *wavoffsettbl;		//音乐offset索引表
+//    f_mount(fs[0], "0:", 1);
+//    WM8978_ADDA_Cfg(1,0);	//开启DAC
+//    WM8978_Input_Cfg(0,0,0);//关闭输入通道
+//    WM8978_Output_Cfg(1,0);	//开启DAC输出
+//
+//    while(f_opendir(&wavdir,"0:/MUSIC"))//打开音乐文件夹
+//    {
+//        Serial0<<"open fail"<<endl;
+//        HAL_GPIO_TogglePin(GPIOF,GPIO_PIN_9);
+//        HAL_Delay(500);
+//    }
+//    totwavnum=getAllMusciNum("0:/MUSIC"); //得到总有效文件数
+//    while(totwavnum==NULL)//音乐文件总数为0
+//    {
+//        Serial0<<"num==0"<<endl;
+//        HAL_GPIO_TogglePin(GPIOF,GPIO_PIN_9);
+//        HAL_Delay(800);
+//    }
+//    wavfileinfo=(FILINFO*)malloc(sizeof(FILINFO));	//申请内存
+//    pname=(u8 *)malloc(_MAX_LFN*2+1);					//为带路径的文件名分配内存
+//    this->pname=(u8 *)malloc(_MAX_LFN*2+1);					//为带路径的文件名分配内存
+//    wavoffsettbl=(u32 *)malloc(4*totwavnum);				//申请4*totwavnum个字节的内存,用于存放音乐文件off block索引
+//    while(!wavfileinfo||!pname||!wavoffsettbl)//内存分配出错
+//    {
+//        Serial0<<"malloc fail"<<endl;
+//        HAL_GPIO_TogglePin(GPIOF,GPIO_PIN_9);
+//        HAL_Delay(1000);
+//    }
+//    //记录索引
+//    res=f_opendir(&wavdir,"0:/MUSIC"); //打开目录
+//    if(res==FR_OK)
+//    {
+//        curindex=0;//当前索引为0
+//        while(1)//全部查询一遍
+//        {
+//            temp=wavdir.dptr;								//记录当前index
+//            res=f_readdir(&wavdir,wavfileinfo);       		//读取目录下的一个文件
+//            if(res!=FR_OK||wavfileinfo->fname[0]==0)break;	//错误了/到末尾了,退出
+//            res=f_typetell((u8*)wavfileinfo->fname);
+//            if((res&0XF0)==0X40)//取高四位,看看是不是音乐文件
+//            {
+////                printf("temp:%d\n",temp);
+//                wavoffsettbl[curindex]=temp;//记录索引
+//                curindex++;
+//            }
+//        }
+//    }
+//    curindex=0;											//从0开始显示
+//    res=f_opendir(&wavdir,(const TCHAR*)"0:/MUSIC"); 	//打开目录
+//    while(res==FR_OK)//打开成功
+//    {
+//        dir_sdi(&wavdir,wavoffsettbl[curindex]);				//改变当前目录索引
+//        res=f_readdir(&wavdir,wavfileinfo);       				//读取目录下的一个文件
+//        if(res!=FR_OK||wavfileinfo->fname[0]==0)break;			//错误了/到末尾了,退出
+//        strcpy((char*)pname,"0:/MUSIC/");						//复制路径(目录)
+//        strcat((char*)pname,(const char*)wavfileinfo->fname);	//将文件名接在后面
+//        printf("strcat:pname:%s\n",pname);
+//
 //        this->pname=pname;
-        key= ArduioPlaySong(pname); 			 		//播放这个音频文件
-        if(key==KEY2_PRES)		//上一曲
-        {
-            if(curindex)curindex--;
-            else curindex=totwavnum-1;
-        }else if(key==KEY0_PRES)//下一曲
-        {
-            curindex++;
-            if(curindex>=totwavnum)curindex=0;//到末尾的时候,自动从头开始
-        }else break;	//产生了错误
-    }
-    free(wavfileinfo);			//释放内存
-    free(pname);				//释放内存
-    free(wavoffsettbl);		//释放内存
-}
+//        key= audioPlaySong(); 			 		//播放这个音频文件
+//        if(key==KEY2_PRES)		//上一曲
+//        {
+//            if(curindex)curindex--;
+//            else curindex=totwavnum-1;
+//        }else if(key==KEY0_PRES)//下一曲
+//        {
+//            curindex++;
+//            if(curindex>=totwavnum)curindex=0;//到末尾的时候,自动从头开始
+//        }else break;	//产生了错误
+//    }
+//    free(wavfileinfo);			//释放内存
+//    free(pname);				//释放内存
+//    free(wavoffsettbl);		//释放内存
+//}
 

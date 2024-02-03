@@ -1954,6 +1954,290 @@ CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/stdlib.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/alloca.h
 
+CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/AudioFileParser/AudioFileParser.cpp.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/AudioFileParser/AudioFileParser.cpp \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/AudioFileParser/AudioFileParser.h \
+  D:/CODE/STM32/MusicClion/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
+  D:/CODE/STM32/MusicClion/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
+  D:/CODE/STM32/MusicClion/Drivers/CMSIS/Include/core_cm4.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
+  D:/CODE/STM32/MusicClion/Drivers/CMSIS/Include/cmsis_version.h \
+  D:/CODE/STM32/MusicClion/Drivers/CMSIS/Include/cmsis_compiler.h \
+  D:/CODE/STM32/MusicClion/Drivers/CMSIS/Include/cmsis_gcc.h \
+  D:/CODE/STM32/MusicClion/Drivers/CMSIS/Include/mpu_armv7.h \
+  D:/CODE/STM32/MusicClion/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
+  D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
+  D:/CODE/STM32/MusicClion/Core/Inc/stm32f4xx_hal_conf.h \
+  D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
+  D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
+  D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
+  D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
+  D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
+  D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
+  D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
+  D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
+  D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
+  D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
+  D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
+  D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
+  D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
+  D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2s.h \
+  D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2s_ex.h \
+  D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
+  D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sd.h \
+  D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_sdmmc.h \
+  D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
+  D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FatFs/src/ff.h \
+  D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FatFs/src/integer.h \
+  D:/CODE/STM32/MusicClion/FATFS/Target/ffconf.h \
+  D:/CODE/STM32/MusicClion/Core/Inc/main.h \
+  D:/CODE/STM32/MusicClion/FATFS/Target/bsp_driver_sd.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/stdlib.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cstdlib \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/c++config.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/os_defines.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/cpu_defines.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/pstl/pstl_config.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdlib.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/ieeefp.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/newlib.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/config.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/reent.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_types.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_types.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/lock.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/cdefs.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/stdlib.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/alloca.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/std_abs.h
+
+CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3dec.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3dec.c \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/string.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/newlib.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/config.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/ieeefp.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/reent.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_types.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_types.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/lock.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/cdefs.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_locale.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/strings.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/string.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/mp3common.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/mp3dec.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/statname.h
+
+CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3tabs.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3tabs.c \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/mp3common.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/mp3dec.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/statname.h
+
+CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/bitstream.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/bitstream.c \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/coder.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/mp3common.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/mp3dec.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/statname.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/assembly.h
+
+CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/buffers.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/buffers.c \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/coder.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/mp3common.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/mp3dec.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/statname.h
+
+CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dct32.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dct32.c \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/coder.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/mp3common.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/mp3dec.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/statname.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/assembly.h
+
+CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dequant.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dequant.c \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/coder.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/mp3common.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/mp3dec.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/statname.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/assembly.h
+
+CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dqchan.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dqchan.c \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/coder.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/mp3common.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/mp3dec.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/statname.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/assembly.h
+
+CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/huffman.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/huffman.c \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/coder.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/mp3common.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/mp3dec.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/statname.h
+
+CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/hufftabs.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/hufftabs.c \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/coder.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/mp3common.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/mp3dec.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/statname.h
+
+CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/imdct.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/imdct.c \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/coder.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/mp3common.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/mp3dec.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/statname.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/assembly.h
+
+CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/polyphase.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/polyphase.c \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/coder.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/mp3common.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/mp3dec.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/statname.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/assembly.h
+
+CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/scalfact.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/scalfact.c \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/coder.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/mp3common.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/mp3dec.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/statname.h
+
+CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/stproc.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/stproc.c \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/coder.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/mp3common.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/mp3dec.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/statname.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/assembly.h
+
+CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/subband.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/subband.c \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/coder.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/mp3common.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/mp3dec.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/statname.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/assembly.h
+
+CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/trigtabs.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/trigtabs.c \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/coder.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/mp3common.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/mp3dec.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/statname.h
+
+CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/mp3play.cpp.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/mp3play.cpp \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/mp3play.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/SYSTEM/sys.h \
+  D:/CODE/STM32/MusicClion/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h \
+  D:/CODE/STM32/MusicClion/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h \
+  D:/CODE/STM32/MusicClion/Drivers/CMSIS/Include/core_cm4.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdint.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_default_types.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/features.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_newlib_version.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_intsup.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_stdint.h \
+  D:/CODE/STM32/MusicClion/Drivers/CMSIS/Include/cmsis_version.h \
+  D:/CODE/STM32/MusicClion/Drivers/CMSIS/Include/cmsis_compiler.h \
+  D:/CODE/STM32/MusicClion/Drivers/CMSIS/Include/cmsis_gcc.h \
+  D:/CODE/STM32/MusicClion/Drivers/CMSIS/Include/mpu_armv7.h \
+  D:/CODE/STM32/MusicClion/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
+  D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
+  D:/CODE/STM32/MusicClion/Core/Inc/stm32f4xx_hal_conf.h \
+  D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
+  D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h \
+  D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h \
+  D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h \
+  D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h \
+  D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h \
+  D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h \
+  D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h \
+  D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h \
+  D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h \
+  D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h \
+  D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
+  D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h \
+  D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h \
+  D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2s.h \
+  D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2s_ex.h \
+  D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h \
+  D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h \
+  D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sd.h \
+  D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_sdmmc.h \
+  D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/mp3dec.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/AudioFileParser/AudioFileParser.h \
+  D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FatFs/src/ff.h \
+  D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FatFs/src/integer.h \
+  D:/CODE/STM32/MusicClion/FATFS/Target/ffconf.h \
+  D:/CODE/STM32/MusicClion/Core/Inc/main.h \
+  D:/CODE/STM32/MusicClion/FATFS/Target/bsp_driver_sd.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/stdlib.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cstdlib \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/c++config.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/os_defines.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/cpu_defines.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/pstl/pstl_config.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdlib.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/ieeefp.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/newlib.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/config.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/reent.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/_ansi.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_types.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_types.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/lock.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/cdefs.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/stdlib.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/alloca.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/std_abs.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/Serial/BaseLib/MyUsart.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/Serial/BaseLib/UsartResources.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/Serial/OtherLib/WString.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/string.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_locale.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/strings.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/string.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/ctype.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/Serial/DataStream/inputStream.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/Serial/BaseLib/UsartResources.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/Serial/DataStream/outputStream.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/stdio.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/types.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/endian.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/_endian.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/select.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_sigset.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_timeval.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/timespec.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_timespec.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_pthreadtypes.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/sched.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/types.h \
+  D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/stdio.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/Protocol/IIS/i2S2.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/WM8978/wm8978.h \
+  D:/CODE/STM32/MusicClion/User/Application/Music.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/wav/wavplay.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/mp3play.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/hal/button/key.h
+
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/wav/wavplay.cpp.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/wav/wavplay.cpp \
   D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/wav/wavplay.h \
   D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/SYSTEM/sys.h \
@@ -1997,9 +2281,16 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/wav/wavplay.cpp.obj: 
   D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sd.h \
   D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_sdmmc.h \
   D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
-  D:/CODE/STM32/MusicClion/PrivateLibrary/Serial/BaseLib/MyUsart.h \
-  D:/CODE/STM32/MusicClion/PrivateLibrary/Serial/BaseLib/UsartResources.h \
-  D:/CODE/STM32/MusicClion/PrivateLibrary/Serial/OtherLib/WString.h \
+  D:/CODE/STM32/MusicClion/User/Application/Music.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/wav/wavplay.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/mp3play.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/mp3dec.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/AudioFileParser/AudioFileParser.h \
+  D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FatFs/src/ff.h \
+  D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FatFs/src/integer.h \
+  D:/CODE/STM32/MusicClion/FATFS/Target/ffconf.h \
+  D:/CODE/STM32/MusicClion/Core/Inc/main.h \
+  D:/CODE/STM32/MusicClion/FATFS/Target/bsp_driver_sd.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/stdlib.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cstdlib \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/c++config.h \
@@ -2020,11 +2311,14 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/wav/wavplay.cpp.obj: 
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/stdlib.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/alloca.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/std_abs.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/Serial/OtherLib/WString.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/string.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_locale.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/strings.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/string.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/ctype.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/Serial/BaseLib/MyUsart.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/Serial/BaseLib/UsartResources.h \
   D:/CODE/STM32/MusicClion/PrivateLibrary/Serial/DataStream/inputStream.h \
   D:/CODE/STM32/MusicClion/PrivateLibrary/Serial/BaseLib/UsartResources.h \
   D:/CODE/STM32/MusicClion/PrivateLibrary/Serial/DataStream/outputStream.h \
@@ -2042,13 +2336,6 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/wav/wavplay.cpp.obj: 
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/sched.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/types.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/stdio.h \
-  D:/CODE/STM32/MusicClion/User/Application/Music.h \
-  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/wav/wavplay.h \
-  D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FatFs/src/ff.h \
-  D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FatFs/src/integer.h \
-  D:/CODE/STM32/MusicClion/FATFS/Target/ffconf.h \
-  D:/CODE/STM32/MusicClion/Core/Inc/main.h \
-  D:/CODE/STM32/MusicClion/FATFS/Target/bsp_driver_sd.h \
   D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/SYSTEM/delay.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/malloc.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/malloc.h \
@@ -2748,6 +3035,9 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Bridge/Bradge.cpp.obj: D:/CODE/STM3
   D:/CODE/STM32/MusicClion/FATFS/Target/bsp_driver_sd.h \
   D:/CODE/STM32/MusicClion/User/Application/Music.h \
   D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/wav/wavplay.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/AudioFileParser/AudioFileParser.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/mp3play.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/mp3dec.h \
   D:/CODE/STM32/MusicClion/PrivateLibrary/Protocol/IIS/i2S2.h
 
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Protocol/IIC/myIIC99.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/Protocol/IIC/myIIC99.c \
@@ -3491,7 +3781,10 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/hal/hal.cpp.obj: D:/CODE/STM32/Musi
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/stdio.h \
   D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/WM8978/wm8978.h \
   D:/CODE/STM32/MusicClion/User/Application/Music.h \
-  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/wav/wavplay.h
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/wav/wavplay.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/AudioFileParser/AudioFileParser.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/mp3play.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/mp3dec.h
 
 CMakeFiles/MusicClion.elf.dir/User/Application/Music.cpp.obj: D:/CODE/STM32/MusicClion/User/Application/Music.cpp \
   D:/CODE/STM32/MusicClion/User/Application/Music.h \
@@ -3537,7 +3830,13 @@ CMakeFiles/MusicClion.elf.dir/User/Application/Music.cpp.obj: D:/CODE/STM32/Musi
   D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sd.h \
   D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_sdmmc.h \
   D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
-  D:/CODE/STM32/MusicClion/PrivateLibrary/Serial/OtherLib/WString.h \
+  D:/CODE/STM32/MusicClion/User/Application/Music.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/AudioFileParser/AudioFileParser.h \
+  D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FatFs/src/ff.h \
+  D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FatFs/src/integer.h \
+  D:/CODE/STM32/MusicClion/FATFS/Target/ffconf.h \
+  D:/CODE/STM32/MusicClion/Core/Inc/main.h \
+  D:/CODE/STM32/MusicClion/FATFS/Target/bsp_driver_sd.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/stdlib.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/cstdlib \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/c++config.h \
@@ -3558,16 +3857,14 @@ CMakeFiles/MusicClion.elf.dir/User/Application/Music.cpp.obj: D:/CODE/STM32/Musi
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/stdlib.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/alloca.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/std_abs.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/mp3play.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/mp3dec.h \
+  D:/CODE/STM32/MusicClion/PrivateLibrary/Serial/OtherLib/WString.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/string.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/_locale.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/strings.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/sys/string.h \
   D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/ctype.h \
-  D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FatFs/src/ff.h \
-  D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FatFs/src/integer.h \
-  D:/CODE/STM32/MusicClion/FATFS/Target/ffconf.h \
-  D:/CODE/STM32/MusicClion/Core/Inc/main.h \
-  D:/CODE/STM32/MusicClion/FATFS/Target/bsp_driver_sd.h \
   D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/WM8978/wm8978.h \
   D:/CODE/STM32/MusicClion/PrivateLibrary/hal/FileOperation/exfuns.h \
   D:/CODE/STM32/MusicClion/PrivateLibrary/Protocol/IIS/i2S2.h \
@@ -3616,6 +3913,8 @@ D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h:
 
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h:
 
+D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/imdct.c:
+
 D:/CODE/STM32/MusicClion/FATFS/Target/bsp_driver_sd.h:
 
 D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/Touch/touch.c:
@@ -3625,6 +3924,8 @@ D:/CODE/STM32/MusicClion/Core/Inc/stm32f4xx_hal_conf.h:
 D:/CODE/STM32/MusicClion/PrivateLibrary/hal/FileOperation/exfuns.c:
 
 D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
+
+D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/buffers.c:
 
 D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h:
 
@@ -3669,6 +3970,8 @@ D:/CODE/STM32/MusicClion/Core/Inc/fsmc.h:
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h:
 
 D:/CODE/STM32/MusicClion/Drivers/CMSIS/Include/cmsis_compiler.h:
+
+D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/mp3play.cpp:
 
 D:/CODE/STM32/MusicClion/Drivers/CMSIS/Include/cmsis_gcc.h:
 
@@ -3747,6 +4050,8 @@ D:/CODE/STM32/MusicClion/FATFS/App/fatfs.h:
 D:/CODE/STM32/MusicClion/PrivateLibrary/Serial/OtherLib/stdlib_noniso.h:
 
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/beta_function.tcc:
+
+D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/stproc.c:
 
 D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FatFs/src/ff.h:
 
@@ -3860,11 +4165,15 @@ D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
 
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/poly_hermite.tcc:
 
+D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/AudioFileParser/AudioFileParser.h:
+
 D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c:
 
 D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c:
 
 D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/wav/wavplay.h:
+
+D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/statname.h:
 
 D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c:
 
@@ -3916,13 +4225,7 @@ D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c:
 
 D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FatFs/src/option/syscall.c:
 
-D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/concept_check.h:
-
-D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/wav/wavplay.cpp:
-
-D:/CODE/STM32/MusicClion/PrivateLibrary/Serial/BaseLib/MyUsart.h:
-
-D:/CODE/STM32/MusicClion/PrivateLibrary/Serial/BaseLib/UsartResources.h:
+D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/AudioFileParser/AudioFileParser.cpp:
 
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/stdlib.h:
 
@@ -3936,23 +4239,69 @@ D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/
 
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/std_abs.h:
 
+D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3dec.c:
+
+D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/mp3common.h:
+
+D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/mp3dec.h:
+
+D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3tabs.c:
+
+D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/bitstream.c:
+
+D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/coder.h:
+
+D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/assembly.h:
+
+D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dct32.c:
+
+D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dequant.c:
+
+D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dqchan.c:
+
+D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/huffman.c:
+
+D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_iterator_base_types.h:
+
+D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/hufftabs.c:
+
+D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/gamma.tcc:
+
+D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/polyphase.c:
+
+D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/scalfact.c:
+
+D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/subband.c:
+
+D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/trigtabs.c:
+
+D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/mp3play.h:
+
+D:/CODE/STM32/MusicClion/PrivateLibrary/Serial/BaseLib/MyUsart.h:
+
+D:/CODE/STM32/MusicClion/PrivateLibrary/Serial/BaseLib/UsartResources.h:
+
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/ctype.h:
 
 D:/CODE/STM32/MusicClion/PrivateLibrary/Serial/DataStream/inputStream.h:
 
 D:/CODE/STM32/MusicClion/PrivateLibrary/Serial/DataStream/outputStream.h:
 
-D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/SYSTEM/delay.h:
-
-D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/malloc.h:
-
-D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/malloc.h:
-
 D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/WM8978/wm8978.h:
 
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/debug/debug.h:
 
 D:/CODE/STM32/MusicClion/PrivateLibrary/hal/button/key.h:
+
+D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/concept_check.h:
+
+D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/wav/wavplay.cpp:
+
+D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/SYSTEM/delay.h:
+
+D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/malloc.h:
+
+D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/machine/malloc.h:
 
 D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/LCD/lcd.h:
 
@@ -4024,8 +4373,6 @@ D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/
 
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/move.h:
 
-D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_iterator_base_types.h:
-
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/debug/assertions.h:
 
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/stl_iterator.h:
@@ -4033,8 +4380,6 @@ D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/bits/ptr_traits.h:
 
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/limits:
-
-D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/gamma.tcc:
 
 D:/ProgramFiles/GNU\ Arm\ Embedded\ Toolchain/10\ 2021.10/arm-none-eabi/include/c++/10.3.1/tr1/special_function_util.h:
 

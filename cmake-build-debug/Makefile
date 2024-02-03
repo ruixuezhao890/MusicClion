@@ -1144,6 +1144,414 @@ Middlewares/Third_Party/FatFs/src/option/syscall.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.s
 .PHONY : Middlewares/Third_Party/FatFs/src/option/syscall.c.s
 
+PrivateLibrary/AUDIOAnalysis/AudioFileParser/AudioFileParser.obj: PrivateLibrary/AUDIOAnalysis/AudioFileParser/AudioFileParser.cpp.obj
+.PHONY : PrivateLibrary/AUDIOAnalysis/AudioFileParser/AudioFileParser.obj
+
+# target to build an object file
+PrivateLibrary/AUDIOAnalysis/AudioFileParser/AudioFileParser.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/AudioFileParser/AudioFileParser.cpp.obj
+.PHONY : PrivateLibrary/AUDIOAnalysis/AudioFileParser/AudioFileParser.cpp.obj
+
+PrivateLibrary/AUDIOAnalysis/AudioFileParser/AudioFileParser.i: PrivateLibrary/AUDIOAnalysis/AudioFileParser/AudioFileParser.cpp.i
+.PHONY : PrivateLibrary/AUDIOAnalysis/AudioFileParser/AudioFileParser.i
+
+# target to preprocess a source file
+PrivateLibrary/AUDIOAnalysis/AudioFileParser/AudioFileParser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/AudioFileParser/AudioFileParser.cpp.i
+.PHONY : PrivateLibrary/AUDIOAnalysis/AudioFileParser/AudioFileParser.cpp.i
+
+PrivateLibrary/AUDIOAnalysis/AudioFileParser/AudioFileParser.s: PrivateLibrary/AUDIOAnalysis/AudioFileParser/AudioFileParser.cpp.s
+.PHONY : PrivateLibrary/AUDIOAnalysis/AudioFileParser/AudioFileParser.s
+
+# target to generate assembly for a file
+PrivateLibrary/AUDIOAnalysis/AudioFileParser/AudioFileParser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/AudioFileParser/AudioFileParser.cpp.s
+.PHONY : PrivateLibrary/AUDIOAnalysis/AudioFileParser/AudioFileParser.cpp.s
+
+PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3dec.obj: PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3dec.c.obj
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3dec.obj
+
+# target to build an object file
+PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3dec.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3dec.c.obj
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3dec.c.obj
+
+PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3dec.i: PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3dec.c.i
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3dec.i
+
+# target to preprocess a source file
+PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3dec.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3dec.c.i
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3dec.c.i
+
+PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3dec.s: PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3dec.c.s
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3dec.s
+
+# target to generate assembly for a file
+PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3dec.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3dec.c.s
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3dec.c.s
+
+PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3tabs.obj: PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3tabs.c.obj
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3tabs.obj
+
+# target to build an object file
+PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3tabs.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3tabs.c.obj
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3tabs.c.obj
+
+PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3tabs.i: PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3tabs.c.i
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3tabs.i
+
+# target to preprocess a source file
+PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3tabs.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3tabs.c.i
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3tabs.c.i
+
+PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3tabs.s: PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3tabs.c.s
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3tabs.s
+
+# target to generate assembly for a file
+PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3tabs.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3tabs.c.s
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3tabs.c.s
+
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/bitstream.obj: PrivateLibrary/AUDIOAnalysis/mp3/helix/real/bitstream.c.obj
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/bitstream.obj
+
+# target to build an object file
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/bitstream.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/bitstream.c.obj
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/bitstream.c.obj
+
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/bitstream.i: PrivateLibrary/AUDIOAnalysis/mp3/helix/real/bitstream.c.i
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/bitstream.i
+
+# target to preprocess a source file
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/bitstream.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/bitstream.c.i
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/bitstream.c.i
+
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/bitstream.s: PrivateLibrary/AUDIOAnalysis/mp3/helix/real/bitstream.c.s
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/bitstream.s
+
+# target to generate assembly for a file
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/bitstream.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/bitstream.c.s
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/bitstream.c.s
+
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/buffers.obj: PrivateLibrary/AUDIOAnalysis/mp3/helix/real/buffers.c.obj
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/buffers.obj
+
+# target to build an object file
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/buffers.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/buffers.c.obj
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/buffers.c.obj
+
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/buffers.i: PrivateLibrary/AUDIOAnalysis/mp3/helix/real/buffers.c.i
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/buffers.i
+
+# target to preprocess a source file
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/buffers.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/buffers.c.i
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/buffers.c.i
+
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/buffers.s: PrivateLibrary/AUDIOAnalysis/mp3/helix/real/buffers.c.s
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/buffers.s
+
+# target to generate assembly for a file
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/buffers.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/buffers.c.s
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/buffers.c.s
+
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dct32.obj: PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dct32.c.obj
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dct32.obj
+
+# target to build an object file
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dct32.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dct32.c.obj
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dct32.c.obj
+
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dct32.i: PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dct32.c.i
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dct32.i
+
+# target to preprocess a source file
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dct32.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dct32.c.i
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dct32.c.i
+
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dct32.s: PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dct32.c.s
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dct32.s
+
+# target to generate assembly for a file
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dct32.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dct32.c.s
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dct32.c.s
+
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dequant.obj: PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dequant.c.obj
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dequant.obj
+
+# target to build an object file
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dequant.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dequant.c.obj
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dequant.c.obj
+
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dequant.i: PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dequant.c.i
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dequant.i
+
+# target to preprocess a source file
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dequant.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dequant.c.i
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dequant.c.i
+
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dequant.s: PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dequant.c.s
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dequant.s
+
+# target to generate assembly for a file
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dequant.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dequant.c.s
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dequant.c.s
+
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dqchan.obj: PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dqchan.c.obj
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dqchan.obj
+
+# target to build an object file
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dqchan.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dqchan.c.obj
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dqchan.c.obj
+
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dqchan.i: PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dqchan.c.i
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dqchan.i
+
+# target to preprocess a source file
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dqchan.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dqchan.c.i
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dqchan.c.i
+
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dqchan.s: PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dqchan.c.s
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dqchan.s
+
+# target to generate assembly for a file
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dqchan.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dqchan.c.s
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dqchan.c.s
+
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/huffman.obj: PrivateLibrary/AUDIOAnalysis/mp3/helix/real/huffman.c.obj
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/huffman.obj
+
+# target to build an object file
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/huffman.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/huffman.c.obj
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/huffman.c.obj
+
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/huffman.i: PrivateLibrary/AUDIOAnalysis/mp3/helix/real/huffman.c.i
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/huffman.i
+
+# target to preprocess a source file
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/huffman.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/huffman.c.i
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/huffman.c.i
+
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/huffman.s: PrivateLibrary/AUDIOAnalysis/mp3/helix/real/huffman.c.s
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/huffman.s
+
+# target to generate assembly for a file
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/huffman.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/huffman.c.s
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/huffman.c.s
+
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/hufftabs.obj: PrivateLibrary/AUDIOAnalysis/mp3/helix/real/hufftabs.c.obj
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/hufftabs.obj
+
+# target to build an object file
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/hufftabs.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/hufftabs.c.obj
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/hufftabs.c.obj
+
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/hufftabs.i: PrivateLibrary/AUDIOAnalysis/mp3/helix/real/hufftabs.c.i
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/hufftabs.i
+
+# target to preprocess a source file
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/hufftabs.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/hufftabs.c.i
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/hufftabs.c.i
+
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/hufftabs.s: PrivateLibrary/AUDIOAnalysis/mp3/helix/real/hufftabs.c.s
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/hufftabs.s
+
+# target to generate assembly for a file
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/hufftabs.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/hufftabs.c.s
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/hufftabs.c.s
+
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/imdct.obj: PrivateLibrary/AUDIOAnalysis/mp3/helix/real/imdct.c.obj
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/imdct.obj
+
+# target to build an object file
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/imdct.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/imdct.c.obj
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/imdct.c.obj
+
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/imdct.i: PrivateLibrary/AUDIOAnalysis/mp3/helix/real/imdct.c.i
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/imdct.i
+
+# target to preprocess a source file
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/imdct.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/imdct.c.i
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/imdct.c.i
+
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/imdct.s: PrivateLibrary/AUDIOAnalysis/mp3/helix/real/imdct.c.s
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/imdct.s
+
+# target to generate assembly for a file
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/imdct.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/imdct.c.s
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/imdct.c.s
+
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/polyphase.obj: PrivateLibrary/AUDIOAnalysis/mp3/helix/real/polyphase.c.obj
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/polyphase.obj
+
+# target to build an object file
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/polyphase.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/polyphase.c.obj
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/polyphase.c.obj
+
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/polyphase.i: PrivateLibrary/AUDIOAnalysis/mp3/helix/real/polyphase.c.i
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/polyphase.i
+
+# target to preprocess a source file
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/polyphase.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/polyphase.c.i
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/polyphase.c.i
+
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/polyphase.s: PrivateLibrary/AUDIOAnalysis/mp3/helix/real/polyphase.c.s
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/polyphase.s
+
+# target to generate assembly for a file
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/polyphase.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/polyphase.c.s
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/polyphase.c.s
+
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/scalfact.obj: PrivateLibrary/AUDIOAnalysis/mp3/helix/real/scalfact.c.obj
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/scalfact.obj
+
+# target to build an object file
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/scalfact.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/scalfact.c.obj
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/scalfact.c.obj
+
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/scalfact.i: PrivateLibrary/AUDIOAnalysis/mp3/helix/real/scalfact.c.i
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/scalfact.i
+
+# target to preprocess a source file
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/scalfact.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/scalfact.c.i
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/scalfact.c.i
+
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/scalfact.s: PrivateLibrary/AUDIOAnalysis/mp3/helix/real/scalfact.c.s
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/scalfact.s
+
+# target to generate assembly for a file
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/scalfact.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/scalfact.c.s
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/scalfact.c.s
+
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/stproc.obj: PrivateLibrary/AUDIOAnalysis/mp3/helix/real/stproc.c.obj
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/stproc.obj
+
+# target to build an object file
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/stproc.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/stproc.c.obj
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/stproc.c.obj
+
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/stproc.i: PrivateLibrary/AUDIOAnalysis/mp3/helix/real/stproc.c.i
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/stproc.i
+
+# target to preprocess a source file
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/stproc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/stproc.c.i
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/stproc.c.i
+
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/stproc.s: PrivateLibrary/AUDIOAnalysis/mp3/helix/real/stproc.c.s
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/stproc.s
+
+# target to generate assembly for a file
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/stproc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/stproc.c.s
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/stproc.c.s
+
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/subband.obj: PrivateLibrary/AUDIOAnalysis/mp3/helix/real/subband.c.obj
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/subband.obj
+
+# target to build an object file
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/subband.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/subband.c.obj
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/subband.c.obj
+
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/subband.i: PrivateLibrary/AUDIOAnalysis/mp3/helix/real/subband.c.i
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/subband.i
+
+# target to preprocess a source file
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/subband.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/subband.c.i
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/subband.c.i
+
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/subband.s: PrivateLibrary/AUDIOAnalysis/mp3/helix/real/subband.c.s
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/subband.s
+
+# target to generate assembly for a file
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/subband.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/subband.c.s
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/subband.c.s
+
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/trigtabs.obj: PrivateLibrary/AUDIOAnalysis/mp3/helix/real/trigtabs.c.obj
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/trigtabs.obj
+
+# target to build an object file
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/trigtabs.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/trigtabs.c.obj
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/trigtabs.c.obj
+
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/trigtabs.i: PrivateLibrary/AUDIOAnalysis/mp3/helix/real/trigtabs.c.i
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/trigtabs.i
+
+# target to preprocess a source file
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/trigtabs.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/trigtabs.c.i
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/trigtabs.c.i
+
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/trigtabs.s: PrivateLibrary/AUDIOAnalysis/mp3/helix/real/trigtabs.c.s
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/trigtabs.s
+
+# target to generate assembly for a file
+PrivateLibrary/AUDIOAnalysis/mp3/helix/real/trigtabs.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/trigtabs.c.s
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/helix/real/trigtabs.c.s
+
+PrivateLibrary/AUDIOAnalysis/mp3/mp3play.obj: PrivateLibrary/AUDIOAnalysis/mp3/mp3play.cpp.obj
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/mp3play.obj
+
+# target to build an object file
+PrivateLibrary/AUDIOAnalysis/mp3/mp3play.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/mp3play.cpp.obj
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/mp3play.cpp.obj
+
+PrivateLibrary/AUDIOAnalysis/mp3/mp3play.i: PrivateLibrary/AUDIOAnalysis/mp3/mp3play.cpp.i
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/mp3play.i
+
+# target to preprocess a source file
+PrivateLibrary/AUDIOAnalysis/mp3/mp3play.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/mp3play.cpp.i
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/mp3play.cpp.i
+
+PrivateLibrary/AUDIOAnalysis/mp3/mp3play.s: PrivateLibrary/AUDIOAnalysis/mp3/mp3play.cpp.s
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/mp3play.s
+
+# target to generate assembly for a file
+PrivateLibrary/AUDIOAnalysis/mp3/mp3play.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\MusicClion.elf.dir\build.make CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/mp3play.cpp.s
+.PHONY : PrivateLibrary/AUDIOAnalysis/mp3/mp3play.cpp.s
+
 PrivateLibrary/AUDIOAnalysis/wav/wavplay.obj: PrivateLibrary/AUDIOAnalysis/wav/wavplay.cpp.obj
 .PHONY : PrivateLibrary/AUDIOAnalysis/wav/wavplay.obj
 
@@ -1976,6 +2384,57 @@ help:
 	@echo ... Middlewares/Third_Party/FatFs/src/option/syscall.obj
 	@echo ... Middlewares/Third_Party/FatFs/src/option/syscall.i
 	@echo ... Middlewares/Third_Party/FatFs/src/option/syscall.s
+	@echo ... PrivateLibrary/AUDIOAnalysis/AudioFileParser/AudioFileParser.obj
+	@echo ... PrivateLibrary/AUDIOAnalysis/AudioFileParser/AudioFileParser.i
+	@echo ... PrivateLibrary/AUDIOAnalysis/AudioFileParser/AudioFileParser.s
+	@echo ... PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3dec.obj
+	@echo ... PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3dec.i
+	@echo ... PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3dec.s
+	@echo ... PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3tabs.obj
+	@echo ... PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3tabs.i
+	@echo ... PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3tabs.s
+	@echo ... PrivateLibrary/AUDIOAnalysis/mp3/helix/real/bitstream.obj
+	@echo ... PrivateLibrary/AUDIOAnalysis/mp3/helix/real/bitstream.i
+	@echo ... PrivateLibrary/AUDIOAnalysis/mp3/helix/real/bitstream.s
+	@echo ... PrivateLibrary/AUDIOAnalysis/mp3/helix/real/buffers.obj
+	@echo ... PrivateLibrary/AUDIOAnalysis/mp3/helix/real/buffers.i
+	@echo ... PrivateLibrary/AUDIOAnalysis/mp3/helix/real/buffers.s
+	@echo ... PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dct32.obj
+	@echo ... PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dct32.i
+	@echo ... PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dct32.s
+	@echo ... PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dequant.obj
+	@echo ... PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dequant.i
+	@echo ... PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dequant.s
+	@echo ... PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dqchan.obj
+	@echo ... PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dqchan.i
+	@echo ... PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dqchan.s
+	@echo ... PrivateLibrary/AUDIOAnalysis/mp3/helix/real/huffman.obj
+	@echo ... PrivateLibrary/AUDIOAnalysis/mp3/helix/real/huffman.i
+	@echo ... PrivateLibrary/AUDIOAnalysis/mp3/helix/real/huffman.s
+	@echo ... PrivateLibrary/AUDIOAnalysis/mp3/helix/real/hufftabs.obj
+	@echo ... PrivateLibrary/AUDIOAnalysis/mp3/helix/real/hufftabs.i
+	@echo ... PrivateLibrary/AUDIOAnalysis/mp3/helix/real/hufftabs.s
+	@echo ... PrivateLibrary/AUDIOAnalysis/mp3/helix/real/imdct.obj
+	@echo ... PrivateLibrary/AUDIOAnalysis/mp3/helix/real/imdct.i
+	@echo ... PrivateLibrary/AUDIOAnalysis/mp3/helix/real/imdct.s
+	@echo ... PrivateLibrary/AUDIOAnalysis/mp3/helix/real/polyphase.obj
+	@echo ... PrivateLibrary/AUDIOAnalysis/mp3/helix/real/polyphase.i
+	@echo ... PrivateLibrary/AUDIOAnalysis/mp3/helix/real/polyphase.s
+	@echo ... PrivateLibrary/AUDIOAnalysis/mp3/helix/real/scalfact.obj
+	@echo ... PrivateLibrary/AUDIOAnalysis/mp3/helix/real/scalfact.i
+	@echo ... PrivateLibrary/AUDIOAnalysis/mp3/helix/real/scalfact.s
+	@echo ... PrivateLibrary/AUDIOAnalysis/mp3/helix/real/stproc.obj
+	@echo ... PrivateLibrary/AUDIOAnalysis/mp3/helix/real/stproc.i
+	@echo ... PrivateLibrary/AUDIOAnalysis/mp3/helix/real/stproc.s
+	@echo ... PrivateLibrary/AUDIOAnalysis/mp3/helix/real/subband.obj
+	@echo ... PrivateLibrary/AUDIOAnalysis/mp3/helix/real/subband.i
+	@echo ... PrivateLibrary/AUDIOAnalysis/mp3/helix/real/subband.s
+	@echo ... PrivateLibrary/AUDIOAnalysis/mp3/helix/real/trigtabs.obj
+	@echo ... PrivateLibrary/AUDIOAnalysis/mp3/helix/real/trigtabs.i
+	@echo ... PrivateLibrary/AUDIOAnalysis/mp3/helix/real/trigtabs.s
+	@echo ... PrivateLibrary/AUDIOAnalysis/mp3/mp3play.obj
+	@echo ... PrivateLibrary/AUDIOAnalysis/mp3/mp3play.i
+	@echo ... PrivateLibrary/AUDIOAnalysis/mp3/mp3play.s
 	@echo ... PrivateLibrary/AUDIOAnalysis/wav/wavplay.obj
 	@echo ... PrivateLibrary/AUDIOAnalysis/wav/wavplay.i
 	@echo ... PrivateLibrary/AUDIOAnalysis/wav/wavplay.s

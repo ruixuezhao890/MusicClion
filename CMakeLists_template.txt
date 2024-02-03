@@ -51,16 +51,19 @@ endif ()
 
 include_directories(Core/Inc Drivers/STM32F4xx_HAL_Driver/Inc Drivers/STM32F4xx_HAL_Driver/Inc/Legacy Drivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/CMSIS/Include
             User/Application/Music
-
+            User/Application
             FATFS/App
             FATFS/Target
             Middlewares/Third_Party/FatFs
             Middlewares/Third_Party/FatFs/src
-            Middlewares/Third_Party/FreeRTOS/Source/include
-            Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS
-            Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F
-
+#            Middlewares/Third_Party/FreeRTOS/Source/include
+#            Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS
+#            Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F
+            PrivateLibrary/AUDIOAnalysis/AudioFileParser
             PrivateLibrary/AUDIOAnalysis/wav
+            PrivateLibrary/AUDIOAnalysis/mp3
+            PrivateLibrary/AUDIOAnalysis/mp3/MP3Decoder/helix
+
             PrivateLibrary/BSP/WM8978
             PrivateLibrary/BSP/LCD
             PrivateLibrary/BSP/SYSTEM
@@ -73,16 +76,16 @@ include_directories(Core/Inc Drivers/STM32F4xx_HAL_Driver/Inc Drivers/STM32F4xx_
             PrivateLibrary/Protocol/IIC
             PrivateLibrary/Protocol/IIS
 
-            PrivateLibrary/lvgl
-            PrivateLibrary/lvgl/src
-            PrivateLibrary/lvgl/porting
+#            PrivateLibrary/lvgl
+#            PrivateLibrary/lvgl/src
+#            PrivateLibrary/lvgl/porting
 
 
-            PrivateLibrary/LVGLPAGEManage
-            PrivateLibrary/mooncake
-            PrivateLibrary/mooncake/app
-            PrivateLibrary/mooncake/input_system
-            PrivateLibrary/mooncake/simplekv
+#            PrivateLibrary/LVGLPAGEManage
+#            PrivateLibrary/mooncake
+#            PrivateLibrary/mooncake/app
+#            PrivateLibrary/mooncake/input_system
+#            PrivateLibrary/mooncake/simplekv
             PrivateLibrary/hal
             PrivateLibrary/hal/button
             PrivateLibrary/hal/buzzer
@@ -94,22 +97,27 @@ add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx)
 
 file(GLOB_RECURSE SOURCES "Core/*.*" "Drivers/*.*"
         "User/Application/Music/*.*"
-        "PrivateLibrary/lvgl/*.*"
-        "PrivateLibrary/lvgl/src/*.*"
-        "PrivateLibrary/lvgl/porting/*.*"
+        "User/Application/*.*"
+#        "PrivateLibrary/lvgl/*.*"
+#        "PrivateLibrary/lvgl/src/*.*"
+#        "PrivateLibrary/lvgl/porting/*.*"
         "PrivateLibrary/hal/*.*"
         "PrivateLibrary/hal/button/*.*"
         "PrivateLibrary/hal/buzzer/*.*"
         "PrivateLibrary/hal/FileOperation/*.*"
         "PrivateLibrary/AUDIOAnalysis/wav/*.*"
+        "PrivateLibrary/AUDIOAnalysis/mp3/*.*"
+        "PrivateLibrary/AUDIOAnalysis/mp3/MP3Decoder/helix/*.*"
+        "PrivateLibrary/AUDIOAnalysis/AudioFileParser/*.*"
+
         "FATFS/App/*.*"
         "FATFS/Target/*.*"
         "Middlewares/Third_Party/FatFs/*.*"
         "Middlewares/Third_Party/FatFs/src/*.*"
         "Middlewares/Third_Party/FatFs/src/option/*.*"
-        "Middlewares/Third_Party/FreeRTOS/Source/*.*"
-        "Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/*.*"
-        "Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/*.*"
+#        "Middlewares/Third_Party/FreeRTOS/Source/*.*"
+#        "Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/*.*"
+#        "Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/*.*"
 
         "PrivateLibrary/BSP/WM8978/*.*"
         "PrivateLibrary/BSP/LCD/*.*"
@@ -122,11 +130,11 @@ file(GLOB_RECURSE SOURCES "Core/*.*" "Drivers/*.*"
         "PrivateLibrary/Serial/OtherLib/*.*"
         "PrivateLibrary/Protocol/IIC/*.*"
         "PrivateLibrary/Protocol/IIS/*.*"
-        "PrivateLibrary/LVGLPAGEManage/*.*"
-        "PrivateLibrary/mooncake/*.*"
-        "PrivateLibrary/mooncake/app/*.*"
-        "PrivateLibrary/mooncake/input_system/*.*"
-        "PrivateLibrary/mooncake/simplekv/*.*"
+#        "PrivateLibrary/LVGLPAGEManage/*.*"
+#        "PrivateLibrary/mooncake/*.*"
+#        "PrivateLibrary/mooncake/app/*.*"
+#        "PrivateLibrary/mooncake/input_system/*.*"
+#        "PrivateLibrary/mooncake/simplekv/*.*"
 )
 
 set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F407ZGTX_FLASH.ld)

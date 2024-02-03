@@ -15,6 +15,7 @@
 #ifndef MUSICCLION_MUSIC_H
 #define MUSICCLION_MUSIC_H
 #include "wavplay.h"
+#include "mp3play.h"
 #include "WString.h"
 #include "ff.h"
 #define PATH "0:/MUSIC"
@@ -28,7 +29,7 @@ typedef __packed struct
     u8 status;				//bit0:0,暂停播放;1,继续播放
     //bit1:0,结束播放;1,开启播放
 }__audiodev;
-extern __audiodev audiodev;
+
 class Music {
 private:
     u8 *pname;				//带路径的文件名
@@ -41,31 +42,25 @@ private:
     DIR wavdir;	 			//目录
     FILINFO *wavfileinfo;	//文件信息
 
+protected:
+    uint8_t audioPlaySong();
+    void audioControl();
+    void gainsPname();
+    uint16_t getAllMusciNum(String path);
 public:
+    static void audio_start(void);
+    static void audio_stop(void);
     Music();
     Music(String path);
     ~Music();
     void begin();
-    void arduioPlay();
+    void audioPlay();
+    u8 *getPname() const;
     u16 getTotwavnum() const;
-    uint8_t ArduioPlaySong(uint8_t*pname);
-    void ArduioControl();
-   static void audio_start(void);
-   static void audio_stop(void);
-   void audioPlay();
-    void gainsPname();
     const String &getPromptMessage() const;
 
-    u8 *getPname() const;
-protected:
-    uint16_t getAllMusciNum(String path);
-
-
-protected:
-
 };
+extern __audiodev audiodev;
 extern uint8_t Runflag;
-//extern TaskHandle_t MusicTaskHandle;
-//extern EventGroupHandle_t EventGroupHandler;
 extern  Music g_MusicPlayer;
 #endif //MUSICCLION_MUSIC_H

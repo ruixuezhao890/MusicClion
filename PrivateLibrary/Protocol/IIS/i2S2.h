@@ -28,7 +28,7 @@ extern DMA_HandleTypeDef I2S2_TXDMA_Handler;   //I2S2发送DMA句柄
 extern void DMAEx_XferCpltCallback(struct __DMA_HandleTypeDef *hdma);
 extern void DMAEx_XferM1CpltCallback(struct __DMA_HandleTypeDef *hdma);
 
-extern void (*i2s_tx_callback)(void);		//IIS TX回调函数指针  
+extern void (*i2s_tx_callback)(void);		//IIS TX回调函数指针
 
 void I2S2_Init(u32 I2S_Standard,u32 I2S_Mode,u32 I2S_Clock_Polarity,u32 I2S_DataFormat);
 //void I2S2_Init(u8 std,u8 mode,u8 cpol,u8 datalen);  

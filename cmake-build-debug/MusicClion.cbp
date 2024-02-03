@@ -41,7 +41,12 @@
 					<Add directory="D:/CODE/STM32/MusicClion/FATFS/Target"/>
 					<Add directory="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FatFs"/>
 					<Add directory="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FatFs/src"/>
+					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/AudioFileParser"/>
 					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/wav"/>
+					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3"/>
+					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix"/>
+					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub"/>
+					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real"/>
 					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/WM8978"/>
 					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/LCD"/>
 					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/SYSTEM"/>
@@ -95,7 +100,12 @@
 					<Add directory="D:/CODE/STM32/MusicClion/FATFS/Target"/>
 					<Add directory="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FatFs"/>
 					<Add directory="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FatFs/src"/>
+					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/AudioFileParser"/>
 					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/wav"/>
+					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3"/>
+					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix"/>
+					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub"/>
+					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real"/>
 					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/WM8978"/>
 					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/LCD"/>
 					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/SYSTEM"/>
@@ -516,6 +526,81 @@
 			<Option target="MusicClion.elf"/>
 		</Unit>
 		<Unit filename="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FatFs/src/option/syscall.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/AudioFileParser/AudioFileParser.cpp">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/AudioFileParser/AudioFileParser.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3dec.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3tabs.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/mp3common.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/mp3dec.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/mpadecobjfixpt.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/statname.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/assembly.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/bitstream.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/buffers.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/coder.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dct32.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dequant.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dqchan.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/huffman.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/hufftabs.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/imdct.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/polyphase.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/scalfact.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/stproc.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/subband.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/trigtabs.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/mp3play.cpp">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/mp3play.h">
 			<Option target="MusicClion.elf"/>
 		</Unit>
 		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/wav/wavplay.cpp">

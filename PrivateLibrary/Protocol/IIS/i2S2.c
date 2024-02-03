@@ -165,7 +165,7 @@ void I2S2_TX_DMA_Init(u8* buf0,u8 *buf1,u16 num)
 } 
 
 //I2S DMA回调函数指针
-void (*i2s_tx_callback)(void);	//TX回调函数 
+void (*i2s_tx_callback)(void);	//TX回调函数
 //DMA1_Stream4中断服务函数
 void DMA1_Stream4_IRQHandler(void)
 {
