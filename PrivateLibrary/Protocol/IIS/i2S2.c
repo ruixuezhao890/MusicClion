@@ -16,7 +16,8 @@
 //V1.1 20141220  
 //修正I2S2_SampleRate_Set函数ODD位设置的bug 	
 ////////////////////////////////////////////////////////////////////////////////// 	
- 
+#include "cmsis_os.h"
+#include "StatusList.h"
 I2S_HandleTypeDef I2S2_Handler;			//I2S2句柄
 DMA_HandleTypeDef I2S2_TXDMA_Handler;   //I2S2发送DMA句柄
 
@@ -160,7 +161,7 @@ void I2S2_TX_DMA_Init(u8* buf0,u8 *buf1,u16 num)
     delay_us(10);                                                   		//10us延时，防止-O2优化出问题 	
     __HAL_DMA_ENABLE_IT(&I2S2_TXDMA_Handler,DMA_IT_TC);             		//开启传输完成中断
     __HAL_DMA_CLEAR_FLAG(&I2S2_TXDMA_Handler,DMA_FLAG_TCIF0_4);     		//清除DMA传输完成中断标志位
-    HAL_NVIC_SetPriority(DMA1_Stream4_IRQn,0,0);                    		//DMA中断优先级
+    HAL_NVIC_SetPriority(DMA1_Stream4_IRQn,6,0);                    		//DMA中断优先级
     HAL_NVIC_EnableIRQ(DMA1_Stream4_IRQn);
 } 
 
@@ -169,12 +170,17 @@ void (*i2s_tx_callback)(void);	//TX回调函数
 //DMA1_Stream4中断服务函数
 void DMA1_Stream4_IRQHandler(void)
 {
+    BaseType_t Result,xHigherPriorityTaskWoken;;
     if(__HAL_DMA_GET_FLAG(&I2S2_TXDMA_Handler,DMA_FLAG_TCIF0_4)!=RESET) //DMA传输完成
     {
         __HAL_DMA_CLEAR_FLAG(&I2S2_TXDMA_Handler,DMA_FLAG_TCIF0_4);     //清除DMA传输完成中断标志位
         if ( i2s_tx_callback){
             i2s_tx_callback();
         }	//执行回调函数,读取数据等操作在这里面处理
+       Result=(BaseType_t)setMusicStatus(EVENTBIT_DMAFinish);
+        if(Result!=osOK){
+            portYIELD_FROM_ISR(xHigherPriorityTaskWoken);
+        }
     }
 }
 

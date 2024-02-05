@@ -82,10 +82,24 @@ CMakeFiles/MusicClion.elf.dir/Core/Src/dma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MusicClion.elf.dir/Core/Src/dma.c.s"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CODE\STM32\MusicClion\Core\Src\dma.c -o CMakeFiles\MusicClion.elf.dir\Core\Src\dma.c.s
 
+CMakeFiles/MusicClion.elf.dir/Core/Src/freertos.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
+CMakeFiles/MusicClion.elf.dir/Core/Src/freertos.c.obj: D:/CODE/STM32/MusicClion/Core/Src/freertos.c
+CMakeFiles/MusicClion.elf.dir/Core/Src/freertos.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/MusicClion.elf.dir/Core/Src/freertos.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Core/Src/freertos.c.obj -MF CMakeFiles\MusicClion.elf.dir\Core\Src\freertos.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Core\Src\freertos.c.obj -c D:\CODE\STM32\MusicClion\Core\Src\freertos.c
+
+CMakeFiles/MusicClion.elf.dir/Core/Src/freertos.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MusicClion.elf.dir/Core/Src/freertos.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\CODE\STM32\MusicClion\Core\Src\freertos.c > CMakeFiles\MusicClion.elf.dir\Core\Src\freertos.c.i
+
+CMakeFiles/MusicClion.elf.dir/Core/Src/freertos.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MusicClion.elf.dir/Core/Src/freertos.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CODE\STM32\MusicClion\Core\Src\freertos.c -o CMakeFiles\MusicClion.elf.dir\Core\Src\freertos.c.s
+
 CMakeFiles/MusicClion.elf.dir/Core/Src/fsmc.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/Core/Src/fsmc.c.obj: D:/CODE/STM32/MusicClion/Core/Src/fsmc.c
 CMakeFiles/MusicClion.elf.dir/Core/Src/fsmc.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/MusicClion.elf.dir/Core/Src/fsmc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/MusicClion.elf.dir/Core/Src/fsmc.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Core/Src/fsmc.c.obj -MF CMakeFiles\MusicClion.elf.dir\Core\Src\fsmc.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Core\Src\fsmc.c.obj -c D:\CODE\STM32\MusicClion\Core\Src\fsmc.c
 
 CMakeFiles/MusicClion.elf.dir/Core/Src/fsmc.c.i: cmake_force
@@ -99,7 +113,7 @@ CMakeFiles/MusicClion.elf.dir/Core/Src/fsmc.c.s: cmake_force
 CMakeFiles/MusicClion.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/Core/Src/gpio.c.obj: D:/CODE/STM32/MusicClion/Core/Src/gpio.c
 CMakeFiles/MusicClion.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/MusicClion.elf.dir/Core/Src/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/MusicClion.elf.dir/Core/Src/gpio.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Core/Src/gpio.c.obj -MF CMakeFiles\MusicClion.elf.dir\Core\Src\gpio.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Core\Src\gpio.c.obj -c D:\CODE\STM32\MusicClion\Core\Src\gpio.c
 
 CMakeFiles/MusicClion.elf.dir/Core/Src/gpio.c.i: cmake_force
@@ -113,7 +127,7 @@ CMakeFiles/MusicClion.elf.dir/Core/Src/gpio.c.s: cmake_force
 CMakeFiles/MusicClion.elf.dir/Core/Src/i2s.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/Core/Src/i2s.c.obj: D:/CODE/STM32/MusicClion/Core/Src/i2s.c
 CMakeFiles/MusicClion.elf.dir/Core/Src/i2s.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/MusicClion.elf.dir/Core/Src/i2s.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/MusicClion.elf.dir/Core/Src/i2s.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Core/Src/i2s.c.obj -MF CMakeFiles\MusicClion.elf.dir\Core\Src\i2s.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Core\Src\i2s.c.obj -c D:\CODE\STM32\MusicClion\Core\Src\i2s.c
 
 CMakeFiles/MusicClion.elf.dir/Core/Src/i2s.c.i: cmake_force
@@ -127,7 +141,7 @@ CMakeFiles/MusicClion.elf.dir/Core/Src/i2s.c.s: cmake_force
 CMakeFiles/MusicClion.elf.dir/Core/Src/main.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/Core/Src/main.c.obj: D:/CODE/STM32/MusicClion/Core/Src/main.c
 CMakeFiles/MusicClion.elf.dir/Core/Src/main.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/MusicClion.elf.dir/Core/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/MusicClion.elf.dir/Core/Src/main.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Core/Src/main.c.obj -MF CMakeFiles\MusicClion.elf.dir\Core\Src\main.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Core\Src\main.c.obj -c D:\CODE\STM32\MusicClion\Core\Src\main.c
 
 CMakeFiles/MusicClion.elf.dir/Core/Src/main.c.i: cmake_force
@@ -141,7 +155,7 @@ CMakeFiles/MusicClion.elf.dir/Core/Src/main.c.s: cmake_force
 CMakeFiles/MusicClion.elf.dir/Core/Src/sdio.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/Core/Src/sdio.c.obj: D:/CODE/STM32/MusicClion/Core/Src/sdio.c
 CMakeFiles/MusicClion.elf.dir/Core/Src/sdio.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/MusicClion.elf.dir/Core/Src/sdio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/MusicClion.elf.dir/Core/Src/sdio.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Core/Src/sdio.c.obj -MF CMakeFiles\MusicClion.elf.dir\Core\Src\sdio.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Core\Src\sdio.c.obj -c D:\CODE\STM32\MusicClion\Core\Src\sdio.c
 
 CMakeFiles/MusicClion.elf.dir/Core/Src/sdio.c.i: cmake_force
@@ -155,7 +169,7 @@ CMakeFiles/MusicClion.elf.dir/Core/Src/sdio.c.s: cmake_force
 CMakeFiles/MusicClion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: D:/CODE/STM32/MusicClion/Core/Src/stm32f4xx_hal_msp.c
 CMakeFiles/MusicClion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/MusicClion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/MusicClion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj -MF CMakeFiles\MusicClion.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj -c D:\CODE\STM32\MusicClion\Core\Src\stm32f4xx_hal_msp.c
 
 CMakeFiles/MusicClion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.i: cmake_force
@@ -166,10 +180,24 @@ CMakeFiles/MusicClion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MusicClion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.s"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CODE\STM32\MusicClion\Core\Src\stm32f4xx_hal_msp.c -o CMakeFiles\MusicClion.elf.dir\Core\Src\stm32f4xx_hal_msp.c.s
 
+CMakeFiles/MusicClion.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
+CMakeFiles/MusicClion.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj: D:/CODE/STM32/MusicClion/Core/Src/stm32f4xx_hal_timebase_tim.c
+CMakeFiles/MusicClion.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/MusicClion.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj -MF CMakeFiles\MusicClion.elf.dir\Core\Src\stm32f4xx_hal_timebase_tim.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Core\Src\stm32f4xx_hal_timebase_tim.c.obj -c D:\CODE\STM32\MusicClion\Core\Src\stm32f4xx_hal_timebase_tim.c
+
+CMakeFiles/MusicClion.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MusicClion.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\CODE\STM32\MusicClion\Core\Src\stm32f4xx_hal_timebase_tim.c > CMakeFiles\MusicClion.elf.dir\Core\Src\stm32f4xx_hal_timebase_tim.c.i
+
+CMakeFiles/MusicClion.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MusicClion.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CODE\STM32\MusicClion\Core\Src\stm32f4xx_hal_timebase_tim.c -o CMakeFiles\MusicClion.elf.dir\Core\Src\stm32f4xx_hal_timebase_tim.c.s
+
 CMakeFiles/MusicClion.elf.dir/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/Core/Src/stm32f4xx_it.c.obj: D:/CODE/STM32/MusicClion/Core/Src/stm32f4xx_it.c
 CMakeFiles/MusicClion.elf.dir/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/MusicClion.elf.dir/Core/Src/stm32f4xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/MusicClion.elf.dir/Core/Src/stm32f4xx_it.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Core/Src/stm32f4xx_it.c.obj -MF CMakeFiles\MusicClion.elf.dir\Core\Src\stm32f4xx_it.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Core\Src\stm32f4xx_it.c.obj -c D:\CODE\STM32\MusicClion\Core\Src\stm32f4xx_it.c
 
 CMakeFiles/MusicClion.elf.dir/Core/Src/stm32f4xx_it.c.i: cmake_force
@@ -183,7 +211,7 @@ CMakeFiles/MusicClion.elf.dir/Core/Src/stm32f4xx_it.c.s: cmake_force
 CMakeFiles/MusicClion.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/Core/Src/syscalls.c.obj: D:/CODE/STM32/MusicClion/Core/Src/syscalls.c
 CMakeFiles/MusicClion.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/MusicClion.elf.dir/Core/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/MusicClion.elf.dir/Core/Src/syscalls.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles\MusicClion.elf.dir\Core\Src\syscalls.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Core\Src\syscalls.c.obj -c D:\CODE\STM32\MusicClion\Core\Src\syscalls.c
 
 CMakeFiles/MusicClion.elf.dir/Core/Src/syscalls.c.i: cmake_force
@@ -197,7 +225,7 @@ CMakeFiles/MusicClion.elf.dir/Core/Src/syscalls.c.s: cmake_force
 CMakeFiles/MusicClion.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/Core/Src/sysmem.c.obj: D:/CODE/STM32/MusicClion/Core/Src/sysmem.c
 CMakeFiles/MusicClion.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/MusicClion.elf.dir/Core/Src/sysmem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/MusicClion.elf.dir/Core/Src/sysmem.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Core/Src/sysmem.c.obj -MF CMakeFiles\MusicClion.elf.dir\Core\Src\sysmem.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Core\Src\sysmem.c.obj -c D:\CODE\STM32\MusicClion\Core\Src\sysmem.c
 
 CMakeFiles/MusicClion.elf.dir/Core/Src/sysmem.c.i: cmake_force
@@ -211,7 +239,7 @@ CMakeFiles/MusicClion.elf.dir/Core/Src/sysmem.c.s: cmake_force
 CMakeFiles/MusicClion.elf.dir/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/Core/Src/system_stm32f4xx.c.obj: D:/CODE/STM32/MusicClion/Core/Src/system_stm32f4xx.c
 CMakeFiles/MusicClion.elf.dir/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/MusicClion.elf.dir/Core/Src/system_stm32f4xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/MusicClion.elf.dir/Core/Src/system_stm32f4xx.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Core/Src/system_stm32f4xx.c.obj -MF CMakeFiles\MusicClion.elf.dir\Core\Src\system_stm32f4xx.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Core\Src\system_stm32f4xx.c.obj -c D:\CODE\STM32\MusicClion\Core\Src\system_stm32f4xx.c
 
 CMakeFiles/MusicClion.elf.dir/Core/Src/system_stm32f4xx.c.i: cmake_force
@@ -225,7 +253,7 @@ CMakeFiles/MusicClion.elf.dir/Core/Src/system_stm32f4xx.c.s: cmake_force
 CMakeFiles/MusicClion.elf.dir/Core/Src/usart.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/Core/Src/usart.c.obj: D:/CODE/STM32/MusicClion/Core/Src/usart.c
 CMakeFiles/MusicClion.elf.dir/Core/Src/usart.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/MusicClion.elf.dir/Core/Src/usart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/MusicClion.elf.dir/Core/Src/usart.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Core/Src/usart.c.obj -MF CMakeFiles\MusicClion.elf.dir\Core\Src\usart.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Core\Src\usart.c.obj -c D:\CODE\STM32\MusicClion\Core\Src\usart.c
 
 CMakeFiles/MusicClion.elf.dir/Core/Src/usart.c.i: cmake_force
@@ -238,7 +266,7 @@ CMakeFiles/MusicClion.elf.dir/Core/Src/usart.c.s: cmake_force
 
 CMakeFiles/MusicClion.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj: D:/CODE/STM32/MusicClion/Core/Startup/startup_stm32f407zgtx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building ASM object CMakeFiles/MusicClion.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building ASM object CMakeFiles/MusicClion.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\MusicClion.elf.dir\Core\Startup\startup_stm32f407zgtx.s.obj -c D:\CODE\STM32\MusicClion\Core\Startup\startup_stm32f407zgtx.s
 
 CMakeFiles/MusicClion.elf.dir/Core/Startup/startup_stm32f407zgtx.s.i: cmake_force
@@ -252,7 +280,7 @@ CMakeFiles/MusicClion.elf.dir/Core/Startup/startup_stm32f407zgtx.s.s: cmake_forc
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj -MF CMakeFiles\MusicClion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj -c D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
 
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i: cmake_force
@@ -266,7 +294,7 @@ CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj -MF CMakeFiles\MusicClion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj -c D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
 
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i: cmake_force
@@ -280,7 +308,7 @@ CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cor
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj -MF CMakeFiles\MusicClion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj -c D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
 
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i: cmake_force
@@ -294,7 +322,7 @@ CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj -MF CMakeFiles\MusicClion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj -c D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
 
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i: cmake_force
@@ -308,7 +336,7 @@ CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj -MF CMakeFiles\MusicClion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj -c D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
 
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i: cmake_force
@@ -322,7 +350,7 @@ CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ext
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj -MF CMakeFiles\MusicClion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj -c D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
 
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i: cmake_force
@@ -336,7 +364,7 @@ CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fla
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj -MF CMakeFiles\MusicClion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj -c D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
 
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i: cmake_force
@@ -350,7 +378,7 @@ CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fla
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj -MF CMakeFiles\MusicClion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj -c D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
 
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i: cmake_force
@@ -364,7 +392,7 @@ CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fla
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj -MF CMakeFiles\MusicClion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj -c D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
 
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i: cmake_force
@@ -378,7 +406,7 @@ CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpi
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.obj: D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.obj -MF CMakeFiles\MusicClion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s.c.obj -c D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s.c
 
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.i: cmake_force
@@ -392,7 +420,7 @@ CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.obj: D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.obj -MF CMakeFiles\MusicClion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s_ex.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s_ex.c.obj -c D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2s_ex.c
 
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.i: cmake_force
@@ -406,7 +434,7 @@ CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj -MF CMakeFiles\MusicClion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj -c D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
 
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i: cmake_force
@@ -420,7 +448,7 @@ CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj -MF CMakeFiles\MusicClion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj -c D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
 
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i: cmake_force
@@ -434,7 +462,7 @@ CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj -MF CMakeFiles\MusicClion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj -c D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
 
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i: cmake_force
@@ -448,7 +476,7 @@ CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj -MF CMakeFiles\MusicClion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj -c D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
 
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i: cmake_force
@@ -462,7 +490,7 @@ CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj: D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj -MF CMakeFiles\MusicClion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sd.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sd.c.obj -c D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sd.c
 
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.i: cmake_force
@@ -476,7 +504,7 @@ CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj: D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj -MF CMakeFiles\MusicClion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sram.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sram.c.obj -c D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sram.c
 
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.i: cmake_force
@@ -490,7 +518,7 @@ CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sra
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj -MF CMakeFiles\MusicClion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj -c D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
 
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i: cmake_force
@@ -504,7 +532,7 @@ CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj -MF CMakeFiles\MusicClion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj -c D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
 
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i: cmake_force
@@ -518,7 +546,7 @@ CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj -MF CMakeFiles\MusicClion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj -c D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c
 
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i: cmake_force
@@ -532,7 +560,7 @@ CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uar
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj: D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj -MF CMakeFiles\MusicClion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fsmc.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fsmc.c.obj -c D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fsmc.c
 
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.i: cmake_force
@@ -546,7 +574,7 @@ CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj: D:/CODE/STM32/MusicClion/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.obj -MF CMakeFiles\MusicClion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_sdmmc.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_sdmmc.c.obj -c D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_sdmmc.c
 
 CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmmc.c.i: cmake_force
@@ -560,7 +588,7 @@ CMakeFiles/MusicClion.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_sdmm
 CMakeFiles/MusicClion.elf.dir/FATFS/App/fatfs.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/FATFS/App/fatfs.c.obj: D:/CODE/STM32/MusicClion/FATFS/App/fatfs.c
 CMakeFiles/MusicClion.elf.dir/FATFS/App/fatfs.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/MusicClion.elf.dir/FATFS/App/fatfs.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/MusicClion.elf.dir/FATFS/App/fatfs.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/FATFS/App/fatfs.c.obj -MF CMakeFiles\MusicClion.elf.dir\FATFS\App\fatfs.c.obj.d -o CMakeFiles\MusicClion.elf.dir\FATFS\App\fatfs.c.obj -c D:\CODE\STM32\MusicClion\FATFS\App\fatfs.c
 
 CMakeFiles/MusicClion.elf.dir/FATFS/App/fatfs.c.i: cmake_force
@@ -574,7 +602,7 @@ CMakeFiles/MusicClion.elf.dir/FATFS/App/fatfs.c.s: cmake_force
 CMakeFiles/MusicClion.elf.dir/FATFS/Target/bsp_driver_sd.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/FATFS/Target/bsp_driver_sd.c.obj: D:/CODE/STM32/MusicClion/FATFS/Target/bsp_driver_sd.c
 CMakeFiles/MusicClion.elf.dir/FATFS/Target/bsp_driver_sd.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/MusicClion.elf.dir/FATFS/Target/bsp_driver_sd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/MusicClion.elf.dir/FATFS/Target/bsp_driver_sd.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/FATFS/Target/bsp_driver_sd.c.obj -MF CMakeFiles\MusicClion.elf.dir\FATFS\Target\bsp_driver_sd.c.obj.d -o CMakeFiles\MusicClion.elf.dir\FATFS\Target\bsp_driver_sd.c.obj -c D:\CODE\STM32\MusicClion\FATFS\Target\bsp_driver_sd.c
 
 CMakeFiles/MusicClion.elf.dir/FATFS/Target/bsp_driver_sd.c.i: cmake_force
@@ -588,7 +616,7 @@ CMakeFiles/MusicClion.elf.dir/FATFS/Target/bsp_driver_sd.c.s: cmake_force
 CMakeFiles/MusicClion.elf.dir/FATFS/Target/sd_diskio.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/FATFS/Target/sd_diskio.c.obj: D:/CODE/STM32/MusicClion/FATFS/Target/sd_diskio.c
 CMakeFiles/MusicClion.elf.dir/FATFS/Target/sd_diskio.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/MusicClion.elf.dir/FATFS/Target/sd_diskio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/MusicClion.elf.dir/FATFS/Target/sd_diskio.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/FATFS/Target/sd_diskio.c.obj -MF CMakeFiles\MusicClion.elf.dir\FATFS\Target\sd_diskio.c.obj.d -o CMakeFiles\MusicClion.elf.dir\FATFS\Target\sd_diskio.c.obj -c D:\CODE\STM32\MusicClion\FATFS\Target\sd_diskio.c
 
 CMakeFiles/MusicClion.elf.dir/FATFS/Target/sd_diskio.c.i: cmake_force
@@ -602,7 +630,7 @@ CMakeFiles/MusicClion.elf.dir/FATFS/Target/sd_diskio.c.s: cmake_force
 CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj: D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FatFs/src/diskio.c
 CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.obj -MF CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FatFs\src\diskio.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FatFs\src\diskio.c.obj -c D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FatFs\src\diskio.c
 
 CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.i: cmake_force
@@ -616,7 +644,7 @@ CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/diskio.c.s: cmak
 CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj: D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FatFs/src/ff.c
 CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.obj -MF CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FatFs\src\ff.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FatFs\src\ff.c.obj -c D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FatFs\src\ff.c
 
 CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.i: cmake_force
@@ -630,7 +658,7 @@ CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/ff.c.s: cmake_fo
 CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj: D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c
 CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj -MF CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c.obj -c D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FatFs\src\ff_gen_drv.c
 
 CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.i: cmake_force
@@ -644,7 +672,7 @@ CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.s: 
 CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/option/cc936.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/option/cc936.c.obj: D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FatFs/src/option/cc936.c
 CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/option/cc936.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/option/cc936.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/option/cc936.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/option/cc936.c.obj -MF CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FatFs\src\option\cc936.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FatFs\src\option\cc936.c.obj -c D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FatFs\src\option\cc936.c
 
 CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/option/cc936.c.i: cmake_force
@@ -658,7 +686,7 @@ CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/option/cc936.c.s
 CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj: D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FatFs/src/option/syscall.c
 CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj -MF CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FatFs\src\option\syscall.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FatFs\src\option\syscall.c.obj -c D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FatFs\src\option\syscall.c
 
 CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.i: cmake_force
@@ -669,10 +697,150 @@ CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.s"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FatFs\src\option\syscall.c -o CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FatFs\src\option\syscall.c.s
 
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj: D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj -MF CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2\cmsis_os2.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2\cmsis_os2.c.obj -c D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2\cmsis_os2.c
+
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2\cmsis_os2.c > CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2\cmsis_os2.c.i
+
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2\cmsis_os2.c -o CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2\cmsis_os2.c.s
+
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FreeRTOS/Source/croutine.c
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj -MF CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.obj -c D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\croutine.c
+
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\croutine.c > CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.i
+
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\croutine.c -o CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\croutine.c.s
+
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj -MF CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.obj -c D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c
+
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c > CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.i
+
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c -o CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\event_groups.c.s
+
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FreeRTOS/Source/list.c
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj -MF CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.obj -c D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\list.c
+
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\list.c > CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.i
+
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\list.c -o CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\list.c.s
+
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj -MF CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.obj -c D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c
+
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c > CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.i
+
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c -o CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F\port.c.s
+
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj -MF CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.obj -c D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c
+
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c > CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.i
+
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c -o CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\portable\MemMang\heap_4.c.s
+
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FreeRTOS/Source/queue.c
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj -MF CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.obj -c D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\queue.c
+
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\queue.c > CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.i
+
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\queue.c -o CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\queue.c.s
+
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj -MF CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.obj -c D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c
+
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c > CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.i
+
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c -o CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\stream_buffer.c.s
+
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FreeRTOS/Source/tasks.c
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj -MF CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.obj -c D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\tasks.c
+
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\tasks.c > CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.i
+
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\tasks.c -o CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\tasks.c.s
+
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FreeRTOS/Source/timers.c
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj -MF CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.obj.d -o CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.obj -c D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\timers.c
+
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\timers.c > CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.i
+
+CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\timers.c -o CMakeFiles\MusicClion.elf.dir\Middlewares\Third_Party\FreeRTOS\Source\timers.c.s
+
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/AudioFileParser/AudioFileParser.cpp.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/AudioFileParser/AudioFileParser.cpp.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/AudioFileParser/AudioFileParser.cpp
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/AudioFileParser/AudioFileParser.cpp.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/AudioFileParser/AudioFileParser.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/AudioFileParser/AudioFileParser.cpp.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/AudioFileParser/AudioFileParser.cpp.obj -MF CMakeFiles\MusicClion.elf.dir\PrivateLibrary\AUDIOAnalysis\AudioFileParser\AudioFileParser.cpp.obj.d -o CMakeFiles\MusicClion.elf.dir\PrivateLibrary\AUDIOAnalysis\AudioFileParser\AudioFileParser.cpp.obj -c D:\CODE\STM32\MusicClion\PrivateLibrary\AUDIOAnalysis\AudioFileParser\AudioFileParser.cpp
 
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/AudioFileParser/AudioFileParser.cpp.i: cmake_force
@@ -686,7 +854,7 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/AudioFileParser/Audio
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3dec.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3dec.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3dec.c
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3dec.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3dec.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3dec.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3dec.c.obj -MF CMakeFiles\MusicClion.elf.dir\PrivateLibrary\AUDIOAnalysis\mp3\helix\mp3dec.c.obj.d -o CMakeFiles\MusicClion.elf.dir\PrivateLibrary\AUDIOAnalysis\mp3\helix\mp3dec.c.obj -c D:\CODE\STM32\MusicClion\PrivateLibrary\AUDIOAnalysis\mp3\helix\mp3dec.c
 
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3dec.c.i: cmake_force
@@ -700,7 +868,7 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3dec.c.s:
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3tabs.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3tabs.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3tabs.c
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3tabs.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3tabs.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3tabs.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3tabs.c.obj -MF CMakeFiles\MusicClion.elf.dir\PrivateLibrary\AUDIOAnalysis\mp3\helix\mp3tabs.c.obj.d -o CMakeFiles\MusicClion.elf.dir\PrivateLibrary\AUDIOAnalysis\mp3\helix\mp3tabs.c.obj -c D:\CODE\STM32\MusicClion\PrivateLibrary\AUDIOAnalysis\mp3\helix\mp3tabs.c
 
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3tabs.c.i: cmake_force
@@ -714,7 +882,7 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3tabs.c.s
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/bitstream.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/bitstream.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/bitstream.c
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/bitstream.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/bitstream.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/bitstream.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/bitstream.c.obj -MF CMakeFiles\MusicClion.elf.dir\PrivateLibrary\AUDIOAnalysis\mp3\helix\real\bitstream.c.obj.d -o CMakeFiles\MusicClion.elf.dir\PrivateLibrary\AUDIOAnalysis\mp3\helix\real\bitstream.c.obj -c D:\CODE\STM32\MusicClion\PrivateLibrary\AUDIOAnalysis\mp3\helix\real\bitstream.c
 
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/bitstream.c.i: cmake_force
@@ -728,7 +896,7 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/bitstr
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/buffers.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/buffers.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/buffers.c
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/buffers.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/buffers.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/buffers.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/buffers.c.obj -MF CMakeFiles\MusicClion.elf.dir\PrivateLibrary\AUDIOAnalysis\mp3\helix\real\buffers.c.obj.d -o CMakeFiles\MusicClion.elf.dir\PrivateLibrary\AUDIOAnalysis\mp3\helix\real\buffers.c.obj -c D:\CODE\STM32\MusicClion\PrivateLibrary\AUDIOAnalysis\mp3\helix\real\buffers.c
 
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/buffers.c.i: cmake_force
@@ -742,7 +910,7 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/buffer
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dct32.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dct32.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dct32.c
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dct32.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dct32.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dct32.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dct32.c.obj -MF CMakeFiles\MusicClion.elf.dir\PrivateLibrary\AUDIOAnalysis\mp3\helix\real\dct32.c.obj.d -o CMakeFiles\MusicClion.elf.dir\PrivateLibrary\AUDIOAnalysis\mp3\helix\real\dct32.c.obj -c D:\CODE\STM32\MusicClion\PrivateLibrary\AUDIOAnalysis\mp3\helix\real\dct32.c
 
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dct32.c.i: cmake_force
@@ -756,7 +924,7 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dct32.
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dequant.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dequant.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dequant.c
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dequant.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dequant.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dequant.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dequant.c.obj -MF CMakeFiles\MusicClion.elf.dir\PrivateLibrary\AUDIOAnalysis\mp3\helix\real\dequant.c.obj.d -o CMakeFiles\MusicClion.elf.dir\PrivateLibrary\AUDIOAnalysis\mp3\helix\real\dequant.c.obj -c D:\CODE\STM32\MusicClion\PrivateLibrary\AUDIOAnalysis\mp3\helix\real\dequant.c
 
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dequant.c.i: cmake_force
@@ -770,7 +938,7 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dequan
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dqchan.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dqchan.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dqchan.c
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dqchan.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dqchan.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dqchan.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dqchan.c.obj -MF CMakeFiles\MusicClion.elf.dir\PrivateLibrary\AUDIOAnalysis\mp3\helix\real\dqchan.c.obj.d -o CMakeFiles\MusicClion.elf.dir\PrivateLibrary\AUDIOAnalysis\mp3\helix\real\dqchan.c.obj -c D:\CODE\STM32\MusicClion\PrivateLibrary\AUDIOAnalysis\mp3\helix\real\dqchan.c
 
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dqchan.c.i: cmake_force
@@ -784,7 +952,7 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/dqchan
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/huffman.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/huffman.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/huffman.c
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/huffman.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/huffman.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/huffman.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/huffman.c.obj -MF CMakeFiles\MusicClion.elf.dir\PrivateLibrary\AUDIOAnalysis\mp3\helix\real\huffman.c.obj.d -o CMakeFiles\MusicClion.elf.dir\PrivateLibrary\AUDIOAnalysis\mp3\helix\real\huffman.c.obj -c D:\CODE\STM32\MusicClion\PrivateLibrary\AUDIOAnalysis\mp3\helix\real\huffman.c
 
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/huffman.c.i: cmake_force
@@ -798,7 +966,7 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/huffma
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/hufftabs.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/hufftabs.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/hufftabs.c
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/hufftabs.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/hufftabs.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/hufftabs.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/hufftabs.c.obj -MF CMakeFiles\MusicClion.elf.dir\PrivateLibrary\AUDIOAnalysis\mp3\helix\real\hufftabs.c.obj.d -o CMakeFiles\MusicClion.elf.dir\PrivateLibrary\AUDIOAnalysis\mp3\helix\real\hufftabs.c.obj -c D:\CODE\STM32\MusicClion\PrivateLibrary\AUDIOAnalysis\mp3\helix\real\hufftabs.c
 
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/hufftabs.c.i: cmake_force
@@ -812,7 +980,7 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/huffta
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/imdct.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/imdct.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/imdct.c
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/imdct.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/imdct.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/imdct.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/imdct.c.obj -MF CMakeFiles\MusicClion.elf.dir\PrivateLibrary\AUDIOAnalysis\mp3\helix\real\imdct.c.obj.d -o CMakeFiles\MusicClion.elf.dir\PrivateLibrary\AUDIOAnalysis\mp3\helix\real\imdct.c.obj -c D:\CODE\STM32\MusicClion\PrivateLibrary\AUDIOAnalysis\mp3\helix\real\imdct.c
 
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/imdct.c.i: cmake_force
@@ -826,7 +994,7 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/imdct.
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/polyphase.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/polyphase.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/polyphase.c
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/polyphase.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/polyphase.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/polyphase.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/polyphase.c.obj -MF CMakeFiles\MusicClion.elf.dir\PrivateLibrary\AUDIOAnalysis\mp3\helix\real\polyphase.c.obj.d -o CMakeFiles\MusicClion.elf.dir\PrivateLibrary\AUDIOAnalysis\mp3\helix\real\polyphase.c.obj -c D:\CODE\STM32\MusicClion\PrivateLibrary\AUDIOAnalysis\mp3\helix\real\polyphase.c
 
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/polyphase.c.i: cmake_force
@@ -840,7 +1008,7 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/polyph
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/scalfact.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/scalfact.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/scalfact.c
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/scalfact.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/scalfact.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/scalfact.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/scalfact.c.obj -MF CMakeFiles\MusicClion.elf.dir\PrivateLibrary\AUDIOAnalysis\mp3\helix\real\scalfact.c.obj.d -o CMakeFiles\MusicClion.elf.dir\PrivateLibrary\AUDIOAnalysis\mp3\helix\real\scalfact.c.obj -c D:\CODE\STM32\MusicClion\PrivateLibrary\AUDIOAnalysis\mp3\helix\real\scalfact.c
 
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/scalfact.c.i: cmake_force
@@ -854,7 +1022,7 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/scalfa
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/stproc.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/stproc.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/stproc.c
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/stproc.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/stproc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/stproc.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/stproc.c.obj -MF CMakeFiles\MusicClion.elf.dir\PrivateLibrary\AUDIOAnalysis\mp3\helix\real\stproc.c.obj.d -o CMakeFiles\MusicClion.elf.dir\PrivateLibrary\AUDIOAnalysis\mp3\helix\real\stproc.c.obj -c D:\CODE\STM32\MusicClion\PrivateLibrary\AUDIOAnalysis\mp3\helix\real\stproc.c
 
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/stproc.c.i: cmake_force
@@ -868,7 +1036,7 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/stproc
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/subband.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/subband.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/subband.c
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/subband.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/subband.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/subband.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/subband.c.obj -MF CMakeFiles\MusicClion.elf.dir\PrivateLibrary\AUDIOAnalysis\mp3\helix\real\subband.c.obj.d -o CMakeFiles\MusicClion.elf.dir\PrivateLibrary\AUDIOAnalysis\mp3\helix\real\subband.c.obj -c D:\CODE\STM32\MusicClion\PrivateLibrary\AUDIOAnalysis\mp3\helix\real\subband.c
 
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/subband.c.i: cmake_force
@@ -882,7 +1050,7 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/subban
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/trigtabs.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/trigtabs.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/trigtabs.c
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/trigtabs.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/trigtabs.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/trigtabs.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/trigtabs.c.obj -MF CMakeFiles\MusicClion.elf.dir\PrivateLibrary\AUDIOAnalysis\mp3\helix\real\trigtabs.c.obj.d -o CMakeFiles\MusicClion.elf.dir\PrivateLibrary\AUDIOAnalysis\mp3\helix\real\trigtabs.c.obj -c D:\CODE\STM32\MusicClion\PrivateLibrary\AUDIOAnalysis\mp3\helix\real\trigtabs.c
 
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/trigtabs.c.i: cmake_force
@@ -896,7 +1064,7 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/real/trigta
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/mp3play.cpp.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/mp3play.cpp.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3/mp3play.cpp
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/mp3play.cpp.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/mp3play.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/mp3play.cpp.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/mp3play.cpp.obj -MF CMakeFiles\MusicClion.elf.dir\PrivateLibrary\AUDIOAnalysis\mp3\mp3play.cpp.obj.d -o CMakeFiles\MusicClion.elf.dir\PrivateLibrary\AUDIOAnalysis\mp3\mp3play.cpp.obj -c D:\CODE\STM32\MusicClion\PrivateLibrary\AUDIOAnalysis\mp3\mp3play.cpp
 
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/mp3play.cpp.i: cmake_force
@@ -910,7 +1078,7 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/mp3play.cpp.s: cm
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/wav/wavplay.cpp.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/wav/wavplay.cpp.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/wav/wavplay.cpp
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/wav/wavplay.cpp.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/wav/wavplay.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/wav/wavplay.cpp.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/wav/wavplay.cpp.obj -MF CMakeFiles\MusicClion.elf.dir\PrivateLibrary\AUDIOAnalysis\wav\wavplay.cpp.obj.d -o CMakeFiles\MusicClion.elf.dir\PrivateLibrary\AUDIOAnalysis\wav\wavplay.cpp.obj -c D:\CODE\STM32\MusicClion\PrivateLibrary\AUDIOAnalysis\wav\wavplay.cpp
 
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/wav/wavplay.cpp.i: cmake_force
@@ -924,7 +1092,7 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/wav/wavplay.cpp.s: cm
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/LCD/lcd.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/LCD/lcd.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/LCD/lcd.c
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/LCD/lcd.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/LCD/lcd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/LCD/lcd.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/LCD/lcd.c.obj -MF CMakeFiles\MusicClion.elf.dir\PrivateLibrary\BSP\LCD\lcd.c.obj.d -o CMakeFiles\MusicClion.elf.dir\PrivateLibrary\BSP\LCD\lcd.c.obj -c D:\CODE\STM32\MusicClion\PrivateLibrary\BSP\LCD\lcd.c
 
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/LCD/lcd.c.i: cmake_force
@@ -938,7 +1106,7 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/LCD/lcd.c.s: cmake_force
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/LCD/lcd_ex.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/LCD/lcd_ex.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/LCD/lcd_ex.c
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/LCD/lcd_ex.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/LCD/lcd_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/LCD/lcd_ex.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/LCD/lcd_ex.c.obj -MF CMakeFiles\MusicClion.elf.dir\PrivateLibrary\BSP\LCD\lcd_ex.c.obj.d -o CMakeFiles\MusicClion.elf.dir\PrivateLibrary\BSP\LCD\lcd_ex.c.obj -c D:\CODE\STM32\MusicClion\PrivateLibrary\BSP\LCD\lcd_ex.c
 
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/LCD/lcd_ex.c.i: cmake_force
@@ -952,7 +1120,7 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/LCD/lcd_ex.c.s: cmake_force
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/SYSTEM/delay.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/SYSTEM/delay.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/SYSTEM/delay.c
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/SYSTEM/delay.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/SYSTEM/delay.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/SYSTEM/delay.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/SYSTEM/delay.c.obj -MF CMakeFiles\MusicClion.elf.dir\PrivateLibrary\BSP\SYSTEM\delay.c.obj.d -o CMakeFiles\MusicClion.elf.dir\PrivateLibrary\BSP\SYSTEM\delay.c.obj -c D:\CODE\STM32\MusicClion\PrivateLibrary\BSP\SYSTEM\delay.c
 
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/SYSTEM/delay.c.i: cmake_force
@@ -966,7 +1134,7 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/SYSTEM/delay.c.s: cmake_force
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/SYSTEM/sys.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/SYSTEM/sys.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/SYSTEM/sys.c
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/SYSTEM/sys.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/SYSTEM/sys.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/SYSTEM/sys.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/SYSTEM/sys.c.obj -MF CMakeFiles\MusicClion.elf.dir\PrivateLibrary\BSP\SYSTEM\sys.c.obj.d -o CMakeFiles\MusicClion.elf.dir\PrivateLibrary\BSP\SYSTEM\sys.c.obj -c D:\CODE\STM32\MusicClion\PrivateLibrary\BSP\SYSTEM\sys.c
 
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/SYSTEM/sys.c.i: cmake_force
@@ -980,7 +1148,7 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/SYSTEM/sys.c.s: cmake_force
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/24cxx.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/24cxx.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/Touch/24cxx.c
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/24cxx.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/24cxx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/24cxx.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/24cxx.c.obj -MF CMakeFiles\MusicClion.elf.dir\PrivateLibrary\BSP\Touch\24cxx.c.obj.d -o CMakeFiles\MusicClion.elf.dir\PrivateLibrary\BSP\Touch\24cxx.c.obj -c D:\CODE\STM32\MusicClion\PrivateLibrary\BSP\Touch\24cxx.c
 
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/24cxx.c.i: cmake_force
@@ -994,7 +1162,7 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/24cxx.c.s: cmake_force
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/ctiic.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/ctiic.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/Touch/ctiic.c
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/ctiic.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/ctiic.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/ctiic.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/ctiic.c.obj -MF CMakeFiles\MusicClion.elf.dir\PrivateLibrary\BSP\Touch\ctiic.c.obj.d -o CMakeFiles\MusicClion.elf.dir\PrivateLibrary\BSP\Touch\ctiic.c.obj -c D:\CODE\STM32\MusicClion\PrivateLibrary\BSP\Touch\ctiic.c
 
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/ctiic.c.i: cmake_force
@@ -1008,7 +1176,7 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/ctiic.c.s: cmake_force
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/ft5206.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/ft5206.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/Touch/ft5206.c
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/ft5206.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/ft5206.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/ft5206.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/ft5206.c.obj -MF CMakeFiles\MusicClion.elf.dir\PrivateLibrary\BSP\Touch\ft5206.c.obj.d -o CMakeFiles\MusicClion.elf.dir\PrivateLibrary\BSP\Touch\ft5206.c.obj -c D:\CODE\STM32\MusicClion\PrivateLibrary\BSP\Touch\ft5206.c
 
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/ft5206.c.i: cmake_force
@@ -1022,7 +1190,7 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/ft5206.c.s: cmake_force
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/gt9xxx.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/gt9xxx.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/Touch/gt9xxx.c
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/gt9xxx.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/gt9xxx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/gt9xxx.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/gt9xxx.c.obj -MF CMakeFiles\MusicClion.elf.dir\PrivateLibrary\BSP\Touch\gt9xxx.c.obj.d -o CMakeFiles\MusicClion.elf.dir\PrivateLibrary\BSP\Touch\gt9xxx.c.obj -c D:\CODE\STM32\MusicClion\PrivateLibrary\BSP\Touch\gt9xxx.c
 
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/gt9xxx.c.i: cmake_force
@@ -1036,7 +1204,7 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/gt9xxx.c.s: cmake_force
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/myiic.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/myiic.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/Touch/myiic.c
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/myiic.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/myiic.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/myiic.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/myiic.c.obj -MF CMakeFiles\MusicClion.elf.dir\PrivateLibrary\BSP\Touch\myiic.c.obj.d -o CMakeFiles\MusicClion.elf.dir\PrivateLibrary\BSP\Touch\myiic.c.obj -c D:\CODE\STM32\MusicClion\PrivateLibrary\BSP\Touch\myiic.c
 
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/myiic.c.i: cmake_force
@@ -1050,7 +1218,7 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/myiic.c.s: cmake_force
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/touch.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/touch.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/Touch/touch.c
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/touch.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/touch.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/touch.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/touch.c.obj -MF CMakeFiles\MusicClion.elf.dir\PrivateLibrary\BSP\Touch\touch.c.obj.d -o CMakeFiles\MusicClion.elf.dir\PrivateLibrary\BSP\Touch\touch.c.obj -c D:\CODE\STM32\MusicClion\PrivateLibrary\BSP\Touch\touch.c
 
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/touch.c.i: cmake_force
@@ -1064,7 +1232,7 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/Touch/touch.c.s: cmake_force
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/WM8978/wm8978.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/WM8978/wm8978.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/BSP/WM8978/wm8978.c
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/WM8978/wm8978.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/WM8978/wm8978.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/WM8978/wm8978.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/WM8978/wm8978.c.obj -MF CMakeFiles\MusicClion.elf.dir\PrivateLibrary\BSP\WM8978\wm8978.c.obj.d -o CMakeFiles\MusicClion.elf.dir\PrivateLibrary\BSP\WM8978\wm8978.c.obj -c D:\CODE\STM32\MusicClion\PrivateLibrary\BSP\WM8978\wm8978.c
 
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/WM8978/wm8978.c.i: cmake_force
@@ -1078,7 +1246,7 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/WM8978/wm8978.c.s: cmake_force
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Bridge/Bradge.cpp.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Bridge/Bradge.cpp.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/Bridge/Bradge.cpp
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Bridge/Bradge.cpp.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Bridge/Bradge.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Bridge/Bradge.cpp.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Bridge/Bradge.cpp.obj -MF CMakeFiles\MusicClion.elf.dir\PrivateLibrary\Bridge\Bradge.cpp.obj.d -o CMakeFiles\MusicClion.elf.dir\PrivateLibrary\Bridge\Bradge.cpp.obj -c D:\CODE\STM32\MusicClion\PrivateLibrary\Bridge\Bradge.cpp
 
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Bridge/Bradge.cpp.i: cmake_force
@@ -1092,7 +1260,7 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Bridge/Bradge.cpp.s: cmake_force
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Protocol/IIC/myIIC99.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Protocol/IIC/myIIC99.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/Protocol/IIC/myIIC99.c
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Protocol/IIC/myIIC99.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Protocol/IIC/myIIC99.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Protocol/IIC/myIIC99.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Protocol/IIC/myIIC99.c.obj -MF CMakeFiles\MusicClion.elf.dir\PrivateLibrary\Protocol\IIC\myIIC99.c.obj.d -o CMakeFiles\MusicClion.elf.dir\PrivateLibrary\Protocol\IIC\myIIC99.c.obj -c D:\CODE\STM32\MusicClion\PrivateLibrary\Protocol\IIC\myIIC99.c
 
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Protocol/IIC/myIIC99.c.i: cmake_force
@@ -1106,7 +1274,7 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Protocol/IIC/myIIC99.c.s: cmake_for
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Protocol/IIS/i2S2.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Protocol/IIS/i2S2.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/Protocol/IIS/i2S2.c
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Protocol/IIS/i2S2.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Protocol/IIS/i2S2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Protocol/IIS/i2S2.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Protocol/IIS/i2S2.c.obj -MF CMakeFiles\MusicClion.elf.dir\PrivateLibrary\Protocol\IIS\i2S2.c.obj.d -o CMakeFiles\MusicClion.elf.dir\PrivateLibrary\Protocol\IIS\i2S2.c.obj -c D:\CODE\STM32\MusicClion\PrivateLibrary\Protocol\IIS\i2S2.c
 
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Protocol/IIS/i2S2.c.i: cmake_force
@@ -1120,7 +1288,7 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Protocol/IIS/i2S2.c.s: cmake_force
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/BaseLib/MyUsart.cpp.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/BaseLib/MyUsart.cpp.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/Serial/BaseLib/MyUsart.cpp
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/BaseLib/MyUsart.cpp.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/BaseLib/MyUsart.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/BaseLib/MyUsart.cpp.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/BaseLib/MyUsart.cpp.obj -MF CMakeFiles\MusicClion.elf.dir\PrivateLibrary\Serial\BaseLib\MyUsart.cpp.obj.d -o CMakeFiles\MusicClion.elf.dir\PrivateLibrary\Serial\BaseLib\MyUsart.cpp.obj -c D:\CODE\STM32\MusicClion\PrivateLibrary\Serial\BaseLib\MyUsart.cpp
 
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/BaseLib/MyUsart.cpp.i: cmake_force
@@ -1134,7 +1302,7 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/BaseLib/MyUsart.cpp.s: cmake
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/DataStream/inputStream.cpp.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/DataStream/inputStream.cpp.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/Serial/DataStream/inputStream.cpp
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/DataStream/inputStream.cpp.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/DataStream/inputStream.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/DataStream/inputStream.cpp.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/DataStream/inputStream.cpp.obj -MF CMakeFiles\MusicClion.elf.dir\PrivateLibrary\Serial\DataStream\inputStream.cpp.obj.d -o CMakeFiles\MusicClion.elf.dir\PrivateLibrary\Serial\DataStream\inputStream.cpp.obj -c D:\CODE\STM32\MusicClion\PrivateLibrary\Serial\DataStream\inputStream.cpp
 
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/DataStream/inputStream.cpp.i: cmake_force
@@ -1148,7 +1316,7 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/DataStream/inputStream.cpp.s
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/DataStream/outputStream.cpp.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/DataStream/outputStream.cpp.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/Serial/DataStream/outputStream.cpp
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/DataStream/outputStream.cpp.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/DataStream/outputStream.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/DataStream/outputStream.cpp.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/DataStream/outputStream.cpp.obj -MF CMakeFiles\MusicClion.elf.dir\PrivateLibrary\Serial\DataStream\outputStream.cpp.obj.d -o CMakeFiles\MusicClion.elf.dir\PrivateLibrary\Serial\DataStream\outputStream.cpp.obj -c D:\CODE\STM32\MusicClion\PrivateLibrary\Serial\DataStream\outputStream.cpp
 
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/DataStream/outputStream.cpp.i: cmake_force
@@ -1162,7 +1330,7 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/DataStream/outputStream.cpp.
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/OtherLib/WString.cpp.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/OtherLib/WString.cpp.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/Serial/OtherLib/WString.cpp
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/OtherLib/WString.cpp.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/OtherLib/WString.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/OtherLib/WString.cpp.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/OtherLib/WString.cpp.obj -MF CMakeFiles\MusicClion.elf.dir\PrivateLibrary\Serial\OtherLib\WString.cpp.obj.d -o CMakeFiles\MusicClion.elf.dir\PrivateLibrary\Serial\OtherLib\WString.cpp.obj -c D:\CODE\STM32\MusicClion\PrivateLibrary\Serial\OtherLib\WString.cpp
 
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/OtherLib/WString.cpp.i: cmake_force
@@ -1176,7 +1344,7 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/OtherLib/WString.cpp.s: cmak
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/OtherLib/bswap.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/OtherLib/bswap.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/Serial/OtherLib/bswap.c
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/OtherLib/bswap.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/OtherLib/bswap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/OtherLib/bswap.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/OtherLib/bswap.c.obj -MF CMakeFiles\MusicClion.elf.dir\PrivateLibrary\Serial\OtherLib\bswap.c.obj.d -o CMakeFiles\MusicClion.elf.dir\PrivateLibrary\Serial\OtherLib\bswap.c.obj -c D:\CODE\STM32\MusicClion\PrivateLibrary\Serial\OtherLib\bswap.c
 
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/OtherLib/bswap.c.i: cmake_force
@@ -1190,7 +1358,7 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/OtherLib/bswap.c.s: cmake_fo
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/OtherLib/stdlib_noniso.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/OtherLib/stdlib_noniso.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/Serial/OtherLib/stdlib_noniso.c
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/OtherLib/stdlib_noniso.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/OtherLib/stdlib_noniso.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/OtherLib/stdlib_noniso.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/OtherLib/stdlib_noniso.c.obj -MF CMakeFiles\MusicClion.elf.dir\PrivateLibrary\Serial\OtherLib\stdlib_noniso.c.obj.d -o CMakeFiles\MusicClion.elf.dir\PrivateLibrary\Serial\OtherLib\stdlib_noniso.c.obj -c D:\CODE\STM32\MusicClion\PrivateLibrary\Serial\OtherLib\stdlib_noniso.c
 
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/OtherLib/stdlib_noniso.c.i: cmake_force
@@ -1204,7 +1372,7 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Serial/OtherLib/stdlib_noniso.c.s: 
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/hal/FileOperation/exfuns.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/hal/FileOperation/exfuns.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/hal/FileOperation/exfuns.c
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/hal/FileOperation/exfuns.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/hal/FileOperation/exfuns.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/hal/FileOperation/exfuns.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/PrivateLibrary/hal/FileOperation/exfuns.c.obj -MF CMakeFiles\MusicClion.elf.dir\PrivateLibrary\hal\FileOperation\exfuns.c.obj.d -o CMakeFiles\MusicClion.elf.dir\PrivateLibrary\hal\FileOperation\exfuns.c.obj -c D:\CODE\STM32\MusicClion\PrivateLibrary\hal\FileOperation\exfuns.c
 
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/hal/FileOperation/exfuns.c.i: cmake_force
@@ -1218,7 +1386,7 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/hal/FileOperation/exfuns.c.s: cmake
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/hal/FileOperation/fattester.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/hal/FileOperation/fattester.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/hal/FileOperation/fattester.c
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/hal/FileOperation/fattester.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/hal/FileOperation/fattester.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/hal/FileOperation/fattester.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/PrivateLibrary/hal/FileOperation/fattester.c.obj -MF CMakeFiles\MusicClion.elf.dir\PrivateLibrary\hal\FileOperation\fattester.c.obj.d -o CMakeFiles\MusicClion.elf.dir\PrivateLibrary\hal\FileOperation\fattester.c.obj -c D:\CODE\STM32\MusicClion\PrivateLibrary\hal\FileOperation\fattester.c
 
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/hal/FileOperation/fattester.c.i: cmake_force
@@ -1232,7 +1400,7 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/hal/FileOperation/fattester.c.s: cm
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/hal/button/key.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/hal/button/key.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/hal/button/key.c
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/hal/button/key.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/hal/button/key.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/hal/button/key.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/PrivateLibrary/hal/button/key.c.obj -MF CMakeFiles\MusicClion.elf.dir\PrivateLibrary\hal\button\key.c.obj.d -o CMakeFiles\MusicClion.elf.dir\PrivateLibrary\hal\button\key.c.obj -c D:\CODE\STM32\MusicClion\PrivateLibrary\hal\button\key.c
 
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/hal/button/key.c.i: cmake_force
@@ -1246,7 +1414,7 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/hal/button/key.c.s: cmake_force
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/hal/buzzer/beep.c.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/hal/buzzer/beep.c.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/hal/buzzer/beep.c
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/hal/buzzer/beep.c.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/hal/buzzer/beep.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/hal/buzzer/beep.c.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/PrivateLibrary/hal/buzzer/beep.c.obj -MF CMakeFiles\MusicClion.elf.dir\PrivateLibrary\hal\buzzer\beep.c.obj.d -o CMakeFiles\MusicClion.elf.dir\PrivateLibrary\hal\buzzer\beep.c.obj -c D:\CODE\STM32\MusicClion\PrivateLibrary\hal\buzzer\beep.c
 
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/hal/buzzer/beep.c.i: cmake_force
@@ -1260,7 +1428,7 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/hal/buzzer/beep.c.s: cmake_force
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/hal/hal.cpp.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/hal/hal.cpp.obj: D:/CODE/STM32/MusicClion/PrivateLibrary/hal/hal.cpp
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/hal/hal.cpp.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/hal/hal.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object CMakeFiles/MusicClion.elf.dir/PrivateLibrary/hal/hal.cpp.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/PrivateLibrary/hal/hal.cpp.obj -MF CMakeFiles\MusicClion.elf.dir\PrivateLibrary\hal\hal.cpp.obj.d -o CMakeFiles\MusicClion.elf.dir\PrivateLibrary\hal\hal.cpp.obj -c D:\CODE\STM32\MusicClion\PrivateLibrary\hal\hal.cpp
 
 CMakeFiles/MusicClion.elf.dir/PrivateLibrary/hal/hal.cpp.i: cmake_force
@@ -1274,7 +1442,7 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/hal/hal.cpp.s: cmake_force
 CMakeFiles/MusicClion.elf.dir/User/Application/Music.cpp.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/User/Application/Music.cpp.obj: D:/CODE/STM32/MusicClion/User/Application/Music.cpp
 CMakeFiles/MusicClion.elf.dir/User/Application/Music.cpp.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object CMakeFiles/MusicClion.elf.dir/User/Application/Music.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object CMakeFiles/MusicClion.elf.dir/User/Application/Music.cpp.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/User/Application/Music.cpp.obj -MF CMakeFiles\MusicClion.elf.dir\User\Application\Music.cpp.obj.d -o CMakeFiles\MusicClion.elf.dir\User\Application\Music.cpp.obj -c D:\CODE\STM32\MusicClion\User\Application\Music.cpp
 
 CMakeFiles/MusicClion.elf.dir/User/Application/Music.cpp.i: cmake_force
@@ -1288,7 +1456,7 @@ CMakeFiles/MusicClion.elf.dir/User/Application/Music.cpp.s: cmake_force
 CMakeFiles/MusicClion.elf.dir/User/Application/Music/MusicAPP.cpp.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/User/Application/Music/MusicAPP.cpp.obj: D:/CODE/STM32/MusicClion/User/Application/Music/MusicAPP.cpp
 CMakeFiles/MusicClion.elf.dir/User/Application/Music/MusicAPP.cpp.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object CMakeFiles/MusicClion.elf.dir/User/Application/Music/MusicAPP.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object CMakeFiles/MusicClion.elf.dir/User/Application/Music/MusicAPP.cpp.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/User/Application/Music/MusicAPP.cpp.obj -MF CMakeFiles\MusicClion.elf.dir\User\Application\Music\MusicAPP.cpp.obj.d -o CMakeFiles\MusicClion.elf.dir\User\Application\Music\MusicAPP.cpp.obj -c D:\CODE\STM32\MusicClion\User\Application\Music\MusicAPP.cpp
 
 CMakeFiles/MusicClion.elf.dir/User/Application/Music/MusicAPP.cpp.i: cmake_force
@@ -1302,7 +1470,7 @@ CMakeFiles/MusicClion.elf.dir/User/Application/Music/MusicAPP.cpp.s: cmake_force
 CMakeFiles/MusicClion.elf.dir/User/Application/Music/MusicPaker.cpp.obj: CMakeFiles/MusicClion.elf.dir/flags.make
 CMakeFiles/MusicClion.elf.dir/User/Application/Music/MusicPaker.cpp.obj: D:/CODE/STM32/MusicClion/User/Application/Music/MusicPaker.cpp
 CMakeFiles/MusicClion.elf.dir/User/Application/Music/MusicPaker.cpp.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object CMakeFiles/MusicClion.elf.dir/User/Application/Music/MusicPaker.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object CMakeFiles/MusicClion.elf.dir/User/Application/Music/MusicPaker.cpp.obj"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/User/Application/Music/MusicPaker.cpp.obj -MF CMakeFiles\MusicClion.elf.dir\User\Application\Music\MusicPaker.cpp.obj.d -o CMakeFiles\MusicClion.elf.dir\User\Application\Music\MusicPaker.cpp.obj -c D:\CODE\STM32\MusicClion\User\Application\Music\MusicPaker.cpp
 
 CMakeFiles/MusicClion.elf.dir/User/Application/Music/MusicPaker.cpp.i: cmake_force
@@ -1313,15 +1481,45 @@ CMakeFiles/MusicClion.elf.dir/User/Application/Music/MusicPaker.cpp.s: cmake_for
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MusicClion.elf.dir/User/Application/Music/MusicPaker.cpp.s"
 	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CODE\STM32\MusicClion\User\Application\Music\MusicPaker.cpp -o CMakeFiles\MusicClion.elf.dir\User\Application\Music\MusicPaker.cpp.s
 
+CMakeFiles/MusicClion.elf.dir/User/OSTask.cpp.obj: CMakeFiles/MusicClion.elf.dir/flags.make
+CMakeFiles/MusicClion.elf.dir/User/OSTask.cpp.obj: D:/CODE/STM32/MusicClion/User/OSTask.cpp
+CMakeFiles/MusicClion.elf.dir/User/OSTask.cpp.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object CMakeFiles/MusicClion.elf.dir/User/OSTask.cpp.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/User/OSTask.cpp.obj -MF CMakeFiles\MusicClion.elf.dir\User\OSTask.cpp.obj.d -o CMakeFiles\MusicClion.elf.dir\User\OSTask.cpp.obj -c D:\CODE\STM32\MusicClion\User\OSTask.cpp
+
+CMakeFiles/MusicClion.elf.dir/User/OSTask.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MusicClion.elf.dir/User/OSTask.cpp.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CODE\STM32\MusicClion\User\OSTask.cpp > CMakeFiles\MusicClion.elf.dir\User\OSTask.cpp.i
+
+CMakeFiles/MusicClion.elf.dir/User/OSTask.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MusicClion.elf.dir/User/OSTask.cpp.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CODE\STM32\MusicClion\User\OSTask.cpp -o CMakeFiles\MusicClion.elf.dir\User\OSTask.cpp.s
+
+CMakeFiles/MusicClion.elf.dir/User/StatusList.cpp.obj: CMakeFiles/MusicClion.elf.dir/flags.make
+CMakeFiles/MusicClion.elf.dir/User/StatusList.cpp.obj: D:/CODE/STM32/MusicClion/User/StatusList.cpp
+CMakeFiles/MusicClion.elf.dir/User/StatusList.cpp.obj: CMakeFiles/MusicClion.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object CMakeFiles/MusicClion.elf.dir/User/StatusList.cpp.obj"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/MusicClion.elf.dir/User/StatusList.cpp.obj -MF CMakeFiles\MusicClion.elf.dir\User\StatusList.cpp.obj.d -o CMakeFiles\MusicClion.elf.dir\User\StatusList.cpp.obj -c D:\CODE\STM32\MusicClion\User\StatusList.cpp
+
+CMakeFiles/MusicClion.elf.dir/User/StatusList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MusicClion.elf.dir/User/StatusList.cpp.i"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CODE\STM32\MusicClion\User\StatusList.cpp > CMakeFiles\MusicClion.elf.dir\User\StatusList.cpp.i
+
+CMakeFiles/MusicClion.elf.dir/User/StatusList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MusicClion.elf.dir/User/StatusList.cpp.s"
+	"D:\ProgramFiles\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CODE\STM32\MusicClion\User\StatusList.cpp -o CMakeFiles\MusicClion.elf.dir\User\StatusList.cpp.s
+
 # Object files for target MusicClion.elf
 MusicClion_elf_OBJECTS = \
 "CMakeFiles/MusicClion.elf.dir/Core/Src/dma.c.obj" \
+"CMakeFiles/MusicClion.elf.dir/Core/Src/freertos.c.obj" \
 "CMakeFiles/MusicClion.elf.dir/Core/Src/fsmc.c.obj" \
 "CMakeFiles/MusicClion.elf.dir/Core/Src/gpio.c.obj" \
 "CMakeFiles/MusicClion.elf.dir/Core/Src/i2s.c.obj" \
 "CMakeFiles/MusicClion.elf.dir/Core/Src/main.c.obj" \
 "CMakeFiles/MusicClion.elf.dir/Core/Src/sdio.c.obj" \
 "CMakeFiles/MusicClion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj" \
+"CMakeFiles/MusicClion.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj" \
 "CMakeFiles/MusicClion.elf.dir/Core/Src/stm32f4xx_it.c.obj" \
 "CMakeFiles/MusicClion.elf.dir/Core/Src/syscalls.c.obj" \
 "CMakeFiles/MusicClion.elf.dir/Core/Src/sysmem.c.obj" \
@@ -1358,6 +1556,16 @@ MusicClion_elf_OBJECTS = \
 "CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj" \
 "CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/option/cc936.c.obj" \
 "CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj" \
+"CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj" \
+"CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj" \
+"CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj" \
+"CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj" \
+"CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj" \
+"CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj" \
+"CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj" \
+"CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj" \
+"CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj" \
+"CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj" \
 "CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/AudioFileParser/AudioFileParser.cpp.obj" \
 "CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3dec.c.obj" \
 "CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3tabs.c.obj" \
@@ -1403,18 +1611,22 @@ MusicClion_elf_OBJECTS = \
 "CMakeFiles/MusicClion.elf.dir/PrivateLibrary/hal/hal.cpp.obj" \
 "CMakeFiles/MusicClion.elf.dir/User/Application/Music.cpp.obj" \
 "CMakeFiles/MusicClion.elf.dir/User/Application/Music/MusicAPP.cpp.obj" \
-"CMakeFiles/MusicClion.elf.dir/User/Application/Music/MusicPaker.cpp.obj"
+"CMakeFiles/MusicClion.elf.dir/User/Application/Music/MusicPaker.cpp.obj" \
+"CMakeFiles/MusicClion.elf.dir/User/OSTask.cpp.obj" \
+"CMakeFiles/MusicClion.elf.dir/User/StatusList.cpp.obj"
 
 # External object files for target MusicClion.elf
 MusicClion_elf_EXTERNAL_OBJECTS =
 
 MusicClion.elf: CMakeFiles/MusicClion.elf.dir/Core/Src/dma.c.obj
+MusicClion.elf: CMakeFiles/MusicClion.elf.dir/Core/Src/freertos.c.obj
 MusicClion.elf: CMakeFiles/MusicClion.elf.dir/Core/Src/fsmc.c.obj
 MusicClion.elf: CMakeFiles/MusicClion.elf.dir/Core/Src/gpio.c.obj
 MusicClion.elf: CMakeFiles/MusicClion.elf.dir/Core/Src/i2s.c.obj
 MusicClion.elf: CMakeFiles/MusicClion.elf.dir/Core/Src/main.c.obj
 MusicClion.elf: CMakeFiles/MusicClion.elf.dir/Core/Src/sdio.c.obj
 MusicClion.elf: CMakeFiles/MusicClion.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj
+MusicClion.elf: CMakeFiles/MusicClion.elf.dir/Core/Src/stm32f4xx_hal_timebase_tim.c.obj
 MusicClion.elf: CMakeFiles/MusicClion.elf.dir/Core/Src/stm32f4xx_it.c.obj
 MusicClion.elf: CMakeFiles/MusicClion.elf.dir/Core/Src/syscalls.c.obj
 MusicClion.elf: CMakeFiles/MusicClion.elf.dir/Core/Src/sysmem.c.obj
@@ -1451,6 +1663,16 @@ MusicClion.elf: CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/
 MusicClion.elf: CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c.obj
 MusicClion.elf: CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/option/cc936.c.obj
 MusicClion.elf: CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/option/syscall.c.obj
+MusicClion.elf: CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
+MusicClion.elf: CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/croutine.c.obj
+MusicClion.elf: CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c.obj
+MusicClion.elf: CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+MusicClion.elf: CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+MusicClion.elf: CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+MusicClion.elf: CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+MusicClion.elf: CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c.obj
+MusicClion.elf: CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+MusicClion.elf: CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
 MusicClion.elf: CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/AudioFileParser/AudioFileParser.cpp.obj
 MusicClion.elf: CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3dec.c.obj
 MusicClion.elf: CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/mp3/helix/mp3tabs.c.obj
@@ -1497,10 +1719,12 @@ MusicClion.elf: CMakeFiles/MusicClion.elf.dir/PrivateLibrary/hal/hal.cpp.obj
 MusicClion.elf: CMakeFiles/MusicClion.elf.dir/User/Application/Music.cpp.obj
 MusicClion.elf: CMakeFiles/MusicClion.elf.dir/User/Application/Music/MusicAPP.cpp.obj
 MusicClion.elf: CMakeFiles/MusicClion.elf.dir/User/Application/Music/MusicPaker.cpp.obj
+MusicClion.elf: CMakeFiles/MusicClion.elf.dir/User/OSTask.cpp.obj
+MusicClion.elf: CMakeFiles/MusicClion.elf.dir/User/StatusList.cpp.obj
 MusicClion.elf: CMakeFiles/MusicClion.elf.dir/build.make
 MusicClion.elf: CMakeFiles/MusicClion.elf.dir/objects1.rsp
 MusicClion.elf: CMakeFiles/MusicClion.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Linking CXX executable MusicClion.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\CODE\STM32\MusicClion\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Linking CXX executable MusicClion.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\MusicClion.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/CODE/STM32/MusicClion/cmake-build-debug/MusicClion.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building D:/CODE/STM32/MusicClion/cmake-build-debug/MusicClion.bin"

@@ -8,9 +8,7 @@
 #include "i2S2.h"
 #include "wm8978.h"
 #include "key.h"
-//#include "led.h"
-//#include "event_groups.h"
-//#include "StatusList.h"
+#include "StatusList.h"
 //1,支持16位/24位WAV文件播放
 //2,最高可以支持到192K/24bit的WAV格式.
  
@@ -35,29 +33,27 @@ void wav_i2s_dma_tx_callback(void)
         u16 i;
         if (DMA1_Stream4->CR & (1 << 19)) {
             wavwitchbuf = 0;
+#if 0
             if ((audiodev.status & 0X01) == 0) {
                 for (i = 0; i < WAV_I2S_TX_DMA_BUFSIZE; i++)//暂停
                 {
                     audiodev.i2sbuf1[i] = 0;//填充0
                 }
             }
+#endif
         } else {
             wavwitchbuf = 1;
+#if 0
             if ((audiodev.status & 0X01) == 0) {
                 for (i = 0; i < WAV_I2S_TX_DMA_BUFSIZE; i++)//暂停
                 {
                     audiodev.i2sbuf2[i] = 0;//填充0
                 }
             }
+
+#endif
         }
-       // HAL_GPIO_TogglePin(GPIOF,GPIO_PIN_10);
         wavtransferend = 1;
-//    }
-//     Result=xEventGroupSetBitsFromISR(EventGroupHandler,EVENTBIT_DMAFinish,&xHigherPriorityTaskWoken);
-//    if(Result!=pdFAIL)
-//    {
-//        portYIELD_FROM_ISR(xHigherPriorityTaskWoken);
-//    }
 
 }
 ////得到当前播放时间
@@ -162,18 +158,19 @@ uint32_t wavPlay::audioFillBuffer(uint8_t *buf, uint16_t size, uint8_t bits) {
 uint8_t wavPlay::audioPlaySong(uint8_t *FileName) {
     uint8_t res=0;uint8_t t=0;
     uint8_t key;
-    res=f_open(audiodev.file,(TCHAR*)FileName,FA_READ);	//打开文件
+//    res=f_open(audiodev.file,(TCHAR*)FileName,FA_READ);	//打开文件
+//使用操作系统时将这句去掉，会频繁打开文件夹出现播放错误
 
-    while (res==0){
-        while(wavtransferend==0);//等待wav传输完成;
+    if (wavtransferend==1&&audiodev.playStatus==1){
+
         wavtransferend=0;
         if(fillnum!=WAV_I2S_TX_DMA_BUFSIZE)//播放结束?
         {
-            res=KEY0_PRES;
-            break;
+            res=PlayStatus_Finish;
         }
         if(wavwitchbuf)fillnum=audioFillBuffer(audiodev.i2sbuf2,WAV_I2S_TX_DMA_BUFSIZE,bps);//填充buf2
         else fillnum=audioFillBuffer(audiodev.i2sbuf1,WAV_I2S_TX_DMA_BUFSIZE,bps);//填充buf1
+#if 0
         while(1) {
             key = KEY_Scan(0);
             if (key == WKUP_PRES)//暂停
@@ -186,8 +183,8 @@ uint8_t wavPlay::audioPlaySong(uint8_t *FileName) {
                 res = key;
                 break;
             }
-            audioGetCurtime(audiodev.file);
-            audio_msg_show(this);
+           // audioGetCurtime(audiodev.file);
+            //audio_msg_show(this);
             t++;
             if (t == 20) {
                 t = 0;
@@ -197,21 +194,30 @@ uint8_t wavPlay::audioPlaySong(uint8_t *FileName) {
             if ((audiodev.status & 0X01) == 0)delay_ms(10);
             else break;
         }
+#endif
+    }else{
+        Serial0<<"playStatus:"<<audiodev.playStatus<<endl;
+        Serial0<<"wavtransferend:"<<wavtransferend<<endl;
+        Serial0<<"res:"<<res<<endl;
     }
-    f_close(audiodev.file);
-    Music::audio_stop();
+    if (res==PlayStatus_Finish){
+        f_close(audiodev.file);
+        audioVarRelease();
+    }
     return res;
 }
 
 uint8_t wavPlay::audioPlaySongInit(uint8_t *FileName) {
-    uint8_t res;
+    uint8_t res;Serial.println("fileName:%s",FileName);
     audiodev.file=&tempFil;
     audiodev.i2sbuf1=i2s1;
     audiodev.i2sbuf2=i2s2;
     audiodev.tbuf=tbuf;
     audioGetName(FileName);
     if(audiodev.file&&audiodev.i2sbuf1&&audiodev.i2sbuf2&&audiodev.tbuf){
+
         res= audioAnalysis(FileName);
+        Serial<<"res0:"<<res<<endl;
         if (res==0){
             if(bps==16)
             {
@@ -227,6 +233,7 @@ uint8_t wavPlay::audioPlaySongInit(uint8_t *FileName) {
             i2s_tx_callback=wav_i2s_dma_tx_callback;			//回调函数指wav_i2s_dma_callback
             Music::audio_stop();
             res=f_open(audiodev.file,(TCHAR*)FileName,FA_READ);	//打开文件
+            Serial<<"res1:"<<res<<endl;
             if(res==0) {
                 f_lseek(audiodev.file, datastart);        //跳过文件头
                 fillnum = audioFillBuffer(audiodev.i2sbuf1, WAV_I2S_TX_DMA_BUFSIZE, bps);
@@ -241,11 +248,13 @@ uint8_t wavPlay::audioPlaySongInit(uint8_t *FileName) {
     }else{
         res=0xFF;
     }
-    f_close(audiodev.file);
+//    f_close(audiodev.file);
+    Serial<<"res2:"<<res<<endl;
     return res;
 }
 
 void wavPlay::audioVarRelease() {
+    f_close(audiodev.file);
     audiodev.tbuf=nullptr;
     audiodev.i2sbuf1=nullptr;
     audiodev.i2sbuf2=nullptr;

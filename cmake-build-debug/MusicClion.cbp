@@ -37,10 +37,14 @@
 					<Add directory="D:/CODE/STM32/MusicClion/Drivers/CMSIS/Include"/>
 					<Add directory="D:/CODE/STM32/MusicClion/User/Application/Music"/>
 					<Add directory="D:/CODE/STM32/MusicClion/User/Application"/>
+					<Add directory="D:/CODE/STM32/MusicClion/User"/>
 					<Add directory="D:/CODE/STM32/MusicClion/FATFS/App"/>
 					<Add directory="D:/CODE/STM32/MusicClion/FATFS/Target"/>
 					<Add directory="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FatFs"/>
 					<Add directory="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FatFs/src"/>
+					<Add directory="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"/>
+					<Add directory="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
 					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/AudioFileParser"/>
 					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/wav"/>
 					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3"/>
@@ -96,10 +100,14 @@
 					<Add directory="D:/CODE/STM32/MusicClion/Drivers/CMSIS/Include"/>
 					<Add directory="D:/CODE/STM32/MusicClion/User/Application/Music"/>
 					<Add directory="D:/CODE/STM32/MusicClion/User/Application"/>
+					<Add directory="D:/CODE/STM32/MusicClion/User"/>
 					<Add directory="D:/CODE/STM32/MusicClion/FATFS/App"/>
 					<Add directory="D:/CODE/STM32/MusicClion/FATFS/Target"/>
 					<Add directory="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FatFs"/>
 					<Add directory="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FatFs/src"/>
+					<Add directory="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FreeRTOS/Source/include"/>
+					<Add directory="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2"/>
+					<Add directory="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F"/>
 					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/AudioFileParser"/>
 					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/wav"/>
 					<Add directory="D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/mp3"/>
@@ -192,6 +200,9 @@
 		<Unit filename="D:/CODE/STM32/MusicClion/Core/Src/dma.c">
 			<Option target="MusicClion.elf"/>
 		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Core/Src/freertos.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
 		<Unit filename="D:/CODE/STM32/MusicClion/Core/Src/fsmc.c">
 			<Option target="MusicClion.elf"/>
 		</Unit>
@@ -208,6 +219,9 @@
 			<Option target="MusicClion.elf"/>
 		</Unit>
 		<Unit filename="D:/CODE/STM32/MusicClion/Core/Src/stm32f4xx_hal_msp.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Core/Src/stm32f4xx_hal_timebase_tim.c">
 			<Option target="MusicClion.elf"/>
 		</Unit>
 		<Unit filename="D:/CODE/STM32/MusicClion/Core/Src/stm32f4xx_it.c">
@@ -528,6 +542,105 @@
 		<Unit filename="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FatFs/src/option/syscall.c">
 			<Option target="MusicClion.elf"/>
 		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/freertos_mpool.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/freertos_os2.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FreeRTOS/Source/croutine.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FreeRTOS/Source/include/atomic.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FreeRTOS/Source/include/list.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FreeRTOS/Source/include/message_buffer.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_prototypes.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FreeRTOS/Source/include/task.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FreeRTOS/Source/list.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FreeRTOS/Source/queue.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FreeRTOS/Source/tasks.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/Middlewares/Third_Party/FreeRTOS/Source/timers.c">
+			<Option target="MusicClion.elf"/>
+		</Unit>
 		<Unit filename="D:/CODE/STM32/MusicClion/PrivateLibrary/AUDIOAnalysis/AudioFileParser/AudioFileParser.cpp">
 			<Option target="MusicClion.elf"/>
 		</Unit>
@@ -784,6 +897,21 @@
 			<Option target="MusicClion.elf"/>
 		</Unit>
 		<Unit filename="D:/CODE/STM32/MusicClion/User/Application/Music/MusicPaker.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/User/Include.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/User/OSTask.cpp">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/User/OSTask.h">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/User/StatusList.cpp">
+			<Option target="MusicClion.elf"/>
+		</Unit>
+		<Unit filename="D:/CODE/STM32/MusicClion/User/StatusList.h">
 			<Option target="MusicClion.elf"/>
 		</Unit>
 		<Unit filename="D:/CODE/STM32/MusicClion/CMakeLists.txt">

@@ -43,18 +43,18 @@ CMakeFiles/MusicClion.elf.dir/Middlewares/Third_Party/FatFs/src/option/cc936.c.o
  D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr_ex.h \
  D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_sd.h \
  D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_ll_sdmmc.h \
+ D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim.h \
+ D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim_ex.h \
  D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_uart.h \
  D:\CODE\STM32\MusicClion\FATFS\Target/bsp_driver_sd.h \
- d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\stdlib.h \
- d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\machine\ieeefp.h \
- d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\_ansi.h \
- d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\newlib.h \
- d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\config.h \
- d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\reent.h \
- d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\_ansi.h \
- d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\_types.h \
- d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\machine\_types.h \
- d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\lock.h \
- d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\cdefs.h \
- d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\machine\stdlib.h \
- d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\alloca.h
+ D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2/cmsis_os.h \
+ D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\include/FreeRTOS.h \
+ D:\CODE\STM32\MusicClion\Core\Inc/FreeRTOSConfig.h \
+ D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\include/projdefs.h \
+ D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\include/portable.h \
+ D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\include/deprecated_definitions.h \
+ D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F/portmacro.h \
+ D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\include/mpu_wrappers.h \
+ D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\include/task.h \
+ D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\include/list.h \
+ D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2/cmsis_os2.h

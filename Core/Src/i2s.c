@@ -1,4 +1,4 @@
-///* USER CODE BEGIN Header */
+/* USER CODE BEGIN Header */
 ///**
 //  ******************************************************************************
 //  * @file    i2s.c
@@ -16,27 +16,27 @@
 //  *
 //  ******************************************************************************
 //  */
-///* USER CODE END Header */
-///* Includes ------------------------------------------------------------------*/
+/* USER CODE END Header */
+/* Includes ------------------------------------------------------------------*/
 #include "i2s.h"
+
+/* USER CODE BEGIN 0 */
 //
-///* USER CODE BEGIN 0 */
-//
-///* USER CODE END 0 */
-//
+/* USER CODE END 0 */
+
 I2S_HandleTypeDef hi2s2;
 DMA_HandleTypeDef hdma_spi2_tx;
-//
-///* I2S2 init function */
+
+/* I2S2 init function */
 //void MX_I2S2_Init(void)
 //{
 //
 //  /* USER CODE BEGIN I2S2_Init 0 */
-////
+//
 //  /* USER CODE END I2S2_Init 0 */
 //
 //  /* USER CODE BEGIN I2S2_Init 1 */
-////
+//////
 //  /* USER CODE END I2S2_Init 1 */
 //  hi2s2.Instance = SPI2;
 //  hi2s2.Init.Mode = I2S_MODE_MASTER_TX;
@@ -52,7 +52,7 @@ DMA_HandleTypeDef hdma_spi2_tx;
 //    Error_Handler();
 //  }
 //  /* USER CODE BEGIN I2S2_Init 2 */
-////
+//////
 //  /* USER CODE END I2S2_Init 2 */
 //
 //}
@@ -65,7 +65,7 @@ DMA_HandleTypeDef hdma_spi2_tx;
 //  if(i2sHandle->Instance==SPI2)
 //  {
 //  /* USER CODE BEGIN SPI2_MspInit 0 */
-//////
+////////
 //  /* USER CODE END SPI2_MspInit 0 */
 //
 //  /** Initializes the peripherals clock
@@ -130,46 +130,46 @@ DMA_HandleTypeDef hdma_spi2_tx;
 //    __HAL_LINKDMA(i2sHandle,hdmatx,hdma_spi2_tx);
 //
 //    /* I2S2 interrupt Init */
-//    HAL_NVIC_SetPriority(SPI2_IRQn, 0, 0);
+//    HAL_NVIC_SetPriority(SPI2_IRQn, 5, 0);
 //    HAL_NVIC_EnableIRQ(SPI2_IRQn);
 //  /* USER CODE BEGIN SPI2_MspInit 1 */
-//////
+////////
 //  /* USER CODE END SPI2_MspInit 1 */
 //  }
 //}
+
+void HAL_I2S_MspDeInit(I2S_HandleTypeDef* i2sHandle)
+{
+
+  if(i2sHandle->Instance==SPI2)
+  {
+  /* USER CODE BEGIN SPI2_MspDeInit 0 */
 //
-//void HAL_I2S_MspDeInit(I2S_HandleTypeDef* i2sHandle)
-//{
+  /* USER CODE END SPI2_MspDeInit 0 */
+    /* Peripheral clock disable */
+    __HAL_RCC_SPI2_CLK_DISABLE();
+
+    /**I2S2 GPIO Configuration
+    PC2     ------> I2S2_ext_SD
+    PC3     ------> I2S2_SD
+    PB10     ------> I2S2_CK
+    PB12     ------> I2S2_WS
+    */
+    HAL_GPIO_DeInit(GPIOC, GPIO_PIN_2|GPIO_PIN_3);
+
+    HAL_GPIO_DeInit(GPIOB, GPIO_PIN_10|GPIO_PIN_12);
+
+    /* I2S2 DMA DeInit */
+    HAL_DMA_DeInit(i2sHandle->hdmatx);
+
+    /* I2S2 interrupt Deinit */
+    HAL_NVIC_DisableIRQ(SPI2_IRQn);
+  /* USER CODE BEGIN SPI2_MspDeInit 1 */
 //
-//  if(i2sHandle->Instance==SPI2)
-//  {
-//  /* USER CODE BEGIN SPI2_MspDeInit 0 */
+  /* USER CODE END SPI2_MspDeInit 1 */
+  }
+}
+
+/* USER CODE BEGIN 1 */
 //
-//  /* USER CODE END SPI2_MspDeInit 0 */
-//    /* Peripheral clock disable */
-//    __HAL_RCC_SPI2_CLK_DISABLE();
-//
-//    /**I2S2 GPIO Configuration
-//    PC2     ------> I2S2_ext_SD
-//    PC3     ------> I2S2_SD
-//    PB10     ------> I2S2_CK
-//    PB12     ------> I2S2_WS
-//    */
-//    HAL_GPIO_DeInit(GPIOC, GPIO_PIN_2|GPIO_PIN_3);
-//
-//    HAL_GPIO_DeInit(GPIOB, GPIO_PIN_10|GPIO_PIN_12);
-//
-//    /* I2S2 DMA DeInit */
-//    HAL_DMA_DeInit(i2sHandle->hdmatx);
-//
-//    /* I2S2 interrupt Deinit */
-//    HAL_NVIC_DisableIRQ(SPI2_IRQn);
-//  /* USER CODE BEGIN SPI2_MspDeInit 1 */
-//
-//  /* USER CODE END SPI2_MspDeInit 1 */
-//  }
-//}
-//
-///* USER CODE BEGIN 1 */
-//
-///* USER CODE END 1 */
+/* USER CODE END 1 */

@@ -40,6 +40,8 @@ CMakeFiles/MusicClion.elf.dir/Core/Src/stm32f4xx_it.c.obj: \
  D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr_ex.h \
  D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_sd.h \
  D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_ll_sdmmc.h \
+ D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim.h \
+ D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim_ex.h \
  D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_uart.h \
  D:\CODE\STM32\MusicClion\Core\Inc/stm32f4xx_it.h \
  D:\CODE\STM32\MusicClion\PrivateLibrary\Protocol\IIS/i2S2.h \

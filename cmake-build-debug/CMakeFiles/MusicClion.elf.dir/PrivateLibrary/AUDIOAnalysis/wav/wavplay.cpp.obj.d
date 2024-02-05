@@ -41,6 +41,8 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/wav/wavplay.cpp.obj: 
  D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr_ex.h \
  D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_sd.h \
  D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_ll_sdmmc.h \
+ D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim.h \
+ D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim_ex.h \
  D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_uart.h \
  D:\CODE\STM32\MusicClion\User\Application/Music.h \
  D:\CODE\STM32\MusicClion\PrivateLibrary\AUDIOAnalysis\wav/wavplay.h \
@@ -52,6 +54,18 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/wav/wavplay.cpp.obj: 
  D:\CODE\STM32\MusicClion\FATFS\Target/ffconf.h \
  D:\CODE\STM32\MusicClion\Core\Inc/main.h \
  D:\CODE\STM32\MusicClion\FATFS\Target/bsp_driver_sd.h \
+ D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2/cmsis_os.h \
+ D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\include/FreeRTOS.h \
+ D:\CODE\STM32\MusicClion\Core\Inc/FreeRTOSConfig.h \
+ D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\include/projdefs.h \
+ D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\include/portable.h \
+ D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\include/deprecated_definitions.h \
+ D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F/portmacro.h \
+ D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\include/mpu_wrappers.h \
+ D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\include/task.h \
+ D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\include/list.h \
+ D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2/cmsis_os2.h \
+ D:\CODE\STM32\MusicClion\PrivateLibrary\Serial\OtherLib/WString.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\c++\10.3.1\stdlib.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\c++\10.3.1\cstdlib \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\c++\10.3.1\arm-none-eabi\thumb\v7e-m+fp\hard\bits\c++config.h \
@@ -72,7 +86,6 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/wav/wavplay.cpp.obj: 
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\machine\stdlib.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\alloca.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\c++\10.3.1\bits\std_abs.h \
- D:\CODE\STM32\MusicClion\PrivateLibrary\Serial\OtherLib/WString.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\string.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\sys\_locale.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\strings.h \
@@ -102,4 +115,5 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/AUDIOAnalysis/wav/wavplay.cpp.obj: 
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\machine\malloc.h \
  D:\CODE\STM32\MusicClion\PrivateLibrary\Protocol\IIS/i2S2.h \
  D:\CODE\STM32\MusicClion\PrivateLibrary\BSP\WM8978/wm8978.h \
- D:\CODE\STM32\MusicClion\PrivateLibrary\hal\button/key.h
+ D:\CODE\STM32\MusicClion\PrivateLibrary\hal\button/key.h \
+ D:\CODE\STM32\MusicClion\User/StatusList.h

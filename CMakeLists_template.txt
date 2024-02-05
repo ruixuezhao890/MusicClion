@@ -62,7 +62,9 @@ include_directories(Core/Inc Drivers/STM32F4xx_HAL_Driver/Inc Drivers/STM32F4xx_
             PrivateLibrary/AUDIOAnalysis/AudioFileParser
             PrivateLibrary/AUDIOAnalysis/wav
             PrivateLibrary/AUDIOAnalysis/mp3
-            PrivateLibrary/AUDIOAnalysis/mp3/MP3Decoder/helix
+            PrivateLibrary/AUDIOAnalysis/mp3/helix
+            PrivateLibrary/AUDIOAnalysis/mp3/helix/pub
+            PrivateLibrary/AUDIOAnalysis/mp3/helix/real
 
             PrivateLibrary/BSP/WM8978
             PrivateLibrary/BSP/LCD
@@ -107,7 +109,9 @@ file(GLOB_RECURSE SOURCES "Core/*.*" "Drivers/*.*"
         "PrivateLibrary/hal/FileOperation/*.*"
         "PrivateLibrary/AUDIOAnalysis/wav/*.*"
         "PrivateLibrary/AUDIOAnalysis/mp3/*.*"
-        "PrivateLibrary/AUDIOAnalysis/mp3/MP3Decoder/helix/*.*"
+        "PrivateLibrary/AUDIOAnalysis/mp3/helix/*.*"
+        "PrivateLibrary/AUDIOAnalysis/mp3/helix/pub/*.*"
+        "PrivateLibrary/AUDIOAnalysis/mp3/helix/real/*.*"
         "PrivateLibrary/AUDIOAnalysis/AudioFileParser/*.*"
 
         "FATFS/App/*.*"

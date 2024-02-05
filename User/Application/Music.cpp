@@ -19,7 +19,7 @@
 #include "key.h"
 #include "hal.h"
 #include "AudioFileParser.h"
-//#include "StatusList.h"
+#include "StatusList.h"
 #include "MyUsart.h"
 __audiodev audiodev;
 uint8_t Runflag=0;
@@ -96,7 +96,7 @@ void Music::begin() {
                     PromptMessage+=res;
             return;
     }
-    curindex=0;
+    curindex=0;audiodev.status=PlayStatus_Not;
     PromptMessage="READ OK";
 
 }
@@ -134,6 +134,7 @@ const String &Music::getPromptMessage() const {
 }
 
 Music::~Music() {
+    delete manage;
     free(wavfileinfo);
     free(pname);
     free(wavoffsettbl);
@@ -149,6 +150,7 @@ void Music::audioPlay() {
 }
 
 void Music::gainsPname() {
+    Serial<<"curindex"<<curindex<<endl;
     uint8_t res= f_opendir(&wavdir,_path.c_str());
     if (res==FR_OK){
         dir_sdi(&wavdir,wavoffsettbl[curindex]);
@@ -161,38 +163,12 @@ void Music::gainsPname() {
     if (res!=FR_OK){
         PromptMessage="close fail";
     }
+    Serial<<"gainsPname";Serial.println("%s",pname);
 }
 
 uint8_t Music::audioPlaySong() {
-            AudioFileParser *manage;
-            auto res = f_typetell(pname);
-            switch (res) {
-                case T_WAV:{
-                    manage=new wavPlay;
-                    break;
-                }
-                case T_MP3:{
-                    manage=new mp3Play;
-                    break;
-                }
-//                    res = wav_play_song(pname);
 
-                default://其他文件,自动跳转到下一曲
-                {
-                    PromptMessage = "can't play:";
-                    PromptMessage += (*pname);
-                    ret=res = KEY0_PRES;
-                    return res;
-                }
-            }
-            Serial<<"pname:";Serial.println("%s",pname);
-            manage->audioPlaySongInit(pname);
-
-            res=manage->audioPlaySong(pname);
-            manage->audioVarRelease();
-            ret = res;
-            delete manage;
-            return res;
+    return manage->audioPlaySong(pname);
 
 }
 
@@ -208,6 +184,7 @@ void Music::audioControl() {
         if(curindex>=totwavnum)curindex=0;//到末尾的时候,自动从头开始
     }else {
         PromptMessage="KEY error";
+        Serial<<PromptMessage;
     };	//产生了错误
 }
 
@@ -216,13 +193,59 @@ u8 *Music::getPname() const {
 }
 
 void Music::audio_start(void) {
-    audiodev.status=3<<0;//开始播放+非暂停
+//    audiodev.status=3<<0;//开始播放+非暂停
     I2S_Play_Start();
 }
 
 void Music::audio_stop(void) {
-    audiodev.status=0;
+//    audiodev.status=0;
     I2S_Play_Stop();
+}
+
+u16 Music::getCurindex() const {
+    return curindex;
+}
+
+u16 Music::getCurType() const {
+    return curType;
+}
+
+void Music::setCurType(u16 curType) {
+    Music::curType = curType;
+}
+
+AudioFileParser *Music::getManage() const {
+    return manage;
+}
+
+uint8_t Music::audioGreatType() {
+    switch (curType) {
+        case T_WAV:{
+            manage=new wavPlay();
+            break;
+        }
+        case T_MP3:{
+            manage=new mp3Play();
+            break;
+        }
+        default://其他文件,自动跳转到下一曲
+        {
+            PromptMessage = "can't play:";
+            PromptMessage += (*pname);
+            setMusicStatus(EVENTBIT_Next);
+            return 1;
+        }
+    }
+    return 0;
+}
+
+void Music::setCurindex(u16 curindex) {
+    Music::curindex = curindex;
+}
+
+void Music::deleteManage() {
+    delete manage;
+    manage= nullptr;
 }
 
 //void Music::audioPlay() {

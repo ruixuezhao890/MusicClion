@@ -1,37 +1,26 @@
 /**
 *********************************************************************
 *********
-* @project_name :car0
-* @file : Bridge.h
+* @project_name :MusicClion
+* @file : OSTask.h
 * @author : zen3
 * @brief : None
 * @attention : None
-* @date : 2023/10/24 
+* @date : 2024/2/4 
 *********************************************************************
 *********
 */
 //
 
-#ifndef CAR0_BRIDGE_H
-#define CAR0_BRIDGE_H
-
-
-#include "stm32f4xx.h"
-
+#ifndef MUSICCLION_OSTASK_H
+#define MUSICCLION_OSTASK_H
 #ifdef __cplusplus
 extern "C"
 {
 #endif
-
-void setup();
-void  loop();
-
-void APPManagerUpData();
-extern void MusicTaskFunctionControl();
-void HardwareUpData();
+void Music();
+void KeyScan();
 #ifdef __cplusplus
 }
 #endif
-
-
-#endif //CAR0_BRIDGE_H
+#endif //MUSICCLION_OSTASK_H

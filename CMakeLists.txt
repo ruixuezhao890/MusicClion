@@ -52,20 +52,20 @@ endif ()
 include_directories(Core/Inc Drivers/STM32F4xx_HAL_Driver/Inc Drivers/STM32F4xx_HAL_Driver/Inc/Legacy Drivers/CMSIS/Device/ST/STM32F4xx/Include Drivers/CMSIS/Include
             User/Application/Music
             User/Application
+            User
             FATFS/App
             FATFS/Target
             Middlewares/Third_Party/FatFs
             Middlewares/Third_Party/FatFs/src
-#            Middlewares/Third_Party/FreeRTOS/Source/include
-#            Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS
-#            Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F
+            Middlewares/Third_Party/FreeRTOS/Source/include
+            Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2
+            Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F
             PrivateLibrary/AUDIOAnalysis/AudioFileParser
             PrivateLibrary/AUDIOAnalysis/wav
             PrivateLibrary/AUDIOAnalysis/mp3
             PrivateLibrary/AUDIOAnalysis/mp3/helix
             PrivateLibrary/AUDIOAnalysis/mp3/helix/pub
             PrivateLibrary/AUDIOAnalysis/mp3/helix/real
-
 
             PrivateLibrary/BSP/WM8978
             PrivateLibrary/BSP/LCD
@@ -101,6 +101,7 @@ add_definitions(-DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx)
 file(GLOB_RECURSE SOURCES "Core/*.*" "Drivers/*.*"
         "User/Application/Music/*.*"
         "User/Application/*.*"
+        "User/*.*"
 #        "PrivateLibrary/lvgl/*.*"
 #        "PrivateLibrary/lvgl/src/*.*"
 #        "PrivateLibrary/lvgl/porting/*.*"
@@ -120,9 +121,9 @@ file(GLOB_RECURSE SOURCES "Core/*.*" "Drivers/*.*"
         "Middlewares/Third_Party/FatFs/*.*"
         "Middlewares/Third_Party/FatFs/src/*.*"
         "Middlewares/Third_Party/FatFs/src/option/*.*"
-#        "Middlewares/Third_Party/FreeRTOS/Source/*.*"
-#        "Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/*.*"
-#        "Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/*.*"
+        "Middlewares/Third_Party/FreeRTOS/Source/*.*"
+        "Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/*.*"
+        "Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/*.*"
 
         "PrivateLibrary/BSP/WM8978/*.*"
         "PrivateLibrary/BSP/LCD/*.*"
@@ -141,8 +142,7 @@ file(GLOB_RECURSE SOURCES "Core/*.*" "Drivers/*.*"
 #        "PrivateLibrary/mooncake/input_system/*.*"
 #        "PrivateLibrary/mooncake/simplekv/*.*"
 )
-#project (assembler C ASM)
-#set_source_files_properties (asmmic.s PROPERTIES COMPILE_FLAGS "-x assembler-with-cpp")
+
 set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F407ZGTX_FLASH.ld)
 
 add_link_options(-Wl,-gc-sections,--print-memory-usage,-Map=${PROJECT_BINARY_DIR}/${PROJECT_NAME}.map)

@@ -41,6 +41,20 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/Protocol/IIS/i2S2.c.obj: \
  D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr_ex.h \
  D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_sd.h \
  D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_ll_sdmmc.h \
+ D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim.h \
+ D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim_ex.h \
  D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_uart.h \
  D:\CODE\STM32\MusicClion\PrivateLibrary\BSP\SYSTEM/delay.h \
- D:\CODE\STM32\MusicClion\Core\Inc/stm32f4xx_it.h
+ D:\CODE\STM32\MusicClion\Core\Inc/stm32f4xx_it.h \
+ D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2/cmsis_os.h \
+ D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\include/FreeRTOS.h \
+ D:\CODE\STM32\MusicClion\Core\Inc/FreeRTOSConfig.h \
+ D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\include/projdefs.h \
+ D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\include/portable.h \
+ D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\include/deprecated_definitions.h \
+ D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\portable\GCC\ARM_CM4F/portmacro.h \
+ D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\include/mpu_wrappers.h \
+ D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\include/task.h \
+ D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\include/list.h \
+ D:\CODE\STM32\MusicClion\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2/cmsis_os2.h \
+ D:\CODE\STM32\MusicClion\User/StatusList.h

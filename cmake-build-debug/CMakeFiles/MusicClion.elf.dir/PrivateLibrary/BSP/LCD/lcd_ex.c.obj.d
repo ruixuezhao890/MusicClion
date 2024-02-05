@@ -40,6 +40,8 @@ CMakeFiles/MusicClion.elf.dir/PrivateLibrary/BSP/LCD/lcd_ex.c.obj: \
  D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_pwr_ex.h \
  D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_sd.h \
  D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_ll_sdmmc.h \
+ D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim.h \
+ D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_tim_ex.h \
  D:\CODE\STM32\MusicClion\Drivers\STM32F4xx_HAL_Driver\Inc/stm32f4xx_hal_uart.h \
  D:\CODE\STM32\MusicClion\PrivateLibrary\BSP\LCD\lcd.h \
  d:\programfiles\gnu\ arm\ embedded\ toolchain\10\ 2021.10\arm-none-eabi\include\stdlib.h \

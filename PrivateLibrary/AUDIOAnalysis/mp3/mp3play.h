@@ -76,17 +76,21 @@ private:
     MP3FrameInfo mp3frameinfo;
     FIL  tempFil;
     uint8_t  buffer[MP3_FILE_BUF_SZ];
-    uint8_t i2s1[MP3_I2S_TX_DMA_BUFSIZE]={0};
-    uint8_t i2s2[MP3_I2S_TX_DMA_BUFSIZE]={0};
-    uint8_t tbuf[MP3_I2S_TX_DMA_BUFSIZE]={0};
+
 protected:
-    void    mp3FindSynchronization();
+    UINT bw1;
+    uint8_t *read_ptr;
+    int	read_offset = 0;				/* 读偏移指针 */
+    int	bytes_left = 0;					/* 剩余字节数 */
 
     u8 mp3_id3v2_decode(u8* buf,u32 size);
 
     u8 mp3_id3v1_decode(u8* buf);
 
 public:
+
+    static short outbuffer[2][MP3_I2S_TX_DMA_BUFSIZE];  /* 解码输出缓冲区，也是I2S输入数据，实际占用字节数：RECBUFFER_SIZE*2 */
+
     mp3Play();
 
     ~mp3Play() override;

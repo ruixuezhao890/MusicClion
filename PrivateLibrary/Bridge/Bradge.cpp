@@ -14,11 +14,11 @@
     HardwareManage.begin();
 
 	Serial<<"hello world"<<endl;
-     g_MusicPlayer.begin();
+//     g_MusicPlayer.begin();
 }
 void  loop(){
 
-    g_MusicPlayer.audioPlay();
+//    g_MusicPlayer.audioPlay();
 
 
 

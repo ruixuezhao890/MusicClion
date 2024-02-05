@@ -18,28 +18,29 @@
 #include "wm8978.h"
 #include "Music.h"
 #include "key.h"
+#include "StatusList.h"
 uint32_t ucFreq=2;
 uint8_t mp3transferend=1;   //i2s传输完成指示标志
 uint8_t mp3witchbuf=0;		//i2sbufx指示标志
-static short outbuffer[2][MP3_I2S_TX_DMA_BUFSIZE];  /* 解码输出缓冲区，也是I2S输入数据，实际占用字节数：RECBUFFER_SIZE*2 */
+short mp3Play::outbuffer[2][MP3_I2S_TX_DMA_BUFSIZE]={0};  /* 解码输出缓冲区，也是I2S输入数据，实际占用字节数：RECBUFFER_SIZE*2 */
 void mp3_i2s_dma_tx_callback(void){
     uint16_t i;
     if(DMA1_Stream4->CR&(1<<19))
     {
     mp3witchbuf=0;
-#if 1
+#if 0
     if((audiodev.status&0X01)==0)//暂停了,填充0
 		{
-			for(i=0;i<2304*2;i++)outbuffer[0][i]=0;
+			for(i=0;i<2304*2;i++)mp3Play::outbuffer[0][i]=0;
 		}
 #endif
 }else
 {
 mp3witchbuf=1;
-#if 1
+#if 0
 if((audiodev.status&0X01)==0)//暂停了,填充0
 		{
-			for(i=0;i<2304*2;i++)outbuffer[1][i]=0;
+			for(i=0;i<2304*2;i++)mp3Play::outbuffer[1][i]=0;
 		}
 #endif
 }
@@ -183,190 +184,20 @@ uint8_t mp3Play::audioAnalysis(uint8_t *FileName) {
     }else res=0XFF;
     delete fmp3;
     delete buf;
-    this;
     return res;
 }
 
 uint32_t mp3Play::audioFillBuffer(uint8_t *buf, uint16_t size, uint8_t bits) {
-    u16 i;
-    u16 *p;
-
-#if 1
-//    while(mp3transferend==0);//等待传输完成
-//	{
-//		HAL_Delay(1000/200);///OS_TICKS_PER_SEC
-//	};
-//	mp3transferend=0;
-#endif
-
-    if(mp3witchbuf==0)
-    {
-        p=(u16*)audiodev.i2sbuf1;
-    }else
-    {
-        p=(u16*)audiodev.i2sbuf2;
-    }
-    if(bits==2){
-        for(i=0;i<size;i++){
-            p[i]=buf[i];
-        }
-    }
-    else	//单声道
-    {
-        for(i=0;i<size;i++)
-        {
-            p[2*i]=buf[i];
-            p[2*i+1]=buf[i];
-        }
-    }
+    //未用但是纯虚函数必须继承
     return 0;
 }
 uint8_t mp3Play::audioPlaySong(uint8_t *FileName) {
 //先完成解码，然后对相应的数组进行填充
-//    u8 res;uint32_t br;uint8_t key;uint8_t t;
-//    u8* readptr;	//MP3解码读指针
-//    int offset=0;	//偏移量
-//    int outofdata=0;//超出数据范围
-//    int byteLeft=0;
-//    int err=0;
-//    readptr=buffer;
-//    while(res==0) {
-//        res = f_read(audiodev.file, buffer, MP3_FILE_BUF_SZ, (UINT *) &br);
-//        if (res != FR_OK) {
-//            res = 0xff;
-//            break;
-//        }
-//        if (br==0){
-//            res=0xff;
-//            break;
-//        }
-//        byteLeft+=br;
-//        while (!outofdata){
-//            offset= MP3FindSyncWord(readptr,byteLeft);
-//            if (offset<0){
-//                outofdata=1;
-//            }else{
-//                readptr+=offset;
-//                byteLeft-=offset;
-//                err= MP3Decode(mp3decoder,&readptr,&byteLeft,(short *)audiodev.tbuf,0);
-//                if (err==0){
-//                    MP3GetLastFrameInfo(mp3decoder,&mp3frameinfo);
-//                    if (bitrate!=mp3frameinfo.bitrate){
-//                        bitrate=mp3frameinfo.bitrate;
-//                    }
-//                    audioFillBuffer(audiodev.tbuf,mp3frameinfo.outputSamps,mp3frameinfo.nChans);
-//                }else{
-//                    Serial0<<"decode error:"<<err<<endl;
-//                    break;
-//                }
-//
-//                if(byteLeft<MAINBUF_SIZE*2)//当数组内容小于2倍MAINBUF_SIZE的时候,必须补充新的数据进来.
-//                {
-//                    memmove(buffer, readptr, byteLeft);//移动readptr所指向的数据到buffer里面,数据量大小为:bytesleft
-//                    f_read(audiodev.file, buffer + byteLeft, MP3_FILE_BUF_SZ - byteLeft,(UINT *)  &br);//补充余下的数据
-//                    if (br < MP3_FILE_BUF_SZ - byteLeft) {
-//                        memset(buffer + byteLeft + br, 0, MP3_FILE_BUF_SZ - byteLeft - br);
-//                    }
-//                    byteLeft = MP3_FILE_BUF_SZ;
-//                    readptr = buffer;
-//                }
-//                while(audiodev.status&(1<<1))//正常播放中
-//                {
-//                    HAL_Delay(1000/200);///OS_TICKS_PER_SEC
-//                    if(key==WKUP_PRES)//暂停
-//                    {
-//                        if(audiodev.status&0X01)audiodev.status&=~(1<<0);
-//                        else audiodev.status|=0X01;
-//                    }
-//                    if(key==KEY2_PRES||key==KEY0_PRES)//下一曲/上一曲
-//                    {
-//                        res=key; outofdata=1;
-//                        break;
-//                    }
-//                    t++;
-//                    if (t == 20) {
-//                        t = 0;
-//                        HAL_GPIO_TogglePin(GPIOF,GPIO_PIN_10);
-//                        HAL_Delay(5);
-//                    }
-////                    mp3_get_curtime(audiodev.file,mp3ctrl);
-//                    if(audiodev.status&0X01){break;}//没有按下暂停
-//                    else{ HAL_Delay(10);}
-//                }
-//                if((audiodev.status&(1<<1))==0)//请求结束播放/播放完成
-//                {
-//                    res=KEY0_PRES;//跳出上上级循环，标志为下一首
-//                    outofdata=1;//跳出上一级循环
-//                    break;
-//                }
-//
-//            }
-//        }
-//    }
-//    Music::audio_stop();
-//    return res;
-    uint8_t res,key,t;uint8_t result;
-    uint8_t *read_ptr=buffer;
-    uint32_t frames=0;UINT bw1;
-    int err=0, i=0, outputSamps=0;
-    int	read_offset = 0;				/* 读偏移指针 */
-    int	bytes_left = 0;					/* 剩余字节数 */
-
-
-    result=f_open(audiodev.file,(TCHAR*)FileName,FA_READ);
-    if(result!=FR_OK)
-    {
-        printf("Open mp3file :%s fail!!!->%d\r\n",FileName,result);
-        result = f_close(audiodev.file);
-        return 0xf0;	/* 停止播放 */
-    }
-    printf("当前播放文件 -> %s\n",FileName);
-    res=audioAnalysis(FileName);
-    if(res!=0)return 0xf4;
-    //初始化MP3解码器
-    mp3decoder = MP3InitDecoder();
-    if(mp3decoder==0)
-    {
-        printf("初始化helix解码库设备\n");
-        return 0xf1;	/* 停止播放 */
-    }
-    printf("初始化中...\n");
-
-    HAL_Delay(10);	/* 延迟一段时间，等待I2S中断结束 */
-    //wm8978_Reset();		/* 复位WM8978到复位状态 */
-
-    WM8978_ADDA_Cfg(1,0);	//开启DAC
-    WM8978_Input_Cfg(0,0,0);//关闭输入通道
-    WM8978_Output_Cfg(1,0);	//开启DAC输出
-    WM8978_I2S_Cfg(2,0);	//飞利浦标准,16位数据长度
-
-    /*  初始化并配置I2S  */
-    I2S_Play_Stop();
-//	I2S_GPIO_Config();
-    I2S_Play_Stop();
-    I2S2_Init(I2S_STANDARD_PHILIPS,I2S_MODE_MASTER_TX,I2S_CPOL_LOW,I2S_DATAFORMAT_16B_EXTENDED);	//飞利浦标准,主机发送,时钟低电平有效,16位扩展帧长度
-    I2S2_SampleRate_Set(samplerate);		//设置采样率
-    I2S2_TX_DMA_Init((uint8_t *)outbuffer[0],(uint8_t *)outbuffer[1],MP3_I2S_TX_DMA_BUFSIZE);//配置TX DMA
-    i2s_tx_callback=mp3_i2s_dma_tx_callback;		//回调函数指向mp3_i2s_dma_tx_callback
-
-//    bufflag=0;
-//    Isread=0;
-
-//    mp3player.ucStatus = STA_PLAYING;		/* 放音状态 */
-    result=f_read(audiodev.file,buffer,MP3_FILE_BUF_SZ,&bw1);
-    if(result!=FR_OK)
-    {
-        printf("读取%s失败 -> %d\r\n",FileName,result);
-        MP3FreeDecoder(mp3decoder);
-        return 0xf2;
-    }
-    read_ptr=buffer;
-    bytes_left=bw1;
-
-    audiodev.status=3;//开始播放+非暂停
+    uint8_t res=0,err=0;uint8_t result=0;uint8_t i=0;uint32_t outputSamps=0;
     /* 进入主程序循环体 (mp3player.ucStatus == STA_PLAYING*/
-    while(res==0)
+    if (mp3transferend==1&&audiodev.playStatus==1)
     {
+        mp3transferend=0;
         //寻找帧同步，返回第一个同步字的位置
         read_offset = MP3FindSyncWord(read_ptr, bytes_left);
         //没有找到同步字
@@ -376,11 +207,12 @@ uint8_t mp3Play::audioPlaySong(uint8_t *FileName) {
             if(result!=FR_OK)
             {
                 printf("读取%s失败 -> %d\r\n",FileName,result);
-                break;
+                res=PlayStatus_Finish;
+                return res;
             }
             read_ptr=buffer;
             bytes_left=bw1;
-            continue;
+            return 0;
         }
 
         read_ptr += read_offset;					//偏移至同步字的位置
@@ -398,7 +230,6 @@ uint8_t mp3Play::audioPlaySong(uint8_t *FileName) {
         }
         //开始解码 参数：mp3解码结构体、输入流指针、输入流大小、输出流指针、数据格式
         err = MP3Decode(mp3decoder, &read_ptr, &bytes_left, outbuffer[mp3witchbuf], 0);
-        frames++;
         //错误处理
         if (err != ERR_MP3_NONE)
         {
@@ -416,6 +247,7 @@ uint8_t mp3Play::audioPlaySong(uint8_t *FileName) {
                     break;
                 default:
                     printf("UNKNOWN ERROR:%d\r\n", err);
+                    res=0;
                     // 跳过此帧
                     if (bytes_left > 0)
                     {
@@ -433,7 +265,7 @@ uint8_t mp3Play::audioPlaySong(uint8_t *FileName) {
             outputSamps = mp3frameinfo.outputSamps;							//PCM数据个数
             if (outputSamps > 0)
             {
-//                audioFillBuffer((uint8_t *)outbuffer,outputSamps,mp3frameinfo.nChans);
+
                 if (mp3frameinfo.nChans == 1)	//单声道
                 {
                     //单声道数据需要复制一份到另一个声道
@@ -445,12 +277,10 @@ uint8_t mp3Play::audioPlaySong(uint8_t *FileName) {
                     outputSamps *= 2;
                 }//if (Mp3FrameInfo.nChans == 1)	//单声道
             }//if (outputSamps > 0)
-
             /* 根据解码信息设置采样率 */
             if (mp3frameinfo.samprate != ucFreq)	//采样率
             {
                 ucFreq = mp3frameinfo.samprate;
-
                 printf(" \r\n Bitrate       %dKbps", mp3frameinfo.bitrate/1000);
                 printf(" \r\n Samprate      %dHz", samplerate);
                 printf(" \r\n BitsPerSample %db", mp3frameinfo.bitsPerSample);
@@ -460,38 +290,40 @@ uint8_t mp3Play::audioPlaySong(uint8_t *FileName) {
                 printf(" \r\n OutputSamps   %d", mp3frameinfo.outputSamps);
                 printf("\r\n");
                 //I2S_AudioFreq_Default = 2，正常的帧，每次都要改速率
-//                if(samplerate >= 2)
-//                {
-//                    //根据采样率修改I2S速率
-//                    I2S2_Init(I2S_STANDARD_PHILIPS,I2S_MODE_MASTER_TX,I2S_CPOL_LOW,I2S_DATAFORMAT_16B_EXTENDED);	//飞利浦标准,主机发送,时钟低电平有效,16位扩展帧长度
-//                    I2S2_SampleRate_Set(samplerate);		//设置采样率
-//                    I2S2_TX_DMA_Init(audiodev.i2sbuf1,audiodev.i2sbuf2,outsamples);//配置TX DMA
-//                }
-                //		audio_start();	//包含了
-                I2S_Play_Start();
-
+                if(samplerate!=mp3frameinfo.samprate)
+                {
+                    //根据采样率修改I2S速率
+                    I2S2_Init(I2S_STANDARD_PHILIPS,I2S_MODE_MASTER_TX,I2S_CPOL_LOW,I2S_DATAFORMAT_16B_EXTENDED);	//飞利浦标准,主机发送,时钟低电平有效,16位扩展帧长度
+                    I2S2_SampleRate_Set(samplerate);		//设置采样率
+                    I2S2_TX_DMA_Init((uint8_t *)outbuffer[0],(uint8_t *)outbuffer[1],outsamples);//配置TX DMA
+                }
+                Music::audio_start();
             }
         }//else 解码正常
-
         if(audiodev.file->fptr==audiodev.file->obj.objsize) 		//mp3文件读取完成，退出
         {
             printf("END\r\n");
             res=KEY0_PRES;
-            break;
+//            MP3FreeDecoder(mp3decoder);
+//            f_close(audiodev.file);
+//            ucFreq=0;
+            return res;
         }
 
-        while(mp3transferend==0)	//等待填充完毕
-        {
-        }
-        mp3transferend=0;
-
+#if 0
         while(1)	//按键检测
         {
             key=KEY_Scan(0);
             if(key==WKUP_PRES)//暂停
             {
-                if(audiodev.status&0X01)audiodev.status&=~(1<<0);
-                else audiodev.status|=0X01;
+                if(audiodev.status&0X01){
+                    I2S_Play_Stop();
+                    audiodev.status&=~(1<<0);
+                }
+                else{
+                    I2S_Play_Start();
+                    audiodev.status|=0X01;
+                }
             }
             if(key==KEY2_PRES||key==KEY0_PRES)//下一曲/上一曲
             {
@@ -507,28 +339,23 @@ uint8_t mp3Play::audioPlaySong(uint8_t *FileName) {
                 t=0;
                 HAL_GPIO_TogglePin(GPIOF,GPIO_PIN_9);
             }
-            if((audiodev.status&0X01)==0)HAL_Delay(10);
+            if((audiodev.status&0X01)==0){
+
+                HAL_Delay(10);
+            }
             else break;
         }
-
+#endif
     }
-    I2S_Play_Stop();	//不能用audio_stop,不然下一首mp3会自动暂停
-//	audio_stop();	//包含了	I2S_Play_Stop();
-
-    MP3FreeDecoder(mp3decoder);
-    f_close(audiodev.file);
-    ucFreq=0;
     return res;
 }
 
 uint8_t mp3Play::audioPlaySongInit(uint8_t *FileName) {
-//    res= f_open(audiodev.file,(TCHAR*)FileName,FA_READ);
     uint8_t res=0;
     audiodev.file=&tempFil;
-    audiodev.i2sbuf1=i2s1;
-    audiodev.i2sbuf2=i2s2;
-    audiodev.tbuf=tbuf;
-    if(!audiodev.file||!audiodev.i2sbuf1||!audiodev.i2sbuf2||!audiodev.tbuf)//内存申请失败
+    audiodev.i2sbuf1=(uint8_t *)outbuffer[0];
+    audiodev.i2sbuf2=(uint8_t *)outbuffer[1];
+    if(!audiodev.file||!audiodev.i2sbuf1||!audiodev.i2sbuf2)//内存申请失败
     {
         audiodev.file=nullptr;
         audiodev.i2sbuf1=nullptr;
@@ -536,43 +363,59 @@ uint8_t mp3Play::audioPlaySongInit(uint8_t *FileName) {
         audiodev.tbuf=nullptr;
         return 0xff;
     }
-//    res= audioAnalysis(FileName);
-//    if (res==0){
-//        WM8978_ADDA_Cfg(1,0);	//开启DAC
-//        WM8978_Input_Cfg(0,0,0);//关闭输入通道
-//        WM8978_Output_Cfg(1,0);	//开启DAC输出
-//        WM8978_I2S_Cfg(2,0);	//飞利浦标准,16位数据长度
-//
-//        /*  初始化并配置I2S  */
-//        I2S_Play_Stop();
-//        I2S2_Init(I2S_STANDARD_PHILIPS,I2S_MODE_MASTER_TX,I2S_CPOL_LOW,I2S_DATAFORMAT_16B_EXTENDED);	//飞利浦标准,主机发送,时钟低电平有效,16位扩展帧长度
-//        I2S2_SampleRate_Set(samplerate);		//设置采样率
-//        I2S2_TX_DMA_Init(audiodev.i2sbuf1,audiodev.i2sbuf2,outsamples);//配置TX DMA
-//        i2s_tx_callback=mp3_i2s_dma_tx_callback;		//回调函数指向mp3_i2s_dma_tx_callback
-//        mp3decoder=MP3InitDecoder(); 					//MP3解码申请内存
-//
-//    } else{
-//        res=0xff;
-//    }
-//    if (res==0&&mp3decoder!= nullptr){
-//        f_lseek(audiodev.file,datastart);
-//        Music::audio_start();
-//        res=0;
-//    }
+    res=f_open(audiodev.file,(TCHAR*)FileName,FA_READ);
+    if(res!=FR_OK)
+    {
+        printf("Open mp3file :%s fail!!!->%d\r\n",FileName,res);
+        res = f_close(audiodev.file);
+        return 0xf0;	/* 停止播放 */
+    }
+    printf("当前播放文件 -> %s\n",FileName);
+    res=audioAnalysis(FileName);
+    if(res!=0)return 0xf4;
+    //初始化MP3解码器
+    mp3decoder = MP3InitDecoder();
+    if(mp3decoder==0)
+    {
+        printf("初始化helix解码库设备\n");
+        return 0xf1;	/* 停止播放 */
+    }
+    printf("初始化中...\n");
 
+    HAL_Delay(10);	/* 延迟一段时间，等待I2S中断结束 */
 
+    WM8978_ADDA_Cfg(1,0);	//开启DAC
+    WM8978_Input_Cfg(0,0,0);//关闭输入通道
+    WM8978_Output_Cfg(1,0);	//开启DAC输出
+    WM8978_I2S_Cfg(2,0);	//飞利浦标准,16位数据长度
+
+    /*  初始化并配置I2S  */
+    I2S_Play_Stop();
+    I2S2_Init(I2S_STANDARD_PHILIPS,I2S_MODE_MASTER_TX,I2S_CPOL_LOW,I2S_DATAFORMAT_16B_EXTENDED);	//飞利浦标准,主机发送,时钟低电平有效,16位扩展帧长度
+    I2S2_SampleRate_Set(samplerate);		//设置采样率
+    I2S2_TX_DMA_Init((uint8_t *)outbuffer[0],(uint8_t *)outbuffer[1],MP3_I2S_TX_DMA_BUFSIZE);//配置TX DMA
+    i2s_tx_callback=mp3_i2s_dma_tx_callback;		//回调函数指向mp3_i2s_dma_tx_callback
+    mp3transferend=1;
+    res=f_read(audiodev.file,buffer,MP3_FILE_BUF_SZ,&bw1);
+    if(res!=FR_OK)
+    {
+        printf("读取%s失败 -> %d\r\n",FileName,res);
+        MP3FreeDecoder(mp3decoder);
+       res=PlayStatus_Finish;
+    }
+    read_ptr=buffer;
+    bytes_left=bw1;
     return res;
 }
 
 void mp3Play::audioVarRelease() {
+    ucFreq=0;
+    MP3FreeDecoder(mp3decoder);
+    f_close(audiodev.file);
     audiodev.file=nullptr;
     audiodev.i2sbuf1=nullptr;
     audiodev.i2sbuf2=nullptr;
     audiodev.tbuf=nullptr;
-}
-
-void mp3Play::mp3FindSynchronization() {
-
 }
 
 
